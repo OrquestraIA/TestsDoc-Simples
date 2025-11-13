@@ -296,20 +296,37 @@ export class ReportGenerator {
     private generateModulesDocumentation(): string {
         const testedModules = this.getTestedModules();
         const allModulesTested = testedModules.length === this.modulesDocs.length;
+        
+        // Se todos os módulos foram testados, mostra apenas link para documentação completa
+        if (allModulesTested) {
+            return `
+        <section class="docs-section">
+            <h2>📚 Documentação dos Testes</h2>
+            <div class="all-docs-link" style="text-align: center; padding: 3rem 0;">
+                <p style="margin-bottom: 2rem; color: #6b7280; font-size: 1.1rem;">
+                    Todos os módulos foram testados! Veja a documentação completa consolidada:
+                </p>
+                <a href="${this.githubBaseUrl}/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-large" target="_blank">
+                    📋 Ver Documentação Completa (${this.summary.totalTests} Casos de Teste)
+                </a>
+            </div>
+        </section>`;
+        }
+        
+        // Caso contrário, filtrar e mostrar apenas módulos testados
+        const testedModuleDocs = this.modulesDocs.filter(module => 
+            testedModules.includes(module.module)
+        );
 
         return `
         <section class="docs-section">
             <h2>📚 Documentação dos Testes</h2>
             <div class="docs-grid">
-                ${this.modulesDocs.map(module => {
-            const isTested = testedModules.includes(module.module);
-            const icon = isTested ? '✅' : '📄';
-            const statusClass = isTested ? 'tested' : 'not-tested';
-
+                ${testedModuleDocs.map(module => {
             return `
-                    <div class="doc-card ${statusClass}">
+                    <div class="doc-card tested">
                         <div class="doc-header">
-                            <span class="doc-icon">${icon}</span>
+                            <span class="doc-icon">✅</span>
                             <h3>${module.module}</h3>
                         </div>
                         <p class="doc-info">${module.testsCount} casos de teste documentados</p>
@@ -320,15 +337,9 @@ export class ReportGenerator {
         }).join('')}
             </div>
             <div class="all-docs-link">
-                ${allModulesTested ? `
                 <a href="${this.githubBaseUrl}/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-primary" target="_blank">
-                    📋 Ver Documentação Completa (Todos os Módulos)
+                    📋 Ver Documentação Completa de Todos os Testes
                 </a>
-                ` : `
-                <a href="${this.githubBaseUrl}/docs/README.md" class="btn btn-primary" target="_blank">
-                    📋 Ver Toda a Documentação de Testes
-                </a>
-                `}
             </div>
         </section>`;
     }
