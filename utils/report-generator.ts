@@ -296,7 +296,7 @@ export class ReportGenerator {
     private generateModulesDocumentation(): string {
         const testedModules = this.getTestedModules();
         const allModulesTested = testedModules.length === this.modulesDocs.length;
-        
+
         // Se todos os módulos foram testados, mostra apenas link para documentação completa
         if (allModulesTested) {
             return `
@@ -312,9 +312,9 @@ export class ReportGenerator {
             </div>
         </section>`;
         }
-        
+
         // Caso contrário, filtrar e mostrar apenas módulos testados
-        const testedModuleDocs = this.modulesDocs.filter(module => 
+        const testedModuleDocs = this.modulesDocs.filter(module =>
             testedModules.includes(module.module)
         );
 
