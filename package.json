@@ -16,7 +16,12 @@
         "test:prod": "dotenv -e .env.prod -- playwright test",
         "test:dev:ui": "dotenv -e .env.dev -- playwright test --ui",
         "test:homolog:ui": "dotenv -e .env.homolog -- playwright test --ui",
-        "test:prod:ui": "dotenv -e .env.prod -- playwright test --ui"
+        "test:prod:ui": "dotenv -e .env.prod -- playwright test --ui",
+        "report:custom": "ts-node scripts/generate-report.ts",
+        "test:with-report": "npm test && npm run report:custom",
+        "test:dev:report": "npm run test:dev && npm run report:custom custom-report-dev",
+        "test:homolog:report": "npm run test:homolog && npm run report:custom custom-report-homolog",
+        "test:prod:report": "npm run test:prod && npm run report:custom custom-report-prod"
     },
     "keywords": [
         "playwright",
@@ -30,6 +35,8 @@
         "@playwright/test": "^1.40.0",
         "@types/node": "^20.10.0",
         "dotenv": "^16.3.1",
-        "dotenv-cli": "^7.3.0"
+        "dotenv-cli": "^7.3.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
     }
 }

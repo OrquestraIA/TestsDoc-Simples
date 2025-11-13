@@ -110,8 +110,21 @@ npm run test:prod:ui       # Testes em PROD (modo UI)
 
 ### Ver relatório dos testes:
 ```bash
-npm run test:report
+npm run test:report           # Ver relatório padrão do Playwright
 ```
+
+### 📊 Gerar relatórios customizados:
+```bash
+npm run report:custom         # Gerar apenas relatório customizado
+npm run test:with-report      # Rodar testes + gerar relatório
+
+# Por ambiente específico:
+npm run test:dev:report       # DEV + relatório customizado
+npm run test:homolog:report   # HOMOLOG + relatório customizado
+npm run test:prod:report      # PROD + relatório customizado
+```
+
+**Saiba mais:** [Documentação do Relatório Customizado](docs/CUSTOM_REPORT.md)
 
 ## 📝 Page Objects
 
@@ -187,8 +200,44 @@ Quando a infraestrutura liberar as URLs de HOMOLOG e PROD, basta editar os arqui
 
 ## 📊 Relatórios
 
-Após executar os testes, os relatórios são gerados em:
-- `playwright-report/`: Relatório HTML
+O projeto oferece **dois tipos de relatórios**:
+
+### 1. 🎭 Relatório Playwright (Padrão)
+Relatório interativo do Playwright com:
+- Traces detalhados da execução
+- Screenshots de falhas
+- Vídeos dos testes
+- Timeline de eventos
+
+**Localização:** `playwright-report-[ambiente]/index.html`
+
+**Como abrir:**
+```bash
+npm run test:report
+```
+
+### 2. 📊 Relatório Customizado (Dashboard)
+Dashboard customizado com estatísticas e visualizações:
+- ✅ Cards de estatísticas (total, passou, falhou, taxa de sucesso)
+- 📈 Gráficos e barras de progresso
+- 👤 Informações do executor e ambiente
+- 📚 Links para documentação dos testes
+- 🧪 Tabelas detalhadas por módulo
+- 🎭 Link para relatório Playwright completo
+
+**Localização:** `custom-report-[ambiente]/index.html`
+
+**Como gerar:**
+```bash
+npm run report:custom               # Gerar relatório customizado
+npm run test:homolog:report         # Rodar testes + gerar relatório
+```
+
+**📖 Documentação completa:** [CUSTOM_REPORT.md](docs/CUSTOM_REPORT.md)
+
+Após executar os testes, os resultados são gerados em:
+- `playwright-report-[ambiente]/`: Relatório HTML Playwright
+- `custom-report-[ambiente]/`: Dashboard customizado
 - `test-results/`: Resultados em JSON
 
 ## 🎯 Próximos Passos
@@ -221,9 +270,10 @@ O projeto está configurado para executar testes automaticamente via GitHub Acti
 - Chromium, Firefox, WebKit (em paralelo)
 
 ### Artefatos gerados:
-- Relatórios HTML interativos
-- Screenshots e vídeos de falhas
-- Resultados JSON
+- 📊 **Relatório Customizado** (Dashboard com estatísticas)
+- 🎭 **Relatório Playwright** (HTML interativo)
+- 📸 Screenshots e vídeos de falhas
+- 📄 Resultados JSON
 
 📖 **Documentação completa:** [CI-CD-SETUP.md](.github/CI-CD-SETUP.md)
 
@@ -236,9 +286,13 @@ Para rodar no GitHub Actions, configure os secrets no repositório:
 
 ## 📚 Documentação Adicional
 
-- [Casos de Teste ISO 29119-3](docs/CASOS_DE_TESTE.md)
-- [Setup CI/CD](.github/CI-CD-SETUP.md)
-- [Playwright Documentation](https://playwright.dev/)
+- [📊 Relatórios Customizados](docs/CUSTOM_REPORT.md)
+- [📋 Casos de Teste ISO 29119-3](docs/README.md)
+  - [Autenticação](docs/test-cases/authentication.md)
+  - [Documentos](docs/test-cases/documents.md)
+  - [Arquivo Físico](docs/test-cases/physical-archive.md)
+- [🚀 Setup CI/CD](.github/CI-CD-SETUP.md)
+- [🎭 Playwright Documentation](https://playwright.dev/)
 
 ## 👥 Time
 

@@ -18,9 +18,9 @@ export class LoginPage {
     }
 
     async navigate() {
-        await this.page.goto('/', { 
+        await this.page.goto('/', {
             waitUntil: 'domcontentloaded',
-            timeout: 60000 
+            timeout: 60000
         });
     }
 
