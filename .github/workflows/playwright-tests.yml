@@ -10,7 +10,7 @@ on:
       environment:
         description: 'Ambiente para executar os testes'
         required: true
-        default: 'dev'
+        default: 'homolog'
         type: choice
         options:
           - dev
@@ -42,23 +42,23 @@ jobs:
     - name: Instalar browsers do Playwright
       run: npx playwright install --with-deps ${{ matrix.browser }}
 
-    - name: Criar arquivo .env para ambiente DEV
-      if: github.event.inputs.environment == 'dev' || github.event.inputs.environment == ''
-      run: |
-        echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" > .env.dev
-        echo "USERNAME=${{ secrets.DEV_USERNAME }}" >> .env.dev
-        echo "PASSWORD=${{ secrets.DEV_PASSWORD }}" >> .env.dev
-        echo "ACTION_TIMEOUT=10000" >> .env.dev
-        echo "NAVIGATION_TIMEOUT=30000" >> .env.dev
-
-    - name: Criar arquivo .env para ambiente HOMOLOG
-      if: github.event.inputs.environment == 'homolog'
+    - name: Criar arquivo .env para ambiente HOMOLOG (padrão em push automático)
+      if: github.event.inputs.environment == 'homolog' || github.event.inputs.environment == ''
       run: |
         echo "BASE_URL=${{ secrets.HOMOLOG_BASE_URL }}" > .env.homolog
         echo "USERNAME=${{ secrets.HOMOLOG_USERNAME }}" >> .env.homolog
         echo "PASSWORD=${{ secrets.HOMOLOG_PASSWORD }}" >> .env.homolog
         echo "ACTION_TIMEOUT=10000" >> .env.homolog
         echo "NAVIGATION_TIMEOUT=30000" >> .env.homolog
+
+    - name: Criar arquivo .env para ambiente DEV
+      if: github.event.inputs.environment == 'dev'
+      run: |
+        echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" > .env.dev
+        echo "USERNAME=${{ secrets.DEV_USERNAME }}" >> .env.dev
+        echo "PASSWORD=${{ secrets.DEV_PASSWORD }}" >> .env.dev
+        echo "ACTION_TIMEOUT=10000" >> .env.dev
+        echo "NAVIGATION_TIMEOUT=30000" >> .env.dev
 
     - name: Criar arquivo .env para ambiente PROD
       if: github.event.inputs.environment == 'prod'
@@ -69,14 +69,14 @@ jobs:
         echo "ACTION_TIMEOUT=10000" >> .env.prod
         echo "NAVIGATION_TIMEOUT=30000" >> .env.prod
 
-    - name: Executar testes Playwright (DEV)
-      if: github.event.inputs.environment == 'dev' || github.event.inputs.environment == ''
-      run: npm run test:dev -- --project=${{ matrix.browser }}
+    - name: Executar testes Playwright (HOMOLOG - padrão)
+      if: github.event.inputs.environment == 'homolog' || github.event.inputs.environment == ''
+      run: npm run test:homolog -- --project=${{ matrix.browser }}
       continue-on-error: true
 
-    - name: Executar testes Playwright (HOMOLOG)
-      if: github.event.inputs.environment == 'homolog'
-      run: npm run test:homolog -- --project=${{ matrix.browser }}
+    - name: Executar testes Playwright (DEV)
+      if: github.event.inputs.environment == 'dev'
+      run: npm run test:dev -- --project=${{ matrix.browser }}
       continue-on-error: true
 
     - name: Executar testes Playwright (PROD)
