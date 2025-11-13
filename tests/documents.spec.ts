@@ -21,6 +21,8 @@ test.describe('Gerenciamento de Documentos', () => {
         await documentsPage.navigateToDocuments();
     });
 
+    // TODO: Implementar testes abaixo
+    /*
     test('Upload de documento', async ({ authenticatedPage }) => {
         // TODO: Implementar teste de upload
     });
@@ -28,6 +30,7 @@ test.describe('Gerenciamento de Documentos', () => {
     test('Listagem de documentos', async ({ authenticatedPage }) => {
         // TODO: Implementar teste de listagem
     });
+    */
 
     test('Busca de documentos', async ({ documentsPage, page }) => {
         // Verificar que estamos na página de documentos
@@ -84,6 +87,8 @@ test.describe('Gerenciamento de Documentos', () => {
         expect(documentExists).toBeFalsy();
     });
 
+    // TODO: Implementar testes abaixo
+    /*
     test('Download de documento', async ({ authenticatedPage }) => {
         // TODO: Implementar teste de download
     });
@@ -95,4 +100,5 @@ test.describe('Gerenciamento de Documentos', () => {
     test('Validação de tipos de arquivo permitidos', async ({ authenticatedPage }) => {
         // TODO: Implementar teste de validação de tipos
     });
+    */
 });

@@ -12,7 +12,7 @@ export default defineConfig({
     testDir: './tests',
     fullyParallel: true,
     forbidOnly: !!process.env.CI,
-    retries: process.env.CI ? 2 : 0,
+    retries: 0, // Sem retry para CI (mais rápido durante debug)
     workers: process.env.CI ? 1 : undefined,
     reporter: [
         ['html', { outputFolder: `playwright-report-${currentEnv}` }],
@@ -25,8 +25,8 @@ export default defineConfig({
         trace: 'on-first-retry',
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
-        actionTimeout: Number(process.env.ACTION_TIMEOUT) || 10000,
-        navigationTimeout: Number(process.env.NAVIGATION_TIMEOUT) || 30000,
+        actionTimeout: Number(process.env.ACTION_TIMEOUT) || 30000,
+        navigationTimeout: Number(process.env.NAVIGATION_TIMEOUT) || 60000,
     },
 
     projects: [

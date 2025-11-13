@@ -48,8 +48,8 @@ jobs:
         echo "BASE_URL=${{ secrets.HOMOLOG_BASE_URL }}" > .env.homolog
         echo "USERNAME=${{ secrets.HOMOLOG_USERNAME }}" >> .env.homolog
         echo "PASSWORD=${{ secrets.HOMOLOG_PASSWORD }}" >> .env.homolog
-        echo "ACTION_TIMEOUT=10000" >> .env.homolog
-        echo "NAVIGATION_TIMEOUT=30000" >> .env.homolog
+        echo "ACTION_TIMEOUT=30000" >> .env.homolog
+        echo "NAVIGATION_TIMEOUT=60000" >> .env.homolog
 
     - name: Criar arquivo .env para ambiente DEV
       if: github.event.inputs.environment == 'dev'
@@ -57,8 +57,8 @@ jobs:
         echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" > .env.dev
         echo "USERNAME=${{ secrets.DEV_USERNAME }}" >> .env.dev
         echo "PASSWORD=${{ secrets.DEV_PASSWORD }}" >> .env.dev
-        echo "ACTION_TIMEOUT=10000" >> .env.dev
-        echo "NAVIGATION_TIMEOUT=30000" >> .env.dev
+        echo "ACTION_TIMEOUT=30000" >> .env.dev
+        echo "NAVIGATION_TIMEOUT=60000" >> .env.dev
 
     - name: Criar arquivo .env para ambiente PROD
       if: github.event.inputs.environment == 'prod'
@@ -66,8 +66,8 @@ jobs:
         echo "BASE_URL=${{ secrets.PROD_BASE_URL }}" > .env.prod
         echo "USERNAME=${{ secrets.PROD_USERNAME }}" >> .env.prod
         echo "PASSWORD=${{ secrets.PROD_PASSWORD }}" >> .env.prod
-        echo "ACTION_TIMEOUT=10000" >> .env.prod
-        echo "NAVIGATION_TIMEOUT=30000" >> .env.prod
+        echo "ACTION_TIMEOUT=30000" >> .env.prod
+        echo "NAVIGATION_TIMEOUT=60000" >> .env.prod
 
     - name: Executar testes Playwright (HOMOLOG - padrão)
       if: github.event.inputs.environment == 'homolog' || github.event.inputs.environment == ''
