@@ -16,6 +16,11 @@ on:
           - dev
           - homolog
           - prod
+      test_file:
+        description: 'Arquivo de teste específico (opcional, ex: tests/auth.spec.ts)'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   test:
@@ -71,17 +76,17 @@ jobs:
 
     - name: Executar testes Playwright (HOMOLOG - padrão)
       if: github.event.inputs.environment == 'homolog' || github.event.inputs.environment == ''
-      run: npm run test:homolog -- --project=${{ matrix.browser }}
+      run: npm run test:homolog -- --project=${{ matrix.browser }} ${{ github.event.inputs.test_file }}
       continue-on-error: true
 
     - name: Executar testes Playwright (DEV)
       if: github.event.inputs.environment == 'dev'
-      run: npm run test:dev -- --project=${{ matrix.browser }}
+      run: npm run test:dev -- --project=${{ matrix.browser }} ${{ github.event.inputs.test_file }}
       continue-on-error: true
 
     - name: Executar testes Playwright (PROD)
       if: github.event.inputs.environment == 'prod'
-      run: npm run test:prod -- --project=${{ matrix.browser }}
+      run: npm run test:prod -- --project=${{ matrix.browser }} ${{ github.event.inputs.test_file }}
       continue-on-error: true
 
     - name: Upload dos relatórios HTML
