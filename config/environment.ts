@@ -68,7 +68,14 @@ class EnvironmentManager {
      * Retorna a URL base do ambiente atual
      */
     getBaseURL(): string {
-        return this.getCurrentConfig().baseURL;
+        const url = this.getCurrentConfig().baseURL;
+        if (!url) {
+            throw new Error(
+                `Base URL não configurada para o ambiente ${this.currentEnv}. ` +
+                `Verifique se a variável ${this.currentEnv.toUpperCase()}_BASE_URL está definida.`
+            );
+        }
+        return url;
     }
 
     /**
