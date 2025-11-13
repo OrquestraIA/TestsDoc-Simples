@@ -295,6 +295,7 @@ export class ReportGenerator {
 
     private generateModulesDocumentation(): string {
         const testedModules = this.getTestedModules();
+        const allModulesTested = testedModules.length === this.modulesDocs.length;
 
         return `
         <section class="docs-section">
@@ -319,9 +320,15 @@ export class ReportGenerator {
         }).join('')}
             </div>
             <div class="all-docs-link">
+                ${allModulesTested ? `
+                <a href="${this.githubBaseUrl}/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-primary" target="_blank">
+                    📋 Ver Documentação Completa (Todos os Módulos)
+                </a>
+                ` : `
                 <a href="${this.githubBaseUrl}/docs/README.md" class="btn btn-primary" target="_blank">
                     📋 Ver Toda a Documentação de Testes
                 </a>
+                `}
             </div>
         </section>`;
     }
