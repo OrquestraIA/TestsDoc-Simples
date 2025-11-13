@@ -1,0 +1,2 @@
+# Arquivo de exemplo para upload de documentos
+Este é um arquivo de teste para validar o upload de documentos.
