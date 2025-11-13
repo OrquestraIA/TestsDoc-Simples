@@ -143,24 +143,24 @@ Cada ambiente possui seu próprio arquivo de configuração:
 ```bash
 ENVIRONMENT=dev
 DEV_BASE_URL=http://34.39.254.78:3005
-DEV_USERNAME=Administrator
-DEV_PASSWORD=Administrator
+DEV_USERNAME=<seu_username>
+DEV_PASSWORD=<seu_password>
 ```
 
 #### .env.homolog (Homologação)
 ```bash
 ENVIRONMENT=homolog
 HOMOLOG_BASE_URL=<URL_DA_HOMOLOG>
-HOMOLOG_USERNAME=Administrator
-HOMOLOG_PASSWORD=Administrator
+HOMOLOG_USERNAME=<seu_username>
+HOMOLOG_PASSWORD=<seu_password>
 ```
 
 #### .env.prod (Produção)
 ```bash
 ENVIRONMENT=prod
 PROD_BASE_URL=<URL_DA_PRODUCAO>
-PROD_USERNAME=Administrator
-PROD_PASSWORD=Administrator
+PROD_USERNAME=<seu_username>
+PROD_PASSWORD=<seu_password>
 ACTION_TIMEOUT=15000
 NAVIGATION_TIMEOUT=45000
 ```
