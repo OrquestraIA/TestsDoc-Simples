@@ -40,10 +40,11 @@ export interface ModuleDocumentation {
 export class ReportGenerator {
     private results: TestResult[] = [];
     private summary: TestSummary;
+    private githubBaseUrl: string = 'https://github.com/OrquestraIA/TestsDoc-Simples/blob/main';
     private modulesDocs: ModuleDocumentation[] = [
-        { module: 'Autenticação', docPath: 'docs/test-cases/authentication.md', testsCount: 4 },
-        { module: 'Documentos', docPath: 'docs/test-cases/documents.md', testsCount: 2 },
-        { module: 'Arquivo Físico', docPath: 'docs/test-cases/physical-archive.md', testsCount: 8 },
+        { module: 'Autenticação', docPath: 'docs/CASOS_DE_TESTE_AUTENTICACAO.md', testsCount: 4 },
+        { module: 'Documentos', docPath: 'docs/CASOS_DE_TESTE_DOCUMENTOS.md', testsCount: 2 },
+        { module: 'Arquivo Físico', docPath: 'docs/CASOS_DE_TESTE_ARQUIVO_FISICO.md', testsCount: 8 },
     ];
 
     constructor() {
@@ -86,13 +87,19 @@ export class ReportGenerator {
 
     private async parsePlaywrightResults(): Promise<void> {
         const resultsPath = path.join(process.cwd(), 'test-results');
-        
+
         try {
             // Procurar por arquivos JSON de resultado
             const files = fs.readdirSync(resultsPath);
             const jsonFiles = files.filter(f => f.endsWith('.json') && f.startsWith('results-'));
 
             for (const file of jsonFiles) {
+                // Detectar ambiente do nome do arquivo (results-dev.json, results-homolog.json, etc)
+                const envMatch = file.match(/results-(\w+)\.json/);
+                if (envMatch) {
+                    this.summary.environment = envMatch[1];
+                }
+
                 const content = JSON.parse(
                     fs.readFileSync(path.join(resultsPath, file), 'utf-8')
                 );
@@ -143,8 +150,8 @@ export class ReportGenerator {
         this.summary.failed = this.results.filter(r => r.status === 'failed').length;
         this.summary.skipped = this.results.filter(r => r.status === 'skipped').length;
         this.summary.totalDuration = this.results.reduce((sum, r) => sum + r.duration, 0);
-        this.summary.successRate = this.summary.totalTests > 0 
-            ? (this.summary.passed / this.summary.totalTests) * 100 
+        this.summary.successRate = this.summary.totalTests > 0
+            ? (this.summary.passed / this.summary.totalTests) * 100
             : 0;
         this.summary.browsers = [...new Set(this.results.map(r => r.browser))];
         this.summary.endTime = new Date();
@@ -194,8 +201,8 @@ export class ReportGenerator {
     }
 
     private generateStatsCards(): string {
-        const successRateColor = this.summary.successRate >= 90 ? '#10b981' : 
-                                 this.summary.successRate >= 70 ? '#f59e0b' : '#ef4444';
+        const successRateColor = this.summary.successRate >= 90 ? '#10b981' :
+            this.summary.successRate >= 70 ? '#f59e0b' : '#ef4444';
 
         return `
         <section class="stats-grid">
@@ -288,31 +295,31 @@ export class ReportGenerator {
 
     private generateModulesDocumentation(): string {
         const testedModules = this.getTestedModules();
-        
+
         return `
         <section class="docs-section">
             <h2>📚 Documentação dos Testes</h2>
             <div class="docs-grid">
                 ${this.modulesDocs.map(module => {
-                    const isTested = testedModules.includes(module.module);
-                    const icon = isTested ? '✅' : '📄';
-                    const statusClass = isTested ? 'tested' : 'not-tested';
-                    
-                    return `
+            const isTested = testedModules.includes(module.module);
+            const icon = isTested ? '✅' : '📄';
+            const statusClass = isTested ? 'tested' : 'not-tested';
+
+            return `
                     <div class="doc-card ${statusClass}">
                         <div class="doc-header">
                             <span class="doc-icon">${icon}</span>
                             <h3>${module.module}</h3>
                         </div>
                         <p class="doc-info">${module.testsCount} casos de teste documentados</p>
-                        <a href="../${module.docPath}" class="doc-link" target="_blank">
+                        <a href="${this.githubBaseUrl}/${module.docPath}" class="doc-link" target="_blank">
                             📖 Ver Documentação
                         </a>
                     </div>`;
-                }).join('')}
+        }).join('')}
             </div>
             <div class="all-docs-link">
-                <a href="../docs/README.md" class="btn btn-primary" target="_blank">
+                <a href="${this.githubBaseUrl}/docs/README.md" class="btn btn-primary" target="_blank">
                     📋 Ver Toda a Documentação de Testes
                 </a>
             </div>
@@ -321,7 +328,7 @@ export class ReportGenerator {
 
     private generateTestResults(): string {
         const groupedByFile = this.groupTestsByFile();
-        
+
         return `
         <section class="results-section">
             <h2>🧪 Resultados Detalhados</h2>
@@ -396,7 +403,7 @@ export class ReportGenerator {
 
     private groupTestsByFile(): Record<string, TestResult[]> {
         const grouped: Record<string, TestResult[]> = {};
-        
+
         this.results.forEach(result => {
             const key = result.testFile;
             if (!grouped[key]) {

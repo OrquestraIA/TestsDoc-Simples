@@ -7,12 +7,12 @@ import { ReportGenerator } from '../utils/report-generator';
 
 async function main() {
     console.log('🚀 Gerando relatório customizado...\n');
-    
+
     const generator = new ReportGenerator();
     const outputDir = process.argv[2] || 'custom-report';
-    
+
     await generator.generateReport(outputDir);
-    
+
     console.log('\n✨ Relatório gerado com sucesso!');
     console.log(`📂 Abra o arquivo: ${outputDir}/index.html\n`);
 }
