@@ -189,10 +189,11 @@ jobs:
       - name: Limpar pasta docs
         run: rm -rf docs/*
 
+
       - name: Baixar relatório customizado consolidado
         uses: actions/download-artifact@v4
         with:
-          name: custom-report-homolog
+          name: custom-report-${{ github.event.inputs.environment || 'homolog' }}
           path: docs/
 
       - name: Garantir index.html na raiz de docs
