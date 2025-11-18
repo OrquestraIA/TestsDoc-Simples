@@ -31,19 +31,19 @@ class EnvironmentManager {
     getConfig(env: Environment): EnvironmentConfig {
         const configs: Record<Environment, EnvironmentConfig> = {
             dev: {
-                baseURL: process.env.DEV_BASE_URL || 'http://34.39.254.78:3005',
-                username: process.env.DEV_USERNAME || 'Administrator',
-                password: process.env.DEV_PASSWORD || 'Administrator',
+                baseURL: process.env.DEV_BASE_URL || '',
+                username: process.env.DEV_USERNAME || '',
+                password: process.env.DEV_PASSWORD || '',
             },
             homolog: {
                 baseURL: process.env.HOMOLOG_BASE_URL || '',
-                username: process.env.HOMOLOG_USERNAME || 'Administrator',
-                password: process.env.HOMOLOG_PASSWORD || 'Administrator',
+                username: process.env.HOMOLOG_USERNAME || '',
+                password: process.env.HOMOLOG_PASSWORD || '',
             },
             prod: {
                 baseURL: process.env.PROD_BASE_URL || '',
-                username: process.env.PROD_USERNAME || 'Administrator',
-                password: process.env.PROD_PASSWORD || 'Administrator',
+                username: process.env.PROD_USERNAME || '',
+                password: process.env.PROD_PASSWORD || '',
             },
         };
 
