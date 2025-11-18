@@ -49,7 +49,7 @@ jobs:
           if [ "${{ github.event.inputs.environment }}" = "homolog" ]; then
             echo "BASE_URL=${{ secrets.HOMOLOG_BASE_URL }}" >> $GITHUB_ENV
           else
-            echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
+            echo "BASE_URL=http://localhost:3005" >> $GITHUB_ENV
           fi
 
       - name: Testar acesso à BASE_URL
