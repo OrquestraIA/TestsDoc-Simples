@@ -4,20 +4,26 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Ambiente para executar os testes'
-        required: true
-        default: 'homolog'
-        type: choice
-        options:
-          - dev
-          - homolog
-          - prod
+        description: 'Variável de ambiente (ex: dev, homolog, prod)'
+        required: false
+        default: ''
+        type: string
 
       spec:
         description: 'Caminho do spec Playwright (ex: tests/auth.spec.ts)'
         required: false
         default: ''
         type: string
+
+      project:
+        description: 'Projeto Playwright (chromium, firefox, webkit)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - chromium
+          - firefox
+          - webkit
 
 jobs:
   test-and-report:
@@ -35,12 +41,18 @@ jobs:
         run: npm install
 
       - name: Executar testes Playwright
+        env:
+          AMBIENTE: ${{ github.event.inputs.environment }}
         run: |
+          CMD="npx playwright test"
           if [ -n "${{ github.event.inputs.spec }}" ]; then
-            npx playwright test ${{ github.event.inputs.spec }} --project=${{ github.event.inputs.environment || 'homolog' }}
-          else
-            npm run test:${{ github.event.inputs.environment || 'homolog' }}
+            CMD="$CMD ${{ github.event.inputs.spec }}"
           fi
+          if [ -n "${{ github.event.inputs.project }}" ]; then
+            CMD="$CMD --project=${{ github.event.inputs.project }}"
+          fi
+          echo "Executando: $CMD"
+          $CMD
 
       - name: Gerar relatório customizado
         run: npm run report:custom custom-report-${{ github.event.inputs.environment || 'homolog' }}
