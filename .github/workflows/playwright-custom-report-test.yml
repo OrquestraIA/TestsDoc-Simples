@@ -13,6 +13,12 @@ on:
           - homolog
           - prod
 
+      spec:
+        description: 'Caminho do spec Playwright (ex: tests/auth.spec.ts)'
+        required: false
+        default: ''
+        type: string
+
 jobs:
   test-and-report:
     runs-on: self-hosted
@@ -29,7 +35,12 @@ jobs:
         run: npm install
 
       - name: Executar testes Playwright
-        run: npm run test:${{ github.event.inputs.environment || 'homolog' }}
+        run: |
+          if [ -n "${{ github.event.inputs.spec }}" ]; then
+            npx playwright test ${{ github.event.inputs.spec }} --project=${{ github.event.inputs.environment || 'homolog' }}
+          else
+            npm run test:${{ github.event.inputs.environment || 'homolog' }}
+          fi
 
       - name: Gerar relatório customizado
         run: npm run report:custom custom-report-${{ github.event.inputs.environment || 'homolog' }}
