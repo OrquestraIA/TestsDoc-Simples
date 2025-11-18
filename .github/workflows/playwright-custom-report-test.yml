@@ -43,9 +43,17 @@ jobs:
       - name: Instalar browsers do Playwright
         run: npx playwright install --with-deps
 
+      - name: Definir BASE_URL conforme ambiente
+        run: |
+          if [ "${{ github.event.inputs.environment }}" = "homolog" ]; then
+            echo "BASE_URL=${{ secrets.HOMOLOG_BASE_URL }}" >> $GITHUB_ENV
+          else
+            echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
+          fi
+
       - name: Executar testes Playwright
         env:
-          AMBIENTE: ${{ github.event.inputs.environment }}
+          ENVIRONMENT: ${{ github.event.inputs.environment }}
         run: |
           CMD="npx playwright test"
           if [ -n "${{ github.event.inputs.spec }}" ]; then
