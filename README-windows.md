@@ -23,11 +23,11 @@ npm install
 ```
 
 ### 3. Configurar variáveis de ambiente
-- Copie o arquivo `.env.dev` para `.env`:
+- Copie o arquivo `.env.example` para `.env`:
 ```sh
-copy .env.dev .env
+copy .env.example .env
 ```
-- Edite o `.env` se necessário (usuário, senha, BASE_URL).
+- Edite o `.env` (usuário, senha, BASE_URL).
 
 ### 4. Rodar os testes Playwright
 - Para rodar todos os testes:
