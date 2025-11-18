@@ -43,6 +43,7 @@ jobs:
       - name: Instalar browsers do Playwright
         run: npx playwright install --with-deps
 
+
       - name: Definir BASE_URL conforme ambiente
         run: |
           if [ "${{ github.event.inputs.environment }}" = "homolog" ]; then
@@ -50,6 +51,11 @@ jobs:
           else
             echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
           fi
+
+      - name: Testar acesso à BASE_URL
+        run: |
+          echo "Testando acesso à BASE_URL: $BASE_URL"
+          curl -I --max-time 10 "$BASE_URL" || (echo "Falha ao acessar $BASE_URL" && exit 1)
 
       - name: Executar testes Playwright
         env:
