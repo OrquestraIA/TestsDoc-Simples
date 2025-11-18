@@ -206,8 +206,8 @@ jobs:
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Marcelo-OM30"
+          git config user.email "marcelo.salmeron@om30.com.br"
           git add docs/
           git commit -m "docs: publicar relatório customizado no GitHub Pages [skip ci]" || echo "Nada para commitar"
           git push https://x-access-token:${GH_PAGES_TOKEN}@github.com/OrquestraIA/TestsDoc-Simples.git main
