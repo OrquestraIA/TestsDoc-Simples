@@ -52,6 +52,12 @@ jobs:
             echo "BASE_URL=http://localhost:3005" >> $GITHUB_ENV
           fi
 
+      - name: Exportar DEV_USERNAME e DEV_PASSWORD para ambiente
+        if: ${{ github.event.inputs.environment != 'homolog' }}
+        run: |
+          echo "DEV_USERNAME=${{ secrets.DEV_USERNAME || 'Administrator' }}" >> $GITHUB_ENV
+          echo "DEV_PASSWORD=${{ secrets.DEV_PASSWORD || 'Administrator' }}" >> $GITHUB_ENV
+
       - name: Testar acesso à BASE_URL
         run: |
           echo "Testando acesso à BASE_URL: $BASE_URL"
