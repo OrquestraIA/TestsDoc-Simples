@@ -175,3 +175,36 @@ jobs:
         echo "- 🎭 Relatório Playwright (HTML interativo)" >> $GITHUB_STEP_SUMMARY
         echo "- 📊 Relatório Customizado (Dashboard)" >> $GITHUB_STEP_SUMMARY
         echo "- 📄 Resultados JSON" >> $GITHUB_STEP_SUMMARY
+
+  publish-pages:
+    needs: consolidate-results
+    runs-on: self-hosted
+    if: always()
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Limpar pasta docs
+        run: rm -rf docs/*
+
+      - name: Baixar relatório customizado consolidado
+        uses: actions/download-artifact@v4
+        with:
+          name: custom-report-homolog
+          path: docs/
+
+      - name: Garantir index.html na raiz de docs
+        run: |
+          if [ -d "docs/custom-report-homolog" ]; then
+            mv docs/custom-report-homolog/index.html docs/index.html
+          fi
+
+      - name: Commit e push do relatório para docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "docs: publicar relatório customizado no GitHub Pages [skip ci]" || echo "Nada para commitar"
+          git push origin main

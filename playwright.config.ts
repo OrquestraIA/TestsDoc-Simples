@@ -15,7 +15,7 @@ export default defineConfig({
     retries: 0, // Sem retry para CI (mais rápido durante debug)
     workers: process.env.CI ? 1 : undefined,
     reporter: [
-        ['html', { outputFolder: `playwright-report-${currentEnv}` }],
+        ['html', { outputFolder: `playwright-report-${currentEnv}`, open: 'never' }],
         ['list'],
         ['json', { outputFile: `test-results/results-${currentEnv}.json` }]
     ],

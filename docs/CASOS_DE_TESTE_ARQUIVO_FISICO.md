@@ -68,19 +68,22 @@ Garantir que todas as funcionalidades do módulo de Arquivo Físico estejam func
 
 ## Casos de Teste
 
-### CT-AF-001: Validar abas exibidas no módulo Arquivo Físico
+> **📝 Nota:** Esta documentação reflete a estrutura organizada dos testes, agora separados por módulo no arquivo `tests/physical-archive.spec.ts`
+
+### CT-AF-001: Cadastrar localização de arquivo físico
 
 #### Informações Gerais
 | Campo | Valor |
 |-------|-------|
 | **ID** | CT-AF-001 |
-| **Título** | Validar abas exibidas no módulo Arquivo Físico |
+| **Título** | Cadastrar localização de arquivo físico |
 | **Prioridade** | Alta |
 | **Tipo** | Funcional |
 | **Automação** | Sim |
+| **Arquivo** | `tests/physical-archive.spec.ts:19` |
 
 #### Descrição
-Verificar se o módulo exibe corretamente todas as 10 abas esperadas.
+Verificar se o sistema permite cadastrar novas localizações físicas através da aba Localizações.
 
 #### Pré-condições
 - Usuário autenticado no sistema

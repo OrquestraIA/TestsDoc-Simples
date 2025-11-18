@@ -23,9 +23,9 @@
         "test:dev:report": "npm run test:dev && npm run report:custom custom-report-dev",
         "test:homolog:report": "npm run test:homolog && npm run report:custom custom-report-homolog",
         "test:prod:report": "npm run test:prod && npm run report:custom custom-report-prod",
-        "test:dev:report:open": "npm run test:dev:report && npm run report:open custom-report-dev/index.html",
-        "test:homolog:report:open": "npm run test:homolog:report && npm run report:open custom-report-homolog/index.html",
-        "test:prod:report:open": "npm run test:prod:report && npm run report:open custom-report-prod/index.html"
+        "test:dev:report:open": "npm run test:dev:report; npm run report:open custom-report-dev/index.html",
+        "test:homolog:report:open": "npm run test:homolog:report; npm run report:open custom-report-homolog/index.html",
+        "test:prod:report:open": "npm run test:prod:report; npm run report:open custom-report-prod/index.html"
     },
     "keywords": [
         "playwright",
