@@ -198,8 +198,8 @@ jobs:
 
       - name: Garantir index.html na raiz de docs
         run: |
-          if [ -d "docs/custom-report-homolog" ]; then
-            mv docs/custom-report-homolog/index.html docs/index.html
+          if [ -d "docs/custom-report-${{ github.event.inputs.environment || 'homolog' }}" ]; then
+            mv docs/custom-report-${{ github.event.inputs.environment || 'homolog' }}/index.html docs/index.html
           fi
 
       - name: Commit e push do relatório para docs
