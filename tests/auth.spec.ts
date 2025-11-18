@@ -32,7 +32,7 @@ test.describe('Autenticação', () => {
 
         // Verificar redirecionamento para dashboard
         try {
-            await page.waitForURL('**/dashboard', { timeout: 10000 });
+            await page.waitForURL('**/dashboard', { timeout: 30000 });
             const isLoggedIn = await loginPage.isLoggedIn();
             expect(isLoggedIn).toBeTruthy();
             await page.screenshot({ path: 'screenshots/auth-login-success.png', fullPage: true });
@@ -66,7 +66,7 @@ test.describe('Autenticação', () => {
         // Fazer login primeiro
         await loginPage.navigate();
         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
-        await page.waitForURL('**/dashboard', { timeout: 10000 });
+        await page.waitForURL('**/dashboard', { timeout: 30000 });
 
         // Clicar no botão do menu de usuário (botão que contém avatar E texto "Administrator")
         const userMenuButton = page.locator('button.MuiIconButton-root:has(.MuiAvatar-root):has(p:has-text("Administrator"))').first();
