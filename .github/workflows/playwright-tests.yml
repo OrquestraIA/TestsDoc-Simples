@@ -202,11 +202,6 @@ jobs:
             mv docs/custom-report-${{ github.event.inputs.environment || 'homolog' }}/index.html docs/index.html
           fi
 
-      - name: Debug GH_PAGES_TOKEN
-        run: echo "Token length: ${#GH_PAGES_TOKEN}"
-        env:
-          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-      
       - name: Commit e push do relatório para docs
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
