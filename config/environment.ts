@@ -31,22 +31,21 @@ class EnvironmentManager {
     getConfig(env: Environment): EnvironmentConfig {
         const configs: Record<Environment, EnvironmentConfig> = {
             dev: {
-                baseURL: process.env.DEV_BASE_URL || '',
+                baseURL: process.env.BASE_URL || process.env.DEV_BASE_URL || '',
                 username: process.env.DEV_USERNAME || '',
                 password: process.env.DEV_PASSWORD || '',
             },
             homolog: {
-                baseURL: process.env.HOMOLOG_BASE_URL || '',
+                baseURL: process.env.BASE_URL || process.env.HOMOLOG_BASE_URL || '',
                 username: process.env.HOMOLOG_USERNAME || '',
                 password: process.env.HOMOLOG_PASSWORD || '',
             },
             prod: {
-                baseURL: process.env.PROD_BASE_URL || '',
+                baseURL: process.env.BASE_URL || process.env.PROD_BASE_URL || '',
                 username: process.env.PROD_USERNAME || '',
                 password: process.env.PROD_PASSWORD || '',
             },
         };
-
         return configs[env];
     }
 
