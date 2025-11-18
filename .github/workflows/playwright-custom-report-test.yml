@@ -1,0 +1,62 @@
+name: Playwright Custom Report Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Ambiente para executar os testes'
+        required: true
+        default: 'homolog'
+        type: choice
+        options:
+          - dev
+          - homolog
+          - prod
+
+jobs:
+  test-and-report:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Executar testes Playwright
+        run: npm run test:${{ github.event.inputs.environment || 'homolog' }}
+
+      - name: Gerar relatório customizado
+        run: npm run report:custom custom-report-${{ github.event.inputs.environment || 'homolog' }}
+
+      - name: Upload do relatório customizado
+        uses: actions/upload-artifact@v4
+        with:
+          name: custom-report-${{ github.event.inputs.environment || 'homolog' }}
+          path: custom-report-${{ github.event.inputs.environment || 'homolog' }}/
+          retention-days: 7
+
+  publish-pages:
+    needs: test-and-report
+    runs-on: self-hosted
+    if: ${{ github.event.inputs.environment == 'homolog' }}
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Baixar artefato do relatório customizado
+        uses: actions/download-artifact@v4
+        with:
+          name: custom-report-homolog
+
+      - name: Publicar no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./custom-report-homolog
+          publish_branch: gh-pages
