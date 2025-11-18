@@ -13,14 +13,36 @@ test.describe('Autenticação', () => {
         const loginPage = new LoginPage(page);
 
         await loginPage.navigate();
+        console.log('Tentando login com:', {
+            username: TEST_DATA.VALID_USER.username,
+            password: TEST_DATA.VALID_USER.password
+        });
         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
 
-        // Verificar redirecionamento para dashboard
-        await page.waitForURL('**/dashboard', { timeout: 10000 });
-        const isLoggedIn = await loginPage.isLoggedIn();
+        // Coletar screenshot e HTML logo após submit do login
+        await page.screenshot({ path: 'screenshots/auth-login-after-submit.png', fullPage: true });
+        const htmlAfterLogin = await page.content();
+        require('fs').writeFileSync('screenshots/auth-login-after-submit.html', htmlAfterLogin);
 
-        expect(isLoggedIn).toBeTruthy();
-        await page.screenshot({ path: 'screenshots/auth-login-success.png', fullPage: true });
+        // Verificar se há mensagem de erro visível
+        const errorMsg = await loginPage.getErrorMessage();
+        if (errorMsg) {
+            console.log('Mensagem de erro após login:', errorMsg);
+        }
+
+        // Verificar redirecionamento para dashboard
+        try {
+            await page.waitForURL('**/dashboard', { timeout: 10000 });
+            const isLoggedIn = await loginPage.isLoggedIn();
+            expect(isLoggedIn).toBeTruthy();
+            await page.screenshot({ path: 'screenshots/auth-login-success.png', fullPage: true });
+        } catch (e) {
+            await page.screenshot({ path: 'screenshots/auth-login-failed.png', fullPage: true });
+            const htmlOnFail = await page.content();
+            require('fs').writeFileSync('screenshots/auth-login-failed.html', htmlOnFail);
+            console.log('Erro ao aguardar redirecionamento para dashboard:', e);
+            throw e;
+        }
     });
 
     test('Login com credenciais inválidas', async ({ page }) => {
