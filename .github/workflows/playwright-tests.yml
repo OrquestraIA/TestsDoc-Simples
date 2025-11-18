@@ -44,9 +44,6 @@ jobs:
     - name: Instalar dependências
       run: npm install
 
-    - name: Instalar browsers do Playwright
-      run: npx playwright install --with-deps ${{ matrix.browser }}
-
     - name: Criar arquivo .env para ambiente HOMOLOG (padrão em push automático)
       if: github.event.inputs.environment == 'homolog' || github.event.inputs.environment == ''
       run: |
