@@ -19,6 +19,7 @@
         "test:prod:ui": "dotenv -e .env.prod -- playwright test --ui",
         "report:custom": "ts-node scripts/generate-report.ts",
         "report:open": "xdg-open",
+        "test:dev:auth:headed": "dotenv -e .env.dev -- playwright test tests/auth.spec.ts --headed",
         "test:with-report": "npm test && npm run report:custom",
         "test:dev:report": "npm run test:dev && npm run report:custom custom-report-dev",
         "test:homolog:report": "npm run test:homolog && npm run report:custom custom-report-homolog",

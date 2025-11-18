@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
 import { envManager } from './config/environment';
 
-dotenv.config();
+dotenv.config({ path: `.env.${process.env.ENVIRONMENT || 'dev'}` });
 
 // Determina a URL base baseada no ambiente
 const currentEnv = process.env.ENVIRONMENT || 'dev';
