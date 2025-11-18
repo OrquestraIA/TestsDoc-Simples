@@ -155,7 +155,7 @@ Cada ambiente possui seu próprio arquivo de configuração:
 #### .env.dev (Desenvolvimento)
 ```bash
 ENVIRONMENT=dev
-DEV_BASE_URL=http://34.39.254.78:3005
+DEV_BASE_URL=ttp://34.95.244.199:3005
 DEV_USERNAME=<seu_username>
 DEV_PASSWORD=<seu_password>
 ```
@@ -296,7 +296,7 @@ Para rodar no GitHub Actions, configure os secrets no repositório:
 
 ## 👥 Time
 
-**QA Engineer:** Marcelo OM30
+**QA Lead:** Marcelo OM30
 
 ---
 

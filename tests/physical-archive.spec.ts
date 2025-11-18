@@ -252,7 +252,7 @@ test.describe('Arquivo Físico', () => {
 
     // Histórico de Movimentações
     test.describe('Histórico', () => {
-        test('Visualizar histórico de movimentações', async ({ page }) => {
+        test.only('Visualizar histórico de movimentações', async ({ page }) => {
             await page.goto('/physical-archive');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
