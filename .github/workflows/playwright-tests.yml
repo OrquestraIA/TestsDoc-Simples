@@ -120,7 +120,7 @@ jobs:
       if: always()
       with:
         name: custom-report-${{ matrix.browser }}-${{ github.event.inputs.environment || 'homolog' }}
-        path: custom-report-*
+        path: custom-report-${{ github.event.inputs.environment || 'homolog' }}/
         retention-days: 30
 
     - name: Upload dos relatórios HTML
@@ -190,10 +190,10 @@ jobs:
         run: rm -rf docs/*
 
 
-      - name: Baixar relatório customizado consolidado
+      - name: Baixar relatório customizado do Chromium
         uses: actions/download-artifact@v4
         with:
-          name: custom-report-${{ github.event.inputs.environment || 'homolog' }}
+          name: custom-report-chromium-${{ github.event.inputs.environment || 'homolog' }}
           path: docs/
 
       - name: Garantir index.html na raiz de docs
