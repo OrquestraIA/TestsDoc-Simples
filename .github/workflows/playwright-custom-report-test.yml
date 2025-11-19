@@ -79,8 +79,16 @@ jobs:
           echo "Executando: $CMD"
           $CMD
 
+
       - name: Gerar relatório customizado
         run: npm run report:custom custom-report-${{ github.event.inputs.environment || 'homolog' }}
+
+      - name: Copiar evidências Playwright (screenshots, traces, vídeos)
+        run: |
+          REPORT_DIR=custom-report-${{ github.event.inputs.environment || 'homolog' }}
+          [ -d screenshots ] && cp -r screenshots "$REPORT_DIR" || echo "Sem screenshots"
+          [ -d test-results ] && cp -r test-results "$REPORT_DIR" || echo "Sem test-results"
+          [ -d playwright-report ] && cp -r playwright-report "$REPORT_DIR" || echo "Sem playwright-report"
 
       - name: Upload do relatório customizado
         uses: actions/upload-artifact@v4
