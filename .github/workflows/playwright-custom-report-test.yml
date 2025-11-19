@@ -80,9 +80,12 @@ jobs:
           echo "Executando: $CMD"
           $CMD
 
+
       - name: Gerar relatório Playwright
         run: |
-          npx playwright show-report --output=playwright-report-${{ github.event.inputs.environment || 'homolog' }} --no-open
+          npx playwright show-report --no-open
+          ENV=${{ github.event.inputs.environment || 'homolog' }}
+          [ -d playwright-report ] && mv -f playwright-report "playwright-report-$ENV"
 
 
       - name: Gerar relatório customizado
