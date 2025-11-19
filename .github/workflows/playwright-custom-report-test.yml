@@ -81,9 +81,6 @@ jobs:
           $CMD
 
 
-      - name: Gerar relatório Playwright
-        run: |
-          npx playwright show-report playwright-report-${{ github.event.inputs.environment || 'homolog' }}
 
 
       - name: Gerar relatório customizado
