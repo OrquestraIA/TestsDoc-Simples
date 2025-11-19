@@ -80,6 +80,11 @@ jobs:
           echo "Executando: $CMD"
           $CMD
 
+      - name: Debug - listar arquivos após testes
+        run: |
+          echo "Listando arquivos após execução dos testes:"
+          ls -lR
+
 
 
 

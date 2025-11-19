@@ -18,13 +18,13 @@ async function main() {
     await generator.generateReport(outputDir);
 
     // Função para adicionar o iframe do relatório Playwright
-    function addPlaywrightIframe(reportDir: string, env: string) {
+    function addPlaywrightIframe(reportDir: string) {
         const indexPath = path.join(reportDir, 'index.html');
         if (!fs.existsSync(indexPath)) return;
         let html = fs.readFileSync(indexPath, 'utf-8');
         const iframeHtml = `\n<section style="margin: 2em 0; text-align: center;">
             <h2>Relatório Completo do Playwright</h2>
-            <iframe src="playwright-report-${env}/index.html" width="100%" height="800px" style="border:none;"></iframe>
+            <iframe src="playwright-report/index.html" width="100%" height="800px" style="border:none;"></iframe>
         </section>\n`;
         // Insere antes do fechamento do body
         html = html.replace(/<\/body>/i, iframeHtml + '</body>');
@@ -32,8 +32,7 @@ async function main() {
     }
 
     // Chama a função após gerar o relatório customizado
-    const env = process.env.ENVIRONMENT || 'dev';
-    addPlaywrightIframe(outputDir, env);
+    addPlaywrightIframe(outputDir);
 
     console.log('\n✨ Relatório gerado com sucesso!');
     console.log(`📂 Abra o arquivo: ${outputDir}/index.html\n`);
