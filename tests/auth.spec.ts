@@ -70,35 +70,32 @@ test.describe('Autenticação', () => {
         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
         await page.waitForURL('**/dashboard', { timeout: 30000 });
 
-        // Clicar no botão do menu de usuário (botão que contém avatar E texto "Administrator")
-        const userMenuButton = page.locator('button.MuiIconButton-root:has(.MuiAvatar-root):has(p:has-text("Administrator"))').first();
-
-        if (await userMenuButton.isVisible({ timeout: 5000 })) {
-            await userMenuButton.click();
-            await page.waitForTimeout(500); // Aguardar menu abrir
-
-            // Clicar no item de menu "Sair" 
-            const logoutMenuItem = page.locator('li[role="menuitem"]:has-text("Sair")').first();
-
-            if (await logoutMenuItem.isVisible({ timeout: 3000 })) {
-                await logoutMenuItem.click();
-                await page.waitForTimeout(2000);
-
-                // Verificar se voltou para tela de login
-                const isLoginFormVisible = await loginPage.isLoginFormVisible();
-                expect(isLoginFormVisible).toBeTruthy();
-
-                console.log('Logout realizado com sucesso');
-                await page.screenshot({ path: 'screenshots/auth-logout-success.png', fullPage: true });
-            } else {
-                console.log('Item de menu "Sair" não encontrado');
-            }
-        } else {
+        // Clicar no primeiro <button> do menu de usuário com texto "Administrator"
+        const userMenuButtons = page.locator('button:has(.MuiAvatar-root):has(p:has-text("Administrator"))');
+        const count = await userMenuButtons.count();
+        if (count === 0) {
             console.log('Botão do menu de usuário não encontrado');
+            throw new Error('Botão do menu de usuário não encontrado');
         }
-        // Teste propositalmente falho para validar fluxo de erro e evidências
-        test('Teste propositalmente falho', async () => {
-            expect(1).toBe(2);
-        });
+        const userMenuButton = userMenuButtons.first();
+        await userMenuButton.click();
+        await page.waitForTimeout(500); // Aguardar menu abrir
+
+        // Clicar no item de menu "Sair" 
+        const logoutMenuItem = page.locator('li[role="menuitem"]:has-text("Sair")').first();
+        if (await logoutMenuItem.isVisible({ timeout: 3000 })) {
+            await logoutMenuItem.click();
+            await page.waitForTimeout(2000);
+
+            // Verificar se voltou para tela de login
+            const isLoginFormVisible = await loginPage.isLoginFormVisible();
+            expect(isLoginFormVisible).toBeTruthy();
+
+            console.log('Logout realizado com sucesso');
+            await page.screenshot({ path: 'screenshots/auth-logout-success.png', fullPage: true });
+        } else {
+            console.log('Item de menu "Sair" não encontrado');
+            throw new Error('Item de menu "Sair" não encontrado');
+        }
     });
 });
