@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
         "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510109883"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510362929"
       },
       "gitCommit": {
         "shortHash": "f7e0cae",
@@ -69,7 +69,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
             "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510109883"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510362929"
           },
           "gitCommit": {
             "shortHash": "f7e0cae",
@@ -107,7 +107,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
             "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510109883"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510362929"
           },
           "gitCommit": {
             "shortHash": "f7e0cae",
@@ -145,7 +145,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
             "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510109883"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510362929"
           },
           "gitCommit": {
             "shortHash": "f7e0cae",
@@ -213,7 +213,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2927,
+                      "duration": 2177,
                       "errors": [],
                       "stdout": [
                         {
@@ -225,7 +225,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:18:04.962Z",
+                      "startTime": "2025-11-19T17:25:09.570Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +254,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3383,
+                      "duration": 3253,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:18:08.169Z",
+                      "startTime": "2025-11-19T17:25:12.096Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -279,30 +279,48 @@
               "tests": [
                 {
                   "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                        "line": 98,
+                        "column": 18
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
                   "projectId": "chromium",
                   "projectName": "chromium",
                   "results": [
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4897,
+                      "status": "skipped",
+                      "duration": 1921,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Logout realizado com sucesso\n"
+                          "text": "Botão do menu de usuário não encontrado\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:18:11.570Z",
-                      "annotations": [],
+                      "startTime": "2025-11-19T17:25:15.364Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                            "line": 98,
+                            "column": 18
+                          }
+                        }
+                      ],
                       "attachments": []
                     }
                   ],
-                  "status": "expected"
+                  "status": "skipped"
                 }
               ],
               "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
@@ -317,10 +335,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-19T17:18:03.744Z",
-    "duration": 12825.576000000001,
-    "expected": 3,
-    "skipped": 0,
+    "startTime": "2025-11-19T17:25:08.326Z",
+    "duration": 9048.684000000001,
+    "expected": 2,
+    "skipped": 1,
     "unexpected": 0,
     "flaky": 0
   }
