@@ -300,4 +300,17 @@ Para rodar no GitHub Actions, configure os secrets no repositório:
 
 ---
 
-**Última atualização:** 13/11/2025
+**Última atualização:** 19/11/2025
+
+## Como rodar os testes na pipeline (GitHub Actions)
+
+1. Acesse a aba **Actions** no repositório no GitHub.
+2. Escolha o workflow "Playwright Custom Report Test".
+3. Clique em **Run workflow** (canto direito), selecione o ambiente desejado e clique em **Run**.
+4. Aguarde a execução e confira o relatório gerado no GitHub Pages ou baixe o artefato.
+
+### Tutorial em vídeo
+
+<video src="docs/tutorial-pipeline.mp4" controls width="600"></video>
+
+---
