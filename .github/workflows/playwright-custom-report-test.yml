@@ -92,7 +92,7 @@ jobs:
   publish-pages:
     needs: test-and-report
     runs-on: self-hosted
-    if: ${{ github.event.inputs.environment == 'homolog' }}
+    if: ${{ github.event.inputs.environment == 'homolog' || github.event.inputs.environment == 'dev' }}
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
@@ -100,11 +100,11 @@ jobs:
       - name: Baixar artefato do relatório customizado
         uses: actions/download-artifact@v4
         with:
-          name: custom-report-homolog
+          name: custom-report-${{ github.event.inputs.environment }}
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./custom-report-homolog
+          publish_dir: ./custom-report-${{ github.event.inputs.environment }}
           publish_branch: gh-pages
