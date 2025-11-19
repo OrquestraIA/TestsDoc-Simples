@@ -65,6 +65,7 @@ jobs:
           echo "Testando acesso à BASE_URL: $BASE_URL"
           curl -I --max-time 10 "$BASE_URL" || (echo "Falha ao acessar $BASE_URL" && exit 1)
 
+
       - name: Executar testes Playwright
         env:
           ENVIRONMENT: ${{ github.event.inputs.environment }}
@@ -79,6 +80,10 @@ jobs:
           echo "Executando: $CMD"
           $CMD
 
+      - name: Gerar relatório Playwright
+        run: |
+          npx playwright show-report --output=playwright-report-${{ github.event.inputs.environment || 'homolog' }} --no-open
+
 
       - name: Gerar relatório customizado
         run: npm run report:custom custom-report-${{ github.event.inputs.environment || 'homolog' }}
@@ -86,9 +91,10 @@ jobs:
       - name: Copiar evidências Playwright (screenshots, traces, vídeos)
         run: |
           REPORT_DIR=custom-report-${{ github.event.inputs.environment || 'homolog' }}
+          PLAYWRIGHT_REPORT_DIR=playwright-report-${{ github.event.inputs.environment || 'homolog' }}
           [ -d screenshots ] && cp -r screenshots "$REPORT_DIR" || echo "Sem screenshots"
           [ -d test-results ] && cp -r test-results "$REPORT_DIR" || echo "Sem test-results"
-          [ -d playwright-report ] && cp -r playwright-report "$REPORT_DIR" || echo "Sem playwright-report"
+          [ -d "$PLAYWRIGHT_REPORT_DIR" ] && cp -r "$PLAYWRIGHT_REPORT_DIR" "$REPORT_DIR/playwright-report" || echo "Sem playwright-report"
 
       - name: Upload do relatório customizado
         uses: actions/upload-artifact@v4
