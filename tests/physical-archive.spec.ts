@@ -13,8 +13,7 @@ test.describe('Arquivo Físico', () => {
     test.beforeEach(async ({ page }) => {
         const loginPage = new LoginPage(page);
         await loginPage.navigate();
-        // Força credenciais diretamente para isolar problema de variáveis de ambiente
-        await loginPage.login('Administrator', 'Administrator');
+        await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
         const loggedIn = await loginPage.isLoggedIn();
         console.log('Login realizado?', loggedIn);
         if (!loggedIn) {

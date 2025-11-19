@@ -14,12 +14,11 @@ test.describe('Autenticação', () => {
 
 
         await loginPage.navigate();
-        // Força credenciais diretamente para isolar problema de variáveis de ambiente
         console.log('Tentando login com:', {
-            username: 'Administrator',
-            password: 'Administrator'
+            username: TEST_DATA.VALID_USER.username,
+            password: TEST_DATA.VALID_USER.password
         });
-        await loginPage.login('Administrator', 'Administrator');
+        await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
 
         // Coletar screenshot e HTML logo após submit do login
         await page.screenshot({ path: 'screenshots/auth-login-after-submit.png', fullPage: true });
