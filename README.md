@@ -311,6 +311,6 @@ Para rodar no GitHub Actions, configure os secrets no repositório:
 
 ### Tutorial em vídeo
 
-<video src="docs/tutorial-pipeline.mp4" controls width="600"></video>
+[![Assista ao tutorial](https://img.youtube.com/vi/il0mYC1If7E/0.jpg)](https://www.youtube.com/watch?v=il0mYC1If7E)
 
 ---
