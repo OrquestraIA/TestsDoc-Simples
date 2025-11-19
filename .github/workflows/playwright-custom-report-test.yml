@@ -101,6 +101,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: custom-report-${{ github.event.inputs.environment }}
+          path: custom-report-${{ github.event.inputs.environment }}
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
