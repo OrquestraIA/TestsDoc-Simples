@@ -401,9 +401,9 @@
         <header class="header">
             <h1>📊 Dashboard de Testes E2E</h1>
             <p class="subtitle">Doc+Simples - Relatório Customizado</p>
-            <div class="status-badge success">
-                <span class="status-icon">✅</span>
-                <span>Todos os testes passaram!</span>
+            <div class="status-badge error">
+                <span class="status-icon">❌</span>
+                <span>Alguns testes falharam</span>
             </div>
         </header>
         
@@ -428,7 +428,7 @@
                 <div class="stat-icon">❌</div>
                 <div class="stat-content">
                     <h3>Falhou</h3>
-                    <p class="stat-value">0</p>
+                    <p class="stat-value">1</p>
                 </div>
             </div>
 
@@ -436,7 +436,7 @@
                 <div class="stat-icon">⏭️</div>
                 <div class="stat-content">
                     <h3>Ignorado</h3>
-                    <p class="stat-value">1</p>
+                    <p class="stat-value">0</p>
                 </div>
             </div>
 
@@ -456,7 +456,7 @@
                 <div class="stat-icon">⏱️</div>
                 <div class="stat-content">
                     <h3>Tempo Total de Execução</h3>
-                    <p class="stat-value">8.08s</p>
+                    <p class="stat-value">8.35s</p>
                 </div>
             </div>
         </section>
@@ -482,11 +482,11 @@
                 </div>
                 <div class="info-item">
                     <strong>🕐 Início:</strong>
-                    <span>19/11/2025, 15:33:25</span>
+                    <span>19/11/2025, 15:39:18</span>
                 </div>
                 <div class="info-item">
                     <strong>🕐 Fim:</strong>
-                    <span>19/11/2025, 15:33:25</span>
+                    <span>19/11/2025, 15:39:18</span>
                 </div>
             </div>
         </section>
@@ -538,7 +538,7 @@
                                         </td>
                                         <td>Login com credenciais válidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>3.02s</td>
+                                        <td>2.94s</td>
                                     </tr>
                                     
                                 
@@ -550,19 +550,33 @@
                                         </td>
                                         <td>Login com credenciais inválidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>3.28s</td>
+                                        <td>3.71s</td>
                                     </tr>
                                     
                                 
-                                    <tr class="test-row skipped">
+                                    <tr class="test-row failed">
                                         <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
+                                            <span class="status-badge failed">
+                                                ❌
                                             </span>
                                         </td>
                                         <td>Logout do sistema</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>1.78s</td>
+                                        <td>1.70s</td>
+                                    </tr>
+                                    
+                                    <tr class="error-row">
+                                        <td colspan="4">
+                                            <div class="error-message">
+                                                <strong>❌ Erro:</strong>
+                                                <pre>Error: Playwright Test did not expect test() to be called here.
+Most common reasons include:
+- You are calling test() in a configuration file.
+- You are calling test() in a file that is imported by the configuration file.
+- You have two different versions of @playwright/test. This usually happens
+  when one of the dependencies in your package.json depends on @playwright/test.</pre>
+                                            </div>
+                                        </td>
                                     </tr>
                                     
                                 
