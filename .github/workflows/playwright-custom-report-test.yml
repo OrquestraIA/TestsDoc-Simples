@@ -105,6 +105,6 @@ jobs:
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           publish_dir: ./custom-report-${{ github.event.inputs.environment }}
           publish_branch: gh-pages
