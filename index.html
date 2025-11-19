@@ -401,9 +401,9 @@
         <header class="header">
             <h1>📊 Dashboard de Testes E2E</h1>
             <p class="subtitle">Doc+Simples - Relatório Customizado</p>
-            <div class="status-badge success">
-                <span class="status-icon">✅</span>
-                <span>Todos os testes passaram!</span>
+            <div class="status-badge error">
+                <span class="status-icon">❌</span>
+                <span>Alguns testes falharam</span>
             </div>
         </header>
         
@@ -420,7 +420,7 @@
                 <div class="stat-icon">✅</div>
                 <div class="stat-content">
                     <h3>Passou</h3>
-                    <p class="stat-value">3</p>
+                    <p class="stat-value">2</p>
                 </div>
             </div>
 
@@ -428,7 +428,7 @@
                 <div class="stat-icon">❌</div>
                 <div class="stat-content">
                     <h3>Falhou</h3>
-                    <p class="stat-value">0</p>
+                    <p class="stat-value">1</p>
                 </div>
             </div>
 
@@ -445,8 +445,8 @@
                 <div class="stat-content">
                     <h3>Taxa de Sucesso</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" style="width: 100%; background-color: #10b981;">
-                            <span class="progress-text">100.00%</span>
+                        <div class="progress-bar" style="width: 66.66666666666666%; background-color: #ef4444;">
+                            <span class="progress-text">66.67%</span>
                         </div>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
                 <div class="stat-icon">⏱️</div>
                 <div class="stat-content">
                     <h3>Tempo Total de Execução</h3>
-                    <p class="stat-value">10.74s</p>
+                    <p class="stat-value">10.99s</p>
                 </div>
             </div>
         </section>
@@ -482,11 +482,11 @@
                 </div>
                 <div class="info-item">
                     <strong>🕐 Início:</strong>
-                    <span>19/11/2025, 15:53:53</span>
+                    <span>19/11/2025, 16:12:18</span>
                 </div>
                 <div class="info-item">
                     <strong>🕐 Fim:</strong>
-                    <span>19/11/2025, 15:53:53</span>
+                    <span>19/11/2025, 16:12:18</span>
                 </div>
             </div>
         </section>
@@ -538,7 +538,7 @@
                                         </td>
                                         <td>Login com credenciais válidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>2.52s</td>
+                                        <td>2.93s</td>
                                     </tr>
                                     
                                 
@@ -550,19 +550,28 @@
                                         </td>
                                         <td>Login com credenciais inválidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>3.45s</td>
+                                        <td>4.65s</td>
                                     </tr>
                                     
                                 
-                                    <tr class="test-row passed">
+                                    <tr class="test-row failed">
                                         <td>
-                                            <span class="status-badge passed">
-                                                ✅
+                                            <span class="status-badge failed">
+                                                ❌
                                             </span>
                                         </td>
                                         <td>Logout do sistema</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>4.78s</td>
+                                        <td>3.41s</td>
+                                    </tr>
+                                    
+                                    <tr class="error-row">
+                                        <td colspan="4">
+                                            <div class="error-message">
+                                                <strong>❌ Erro:</strong>
+                                                <pre>Error: Botão do menu de usuário não encontrado</pre>
+                                            </div>
+                                        </td>
                                     </tr>
                                     
                                 
