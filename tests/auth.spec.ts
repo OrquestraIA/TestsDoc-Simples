@@ -9,7 +9,7 @@ import { TEST_DATA } from '../utils/constants';
 
 test.describe('Autenticação', () => {
 
-    test.only('Login com credenciais válidas', async ({ page }) => {
+    test('Login com credenciais válidas', async ({ page }) => {
         const loginPage = new LoginPage(page);
 
 
