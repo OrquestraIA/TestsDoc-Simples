@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/618989fc96e427ad23c881a464b597d33cfa827e",
-        "commitHash": "618989fc96e427ad23c881a464b597d33cfa827e",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512485033"
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b36019e720440785b76d80ec9cb8c5b48da1e41a",
+        "commitHash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512886334"
       },
       "gitCommit": {
-        "shortHash": "618989f",
-        "hash": "618989fc96e427ad23c881a464b597d33cfa827e",
-        "subject": "forçando uma falha",
-        "body": "forçando uma falha\n",
+        "shortHash": "b36019e",
+        "hash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+        "subject": "botao logout",
+        "body": "botao logout\n",
         "author": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763577493000
+          "time": 1763578363000
         },
         "committer": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763577493000
+          "time": 1763578363000
         },
         "branch": "main"
       },
@@ -67,24 +67,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/618989fc96e427ad23c881a464b597d33cfa827e",
-            "commitHash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512485033"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "commitHash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512886334"
           },
           "gitCommit": {
-            "shortHash": "618989f",
-            "hash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "subject": "forçando uma falha",
-            "body": "forçando uma falha\n",
+            "shortHash": "b36019e",
+            "hash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "subject": "botao logout",
+            "body": "botao logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "branch": "main"
           },
@@ -105,24 +105,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/618989fc96e427ad23c881a464b597d33cfa827e",
-            "commitHash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512485033"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "commitHash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512886334"
           },
           "gitCommit": {
-            "shortHash": "618989f",
-            "hash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "subject": "forçando uma falha",
-            "body": "forçando uma falha\n",
+            "shortHash": "b36019e",
+            "hash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "subject": "botao logout",
+            "body": "botao logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "branch": "main"
           },
@@ -143,24 +143,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/618989fc96e427ad23c881a464b597d33cfa827e",
-            "commitHash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512485033"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "commitHash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19512886334"
           },
           "gitCommit": {
-            "shortHash": "618989f",
-            "hash": "618989fc96e427ad23c881a464b597d33cfa827e",
-            "subject": "forçando uma falha",
-            "body": "forçando uma falha\n",
+            "shortHash": "b36019e",
+            "hash": "b36019e720440785b76d80ec9cb8c5b48da1e41a",
+            "subject": "botao logout",
+            "body": "botao logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763577493000
+              "time": 1763578363000
             },
             "branch": "main"
           },
@@ -213,7 +213,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2944,
+                      "duration": 2519,
                       "errors": [],
                       "stdout": [
                         {
@@ -225,7 +225,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T18:39:07.030Z",
+                      "startTime": "2025-11-19T18:53:40.268Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +254,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3707,
+                      "duration": 3451,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T18:39:10.128Z",
+                      "startTime": "2025-11-19T18:53:42.936Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -274,7 +274,7 @@
             },
             {
               "title": "Logout do sistema",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -287,62 +287,22 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 1701,
-                      "error": {
-                        "message": "Error: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
-                        "stack": "Error: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:100:13",
-                        "location": {
-                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                          "column": 13,
-                          "line": 100
-                        },
-                        "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m         }\n \u001b[90m  99 |\u001b[39m         \u001b[90m// Teste propositalmente falho para validar fluxo de erro e evidências\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 100 |\u001b[39m         test(\u001b[32m'Teste propositalmente falho'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 101 |\u001b[39m             expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 103 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                            "column": 13,
-                            "line": 100
-                          },
-                          "message": "Error: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n\n   98 |         }\n   99 |         // Teste propositalmente falho para validar fluxo de erro e evidências\n> 100 |         test('Teste propositalmente falho', async () => {\n      |             ^\n  101 |             expect(1).toBe(2);\n  102 |         });\n  103 |     });\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:100:13"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 4775,
+                      "errors": [],
                       "stdout": [
                         {
-                          "text": "Botão do menu de usuário não encontrado\n"
+                          "text": "Logout realizado com sucesso\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T18:39:13.862Z",
+                      "startTime": "2025-11-19T18:53:46.403Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                        "column": 13,
-                        "line": 100
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
@@ -357,11 +317,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-19T18:39:05.934Z",
-    "duration": 9750.799,
-    "expected": 2,
+    "startTime": "2025-11-19T18:53:39.355Z",
+    "duration": 11920.991,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
