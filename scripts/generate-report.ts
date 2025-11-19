@@ -15,7 +15,38 @@ async function main() {
     const outputDir = process.argv[2] || 'custom-report';
 
 
+
     await generator.generateReport(outputDir);
+
+    // Copiar o relatório Playwright para dentro do custom report
+    function copyPlaywrightReport(reportDir: string) {
+        // Detecta o ambiente pelo nome do diretório de saída
+        let env = 'dev';
+        const match = reportDir.match(/custom-report-(\w+)/);
+        if (match && match[1]) env = match[1];
+        const src = path.resolve(`playwright-report-${env}`);
+        const dest = path.join(reportDir, 'playwright-report');
+        if (fs.existsSync(src)) {
+            // Remove destino se já existir
+            if (fs.existsSync(dest)) {
+                fs.rmSync(dest, { recursive: true, force: true });
+            }
+            fs.mkdirSync(dest, { recursive: true });
+            // Copia todos os arquivos do src para dest
+            for (const file of fs.readdirSync(src)) {
+                const srcFile = path.join(src, file);
+                const destFile = path.join(dest, file);
+                if (fs.lstatSync(srcFile).isDirectory()) {
+                    fs.cpSync(srcFile, destFile, { recursive: true });
+                } else {
+                    fs.copyFileSync(srcFile, destFile);
+                }
+            }
+            console.log(`✅ Copiado relatório Playwright de ${src} para ${dest}`);
+        } else {
+            console.warn(`⚠️  Pasta do relatório Playwright não encontrada: ${src}`);
+        }
+    }
 
     // Função para adicionar o iframe do relatório Playwright
     function addPlaywrightIframe(reportDir: string) {
@@ -31,7 +62,8 @@ async function main() {
         fs.writeFileSync(indexPath, html, 'utf-8');
     }
 
-    // Chama a função após gerar o relatório customizado
+    // Copia o relatório Playwright e adiciona o iframe
+    copyPlaywrightReport(outputDir);
     addPlaywrightIframe(outputDir);
 
     console.log('\n✨ Relatório gerado com sucesso!');
