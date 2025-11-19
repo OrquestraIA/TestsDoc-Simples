@@ -51,7 +51,7 @@ jobs:
           elif [ "${{ github.event.inputs.environment }}" = "prod" ]; then
             echo "BASE_URL=http://34.95.148.209:3005" >> $GITHUB_ENV
           else
-            echo "BASE_URL=http://localhost:3005" >> $GITHUB_ENV
+            echo "BASE_URL=http://34.95.244.199:3005" >> $GITHUB_ENV
           fi
 
       - name: Exportar DEV_USERNAME e DEV_PASSWORD para ambiente
