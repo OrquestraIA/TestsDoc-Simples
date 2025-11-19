@@ -92,11 +92,9 @@ test.describe('Autenticação', () => {
                 await page.screenshot({ path: 'screenshots/auth-logout-success.png', fullPage: true });
             } else {
                 console.log('Item de menu "Sair" não encontrado');
-                test.skip();
             }
         } else {
             console.log('Botão do menu de usuário não encontrado');
-            test.skip();
         }
         // Teste propositalmente falho para validar fluxo de erro e evidências
         test('Teste propositalmente falho', async () => {
