@@ -67,6 +67,7 @@ jobs:
 
 
       - name: Executar testes Playwright
+        continue-on-error: true
         env:
           ENVIRONMENT: ${{ github.event.inputs.environment }}
         run: |

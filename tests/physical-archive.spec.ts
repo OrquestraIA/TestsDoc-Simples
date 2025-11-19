@@ -312,7 +312,7 @@ test.describe('Arquivo Físico', () => {
                 'Legal Hold',
             ];
             for (const card of cards) {
-                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`);
+                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`).first();
                 await expect(cardEl).toBeVisible();
             }
 
@@ -328,7 +328,7 @@ test.describe('Arquivo Físico', () => {
                 'Transições Pendentes',
             ];
             for (const card of dashCards) {
-                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`);
+                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`).first();
                 await expect(cardEl).toBeVisible();
             }
 
