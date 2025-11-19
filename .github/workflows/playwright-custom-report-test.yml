@@ -83,7 +83,7 @@ jobs:
 
       - name: Gerar relatório Playwright
         run: |
-          npx playwright show-report --no-open
+          npx playwright show-report
           ENV=${{ github.event.inputs.environment || 'homolog' }}
           [ -d playwright-report ] && mv -f playwright-report "playwright-report-$ENV"
 
