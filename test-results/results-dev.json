@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-        "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510549206"
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/a289df2989664977a6650e3b6d17ceddcce45bfd",
+        "commitHash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19511805424"
       },
       "gitCommit": {
-        "shortHash": "f7e0cae",
-        "hash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
+        "shortHash": "a289df2",
+        "hash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
         "subject": "generate report",
         "body": "generate report\n",
         "author": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763572563000
+          "time": 1763576053000
         },
         "committer": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763572563000
+          "time": 1763576053000
         },
         "branch": "main"
       },
@@ -67,24 +67,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510549206"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "commitHash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19511805424"
           },
           "gitCommit": {
-            "shortHash": "f7e0cae",
-            "hash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
+            "shortHash": "a289df2",
+            "hash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
             "subject": "generate report",
             "body": "generate report\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "branch": "main"
           },
@@ -105,24 +105,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510549206"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "commitHash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19511805424"
           },
           "gitCommit": {
-            "shortHash": "f7e0cae",
-            "hash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
+            "shortHash": "a289df2",
+            "hash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
             "subject": "generate report",
             "body": "generate report\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "branch": "main"
           },
@@ -143,24 +143,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "commitHash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19510549206"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "commitHash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19511805424"
           },
           "gitCommit": {
-            "shortHash": "f7e0cae",
-            "hash": "f7e0cae9a5174b6a8b31b27a55b2d92ffe529410",
+            "shortHash": "a289df2",
+            "hash": "a289df2989664977a6650e3b6d17ceddcce45bfd",
             "subject": "generate report",
             "body": "generate report\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763572563000
+              "time": 1763576053000
             },
             "branch": "main"
           },
@@ -213,7 +213,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2066,
+                      "duration": 2488,
                       "errors": [],
                       "stdout": [
                         {
@@ -225,7 +225,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:31:16.312Z",
+                      "startTime": "2025-11-19T18:15:27.535Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +254,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3821,
+                      "duration": 3336,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:31:18.501Z",
+                      "startTime": "2025-11-19T18:15:30.212Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -297,7 +297,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "skipped",
-                      "duration": 2612,
+                      "duration": 1875,
                       "errors": [],
                       "stdout": [
                         {
@@ -306,7 +306,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T17:31:22.337Z",
+                      "startTime": "2025-11-19T18:15:33.563Z",
                       "annotations": [
                         {
                           "type": "skip",
@@ -331,14 +331,2717 @@
           ]
         }
       ]
+    },
+    {
+      "title": "documents.spec.ts",
+      "file": "documents.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Documentos Eletrônicos",
+          "file": "documents.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "RN-148: Upload e Visualização",
+              "file": "documents.spec.ts",
+              "line": 28,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Upload de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7854,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Página de upload carregada com área de upload\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:15:35.456Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-85979b0167e772be2e46",
+                  "file": "documents.spec.ts",
+                  "line": 30,
+                  "column": 13
+                },
+                {
+                  "title": "Visualização de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 6681,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:15:43.325Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-c5b244e8e0234d3f9536",
+                  "file": "documents.spec.ts",
+                  "line": 67,
+                  "column": 13
+                },
+                {
+                  "title": "Download de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 110,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4926,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Botão de download não encontrado\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:15:50.021Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 110,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-5b2f859f0e701d788723",
+                  "file": "documents.spec.ts",
+                  "line": 92,
+                  "column": 13
+                },
+                {
+                  "title": "Visualização de metadados",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5527,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Metadados visíveis - Tipo: false, Data: true, Usuário: true\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:15:54.965Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-7057285979949889bad5",
+                  "file": "documents.spec.ts",
+                  "line": 114,
+                  "column": 13
+                },
+                {
+                  "title": "Busca unificada de documentos",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7180,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:00.527Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-3cc0c44d8cf496dbee28",
+                  "file": "documents.spec.ts",
+                  "line": 135,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-149: Classificação por Tipo",
+              "file": "documents.spec.ts",
+              "line": 160,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Listar tipos de documentos",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 175,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4801,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Lista de tipos não encontrada\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:07.732Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 175,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-e6a271c85de44032fe1c",
+                  "file": "documents.spec.ts",
+                  "line": 162,
+                  "column": 13
+                },
+                {
+                  "title": "Criar novo tipo de documento",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 198,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4641,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:12.547Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 198,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-3dc0d1375f9d910547ca",
+                  "file": "documents.spec.ts",
+                  "line": 179,
+                  "column": 13
+                },
+                {
+                  "title": "Filtrar documentos por tipo",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5367,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "4 tipos de documentos disponíveis\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:17.198Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-88a6545c9f61cc05bcc8",
+                  "file": "documents.spec.ts",
+                  "line": 202,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-150: Exportação de Metadados",
+              "file": "documents.spec.ts",
+              "line": 230,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Exportar metadados para Excel",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 243,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4807,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:22.578Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 243,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-6d47b543c8a2f0562344",
+                  "file": "documents.spec.ts",
+                  "line": 232,
+                  "column": 13
+                },
+                {
+                  "title": "Validar formato Excel exportado",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 4999,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:27.399Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-5098b58a40dc0f558df8",
+                  "file": "documents.spec.ts",
+                  "line": 247,
+                  "column": 13
+                },
+                {
+                  "title": "Exportar metadados para Word",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 267,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4935,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:32.415Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 267,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-ae252df42dcc138c7ebf",
+                  "file": "documents.spec.ts",
+                  "line": 256,
+                  "column": 13
+                },
+                {
+                  "title": "Exportar metadados para AutoCAD",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 282,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4525,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:37.370Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 282,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-cdd68596cccfd008edad",
+                  "file": "documents.spec.ts",
+                  "line": 271,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-151: Conversão para PDF",
+              "file": "documents.spec.ts",
+              "line": 291,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Preview de PDF após conversão",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 313,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4987,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:41.912Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 313,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-ffe9c2b107b4bba3f598",
+                  "file": "documents.spec.ts",
+                  "line": 293,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-137: Preview sem Download",
+              "file": "documents.spec.ts",
+              "line": 322,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Preview de PDF sem download",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 6689,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:46.914Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-cf1a03a4362682f275d1",
+                  "file": "documents.spec.ts",
+                  "line": 324,
+                  "column": 13
+                },
+                {
+                  "title": "Preview de imagens sem download",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                            "line": 368,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4722,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:53.617Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
+                                "line": 368,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "9111b41e0f82b685c9ea-b488d18709c73794e063",
+                  "file": "documents.spec.ts",
+                  "line": 348,
+                  "column": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "gestao-documental.spec.ts",
+      "file": "gestao-documental.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Gestão Documental e ECM",
+          "file": "gestao-documental.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "RN-148: Gestão Integrada de Documentos",
+              "file": "gestao-documental.spec.ts",
+              "line": 28,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Upload de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7628,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Página de upload carregada com área de upload\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:16:58.370Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-b958050573d13dc6631b",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 30,
+                  "column": 13
+                },
+                {
+                  "title": "Visualização de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7647,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:06.014Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-784c11fbd73e99501c14",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 71,
+                  "column": 13
+                },
+                {
+                  "title": "Download de documento eletrônico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 117,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5142,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:13.675Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 117,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-5daba489061928c4ed0d",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 96,
+                  "column": 13
+                },
+                {
+                  "title": "Visualização de metadados do documento",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7542,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:18.831Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-dcbffc3371839dcd485f",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 121,
+                  "column": 13
+                },
+                {
+                  "title": "Busca unificada de documentos",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 160,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 3103,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:26.391Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 160,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-760ba9b510ebcd282d1e",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 141,
+                  "column": 13
+                },
+                {
+                  "title": "Cadastrar localização de arquivo físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 8813,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Formulário de localização possui 10 campos\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:29.509Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-e0136f1fb8576e671d13",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 164,
+                  "column": 13
+                },
+                {
+                  "title": "Buscar localização física",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 9444,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Nenhuma localização encontrada - empty state exibido corretamente\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:38.336Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-0b540e549380eafc07ca",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 210,
+                  "column": 13
+                },
+                {
+                  "title": "Filtrar localizações por tipo e status",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7857,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Filtros de Tipo e Status encontrados\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:47.791Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-671927984e6a282bdb15",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 246,
+                  "column": 13
+                },
+                {
+                  "title": "Cadastrar repositório físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 8523,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Formulário de repositório possui 10 campos\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:17:55.663Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-d4e4afeedcfa0cd9f574",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 275,
+                  "column": 13
+                },
+                {
+                  "title": "Buscar repositório físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 9645,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Nenhum repositório encontrado - empty state exibido corretamente\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:04.199Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-7bb50a100d69111b6ce2",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 315,
+                  "column": 13
+                },
+                {
+                  "title": "Filtrar repositórios por tipo e status",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7360,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Filtros de Tipo e Status em Repositórios encontrados\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:13.855Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-e43ee9198555da07cca8",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 351,
+                  "column": 13
+                },
+                {
+                  "title": "Gerar etiquetas com código de barras",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7478,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Botão Gerar Etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Especificações de etiquetas encontradas: 6x10cm, Code 128, PDF\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:21.226Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-26895736a0664e0a8e0e",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 380,
+                  "column": 13
+                },
+                {
+                  "title": "Visualizar preview de etiquetas",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7389,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Botão Preview de etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Contador de Repositórios Disponíveis: 0\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:28.717Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-204d3e26b295dff2b6b6",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 420,
+                  "column": 13
+                },
+                {
+                  "title": "Verificar informações do sistema de etiquetas",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7277,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Título do Sistema de Geração de Etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Dica sobre formato de localização física encontrada\n"
+                            },
+                            {
+                              "text": "3 cards informativos encontrados no sistema de etiquetas\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:36.117Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-c6f320b4530f0aa6acde",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 455,
+                  "column": 13
+                },
+                {
+                  "title": "Vincular documento eletrônico a arquivo físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 540,
+                            "column": 26
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 7345,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Opção de vincular arquivo físico não disponível\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:43.403Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 540,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-ed3c4f616b59ed1f3f22",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 503,
+                  "column": 13
+                },
+                {
+                  "title": "Buscar arquivo físico por localização",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 10036,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Encontrados 0 arquivos físicos\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:18:50.763Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-c1b8157be7d3811fe6b3",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 547,
+                  "column": 13
+                },
+                {
+                  "title": "Registrar empréstimo de arquivo físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 617,
+                            "column": 26
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 9665,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Funcionalidade de empréstimo não encontrada\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:00.815Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 617,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-5aa6e8c4cf621e719501",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 580,
+                  "column": 13
+                },
+                {
+                  "title": "Visualizar histórico de movimentação física",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 667,
+                            "column": 26
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 9835,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Aba/seção de histórico não encontrada\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:10.492Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 667,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-f0ec69a050345373c75a",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 625,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-149: Classificação por Tipo de Documento",
+              "file": "gestao-documental.spec.ts",
+              "line": 679,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Listar tipos de documentos existentes",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 6118,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:20.336Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-ced2273b0586febb166e",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 681,
+                  "column": 13
+                },
+                {
+                  "title": "Filtrar documentos por tipo específico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 722,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5021,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:26.467Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 722,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-fe51f35c8a0929d59e4f",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 697,
+                  "column": 13
+                },
+                {
+                  "title": "Visualizar metadados específicos do tipo",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 754,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5365,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:31.503Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 754,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-e24b7e30ef622ad2f4fd",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 726,
+                  "column": 13
+                },
+                {
+                  "title": "Criar novo documento com tipo específico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 790,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5463,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:36.884Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 790,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-e5b358e5a91213d3ab5b",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 758,
+                  "column": 13
+                },
+                {
+                  "title": "Validar campos obrigatórios específicos do tipo",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 836,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5470,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:42.367Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 836,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-b559ff9e6c7c0ce6f226",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 794,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-150: Exportação de Metadados para Excel/Word/AutoCAD",
+              "file": "gestao-documental.spec.ts",
+              "line": 845,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Exportar metadados para Excel",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5157,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Botão de exportar não encontrado\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:47.857Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-092e237171e99c14ea1f",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 847,
+                  "column": 13
+                },
+                {
+                  "title": "Verificar disponibilidade de exportação para Word",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 918,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 6182,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:53.028Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 918,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-ebc5d82b9b8dd1adaf85",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 893,
+                  "column": 13
+                },
+                {
+                  "title": "Verificar disponibilidade de exportação para AutoCAD",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 947,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5475,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:19:59.223Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 947,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-449cfffc91dc793f5e35",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 922,
+                  "column": 13
+                },
+                {
+                  "title": "Exportar metadados de múltiplos documentos",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 983,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5096,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Funcionalidade de seleção múltipla não encontrada\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:04.713Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 983,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-90e2b601a143463c480e",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 951,
+                  "column": 13
+                },
+                {
+                  "title": "Validar formato do arquivo Excel exportado",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5059,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Arquivo Excel exportado deve conter:\n"
+                            },
+                            {
+                              "text": "- Nome do documento\n"
+                            },
+                            {
+                              "text": "- Tipo\n"
+                            },
+                            {
+                              "text": "- Data de criação\n"
+                            },
+                            {
+                              "text": "- Autor\n"
+                            },
+                            {
+                              "text": "- Categoria\n"
+                            },
+                            {
+                              "text": "- Status\n"
+                            },
+                            {
+                              "text": "- Metadados específicos do tipo\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:09.826Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-da3cee2c78aa2e7d81b3",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 987,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-151: Conversão Automática de Documentos",
+              "file": "gestao-documental.spec.ts",
+              "line": 1016,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Upload de documento Office converte para PDF",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "line": 1037,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 3188,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:14.899Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "line": 1037,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-2364c09ea13395b99bf5",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 1018,
+                  "column": 13
+                },
+                {
+                  "title": "Preview de PDF após conversão",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7326,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Preview de PDF disponível: \u001b[33mfalse\u001b[39m\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:18.099Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-fa8f1611684ff300bded",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 1041,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "RN-137: Preview sem Download",
+              "file": "gestao-documental.spec.ts",
+              "line": 1070,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Preview de PDF sem necessidade de download",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7446,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Preview deve abrir em modal/iframe sem necessidade de plugin externo\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:25.438Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-3a783417259d58808783",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 1072,
+                  "column": 13
+                },
+                {
+                  "title": "Preview de imagens (JPG, PNG)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5440,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:32.904Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-cf47ea1a24fb90302d4c",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 1096,
+                  "column": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "physical-archive.spec.ts",
+      "file": "physical-archive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Arquivo Físico",
+          "file": "physical-archive.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pesquisar repositórios",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9193,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "Nenhum repositório encontrado - empty state exibido corretamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-19T18:20:38.367Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "60cd2987e9be0b69f4b2-6e6248d41e782d72416d",
+              "file": "physical-archive.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Filtrar repositórios por tipo e status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6808,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                        },
+                        {
+                          "text": "Filtros de Tipo e Status em Repositórios encontrados\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-19T18:20:47.570Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "60cd2987e9be0b69f4b2-df1b5cbc6e01770d8960",
+              "file": "physical-archive.spec.ts",
+              "line": 58,
+              "column": 9
+            }
+          ],
+          "suites": [
+            {
+              "title": "Etiquetas",
+              "file": "physical-archive.spec.ts",
+              "line": 86,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Gerar etiquetas com código de barras",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 6974,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            },
+                            {
+                              "text": "Botão Gerar Etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Especificações de etiquetas encontradas: 6x10cm, Code 128, PDF\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:20:54.389Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-fa760abd3d0cebbd94a0",
+                  "file": "physical-archive.spec.ts",
+                  "line": 87,
+                  "column": 13
+                },
+                {
+                  "title": "Visualizar preview de etiquetas",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7103,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            },
+                            {
+                              "text": "Botão Preview de etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Contador de Repositórios Disponíveis: 0\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:01.376Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-83158989d3980df3e373",
+                  "file": "physical-archive.spec.ts",
+                  "line": 124,
+                  "column": 13
+                },
+                {
+                  "title": "Verificar informações do sistema de etiquetas",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 7103,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            },
+                            {
+                              "text": "Título do Sistema de Geração de Etiquetas encontrado\n"
+                            },
+                            {
+                              "text": "Dica sobre formato de localização física encontrada\n"
+                            },
+                            {
+                              "text": "3 cards informativos encontrados no sistema de etiquetas\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:08.496Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-5e8a05c8d5ed82ce8f38",
+                  "file": "physical-archive.spec.ts",
+                  "line": 156,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Vinculação de Documentos",
+              "file": "physical-archive.spec.ts",
+              "line": 202,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Vincular documento eletrônico a arquivo físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                            "line": 222,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 4622,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:15.608Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                                "line": 222,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-9001ed4b8aa765e9450f",
+                  "file": "physical-archive.spec.ts",
+                  "line": 203,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Empréstimo",
+              "file": "physical-archive.spec.ts",
+              "line": 228,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Registrar empréstimo de documento físico",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                            "line": 248,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5841,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:20.242Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                                "line": 248,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-00041309476453677e58",
+                  "file": "physical-archive.spec.ts",
+                  "line": 229,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Histórico",
+              "file": "physical-archive.spec.ts",
+              "line": 254,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Visualizar histórico de movimentações",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                            "line": 274,
+                            "column": 22
+                          }
+                        }
+                      ],
+                      "expectedStatus": "skipped",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "skipped",
+                          "duration": 5822,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:26.095Z",
+                          "annotations": [
+                            {
+                              "type": "skip",
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts",
+                                "line": 274,
+                                "column": 22
+                              }
+                            }
+                          ],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-a0dfc6d45178c4560449",
+                  "file": "physical-archive.spec.ts",
+                  "line": 255,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Temporalidade",
+              "file": "physical-archive.spec.ts",
+              "line": 280,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Acessar aba e validar elementos principais",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 6956,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-19T18:21:31.927Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "60cd2987e9be0b69f4b2-d95123b6256a08b3647e",
+                  "file": "physical-archive.spec.ts",
+                  "line": 281,
+                  "column": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-19T17:31:15.444Z",
-    "duration": 9624.205999999998,
-    "expected": 2,
-    "skipped": 1,
+    "startTime": "2025-11-19T18:15:26.370Z",
+    "duration": 372617.873,
+    "expected": 34,
+    "skipped": 25,
     "unexpected": 0,
     "flaky": 0
   }
