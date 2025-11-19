@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b5fc1de1bad1695e613158945d5468b26bf21ea3",
-        "commitHash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19505459209"
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+        "commitHash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19506681815"
       },
       "gitCommit": {
-        "shortHash": "b5fc1de",
-        "hash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
+        "shortHash": "de66d42",
+        "hash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
         "subject": "report com screenshots",
         "body": "report com screenshots\n",
         "author": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763563731000
+          "time": 1763565836000
         },
         "committer": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1763563731000
+          "time": 1763565836000
         },
         "branch": "main"
       },
@@ -67,24 +67,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "commitHash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19505459209"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "commitHash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19506681815"
           },
           "gitCommit": {
-            "shortHash": "b5fc1de",
-            "hash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
+            "shortHash": "de66d42",
+            "hash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
             "subject": "report com screenshots",
             "body": "report com screenshots\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "branch": "main"
           },
@@ -105,24 +105,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "commitHash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19505459209"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "commitHash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19506681815"
           },
           "gitCommit": {
-            "shortHash": "b5fc1de",
-            "hash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
+            "shortHash": "de66d42",
+            "hash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
             "subject": "report com screenshots",
             "body": "report com screenshots\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "branch": "main"
           },
@@ -143,24 +143,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "commitHash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19505459209"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "commitHash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19506681815"
           },
           "gitCommit": {
-            "shortHash": "b5fc1de",
-            "hash": "b5fc1de1bad1695e613158945d5468b26bf21ea3",
+            "shortHash": "de66d42",
+            "hash": "de66d426097ae2a7d1e9ffce7089b252309f8ff8",
             "subject": "report com screenshots",
             "body": "report com screenshots\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1763563731000
+              "time": 1763565836000
             },
             "branch": "main"
           },
@@ -213,19 +213,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2034,
+                      "duration": 2937,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
                         },
                         {
-                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
+                          "text": "Mensagem de erro após login: Doc+Simples Serviços Eletrônicos\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T14:49:47.710Z",
+                      "startTime": "2025-11-19T15:26:39.962Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +254,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3291,
+                      "duration": 4218,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T14:49:49.884Z",
+                      "startTime": "2025-11-19T15:26:43.094Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -297,7 +297,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "skipped",
-                      "duration": 1888,
+                      "duration": 1959,
                       "errors": [],
                       "stdout": [
                         {
@@ -306,7 +306,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T14:49:53.190Z",
+                      "startTime": "2025-11-19T15:26:47.363Z",
                       "annotations": [
                         {
                           "type": "skip",
@@ -335,8 +335,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-19T14:49:46.879Z",
-    "duration": 8299.853000000001,
+    "startTime": "2025-11-19T15:26:38.985Z",
+    "duration": 10432.53,
     "expected": 2,
     "skipped": 1,
     "unexpected": 0,
