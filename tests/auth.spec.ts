@@ -1,3 +1,4 @@
+
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { TEST_DATA } from '../utils/constants';
@@ -97,5 +98,9 @@ test.describe('Autenticação', () => {
             console.log('Botão do menu de usuário não encontrado');
             test.skip();
         }
+        // Teste propositalmente falho para validar fluxo de erro e evidências
+        test('Teste propositalmente falho', async () => {
+            expect(1).toBe(2);
+        });
     });
 });
