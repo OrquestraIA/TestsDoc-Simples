@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
         "commitHash": "3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514032700"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514180725"
       },
       "gitCommit": {
         "shortHash": "3a5a7ef",
@@ -69,7 +69,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
             "commitHash": "3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514032700"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514180725"
           },
           "gitCommit": {
             "shortHash": "3a5a7ef",
@@ -107,7 +107,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
             "commitHash": "3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514032700"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514180725"
           },
           "gitCommit": {
             "shortHash": "3a5a7ef",
@@ -145,7 +145,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
             "commitHash": "3a5a7efc05e71098f9e18e9c5fd1506e149d148f",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514032700"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19514180725"
           },
           "gitCommit": {
             "shortHash": "3a5a7ef",
@@ -213,7 +213,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3332,
+                      "duration": 3640,
                       "errors": [],
                       "stdout": [
                         {
@@ -225,7 +225,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T19:36:07.472Z",
+                      "startTime": "2025-11-19T19:41:28.879Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +254,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6015,
+                      "duration": 4066,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T19:36:11.011Z",
+                      "startTime": "2025-11-19T19:41:32.798Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -288,7 +288,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 3333,
+                      "duration": 2825,
                       "error": {
                         "message": "Error: Botão do menu de usuário não encontrado",
                         "stack": "Error: Botão do menu de usuário não encontrado\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19",
@@ -316,7 +316,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-19T19:36:17.108Z",
+                      "startTime": "2025-11-19T19:41:36.891Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -357,8 +357,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-19T19:36:06.214Z",
-    "duration": 14480.715999999999,
+    "startTime": "2025-11-19T19:41:27.839Z",
+    "duration": 12017.276,
     "expected": 2,
     "skipped": 0,
     "unexpected": 1,
