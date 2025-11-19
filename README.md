@@ -313,4 +313,32 @@ Para rodar no GitHub Actions, configure os secrets no repositório:
 
 [![Assista ao tutorial](https://img.youtube.com/vi/il0mYC1If7E/0.jpg)](https://www.youtube.com/watch?v=il0mYC1If7E)
 
+## Como instalar um self-hosted runner do GitHub Actions
+
+1. **Acesse o repositório no GitHub**
+   - Vá em Settings > Actions > Runners > New self-hosted runner.
+
+2. **Escolha o sistema operacional**
+   - Selecione Linux, Windows ou macOS conforme sua máquina.
+
+3. **Siga os comandos sugeridos pelo GitHub:**
+   - Exemplo para Linux:
+     ```bash
+     mkdir actions-runner && cd actions-runner
+     curl -o actions-runner-linux-x64-2.316.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.316.0/actions-runner-linux-x64-2.316.0.tar.gz
+     tar xzf ./actions-runner-linux-x64-2.316.0.tar.gz
+     ./config.sh --url https://github.com/OrquestraIA/TestsDoc-Simples --token SEU_TOKEN
+     ./run.sh
+     ```
+   - O GitHub mostrará o link e o token corretos para o seu repositório.
+
+4. **Deixe o runner rodando**
+   - Mantenha o terminal aberto com o comando `./run.sh` para que o runner aceite jobs.
+   - Para rodar em background, use `./run.sh &` ou configure como serviço (veja docs do GitHub).
+
+5. **Pronto!**
+   - O runner aparecerá na lista de runners do repositório e poderá ser usado por qualquer colaborador.
+
+> Para mais detalhes, consulte: https://docs.github.com/pt/actions/hosting-your-own-runners/adding-self-hosted-runners
+
 ---
