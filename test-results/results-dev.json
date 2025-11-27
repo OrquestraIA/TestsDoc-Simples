@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
         "commitHash": "da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19634224756"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19745126995"
       },
       "gitCommit": {
         "shortHash": "da5f292",
@@ -69,7 +69,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
             "commitHash": "da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19634224756"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19745126995"
           },
           "gitCommit": {
             "shortHash": "da5f292",
@@ -107,7 +107,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
             "commitHash": "da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19634224756"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19745126995"
           },
           "gitCommit": {
             "shortHash": "da5f292",
@@ -145,7 +145,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
             "commitHash": "da5f292c99f0215a4ca7789f1fb875f4e80a7ba1",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19634224756"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19745126995"
           },
           "gitCommit": {
             "shortHash": "da5f292",
@@ -177,9 +177,10 @@
       }
     ],
     "shard": null,
+    "tags": [],
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
-    "version": "1.56.1",
+    "version": "1.57.0",
     "workers": 1,
     "webServer": null
   },
@@ -213,7 +214,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3793,
+                      "duration": 2066,
                       "errors": [],
                       "stdout": [
                         {
@@ -225,7 +226,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-24T12:25:59.573Z",
+                      "startTime": "2025-11-27T18:29:15.956Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -254,12 +255,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4074,
+                      "duration": 3288,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-24T12:26:04.054Z",
+                      "startTime": "2025-11-27T18:29:20.162Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -288,7 +289,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 3459,
+                      "duration": 2160,
                       "error": {
                         "message": "Error: Botão do menu de usuário não encontrado",
                         "stack": "Error: Botão do menu de usuário não encontrado\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19",
@@ -316,7 +317,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-24T12:26:08.147Z",
+                      "startTime": "2025-11-27T18:29:23.461Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -390,7 +391,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 12593,
+                          "duration": 6830,
                           "errors": [],
                           "stdout": [
                             {
@@ -399,7 +400,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:14.361Z",
+                          "startTime": "2025-11-27T18:29:26.694Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -428,12 +429,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 9660,
+                          "duration": 7001,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:27.248Z",
+                          "startTime": "2025-11-27T18:29:33.674Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -471,7 +472,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 6725,
+                          "duration": 4802,
                           "errors": [],
                           "stdout": [
                             {
@@ -480,7 +481,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:36.938Z",
+                          "startTime": "2025-11-27T18:29:40.692Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -518,7 +519,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7020,
+                          "duration": 5660,
                           "errors": [],
                           "stdout": [
                             {
@@ -527,7 +528,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:43.695Z",
+                          "startTime": "2025-11-27T18:29:45.509Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -556,12 +557,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7231,
+                          "duration": 7219,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:50.742Z",
+                          "startTime": "2025-11-27T18:29:51.188Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -607,7 +608,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5059,
+                          "duration": 4531,
                           "errors": [],
                           "stdout": [
                             {
@@ -616,7 +617,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:26:57.994Z",
+                          "startTime": "2025-11-27T18:29:58.427Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -663,12 +664,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 4626,
+                          "duration": 4648,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:03.072Z",
+                          "startTime": "2025-11-27T18:30:02.970Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -706,7 +707,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 5746,
+                          "duration": 5316,
                           "errors": [],
                           "stdout": [
                             {
@@ -715,7 +716,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:07.708Z",
+                          "startTime": "2025-11-27T18:30:07.628Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -761,12 +762,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5058,
+                          "duration": 5501,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:13.468Z",
+                          "startTime": "2025-11-27T18:30:12.955Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -804,12 +805,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 5576,
+                          "duration": 4812,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:18.552Z",
+                          "startTime": "2025-11-27T18:30:18.470Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -847,12 +848,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5056,
+                          "duration": 5823,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:24.156Z",
+                          "startTime": "2025-11-27T18:30:23.296Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -899,12 +900,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 4933,
+                          "duration": 5204,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:29.232Z",
+                          "startTime": "2025-11-27T18:30:29.140Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -959,12 +960,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5505,
+                          "duration": 4780,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:34.182Z",
+                          "startTime": "2025-11-27T18:30:34.360Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1010,12 +1011,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7192,
+                          "duration": 6638,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:39.709Z",
+                          "startTime": "2025-11-27T18:30:39.152Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1053,12 +1054,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5299,
+                          "duration": 4682,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:46.925Z",
+                          "startTime": "2025-11-27T18:30:45.803Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1122,7 +1123,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7901,
+                          "duration": 7383,
                           "errors": [],
                           "stdout": [
                             {
@@ -1131,7 +1132,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:27:52.268Z",
+                          "startTime": "2025-11-27T18:30:50.512Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1160,12 +1161,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8038,
+                          "duration": 7585,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:00.191Z",
+                          "startTime": "2025-11-27T18:30:57.907Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1203,12 +1204,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5442,
+                          "duration": 5616,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:08.250Z",
+                          "startTime": "2025-11-27T18:31:05.505Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1246,12 +1247,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8174,
+                          "duration": 7410,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:13.718Z",
+                          "startTime": "2025-11-27T18:31:11.135Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1289,12 +1290,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 4099,
+                          "duration": 3484,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:21.928Z",
+                          "startTime": "2025-11-27T18:31:18.559Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1332,7 +1333,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8840,
+                          "duration": 8665,
                           "errors": [],
                           "stdout": [
                             {
@@ -1341,7 +1342,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:26.075Z",
+                          "startTime": "2025-11-27T18:31:22.053Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1370,7 +1371,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 9945,
+                          "duration": 9587,
                           "errors": [],
                           "stdout": [
                             {
@@ -1379,7 +1380,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:34.939Z",
+                          "startTime": "2025-11-27T18:31:30.728Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1408,7 +1409,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7513,
+                          "duration": 7603,
                           "errors": [],
                           "stdout": [
                             {
@@ -1417,7 +1418,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:44.900Z",
+                          "startTime": "2025-11-27T18:31:40.328Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1446,7 +1447,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8863,
+                          "duration": 8632,
                           "errors": [],
                           "stdout": [
                             {
@@ -1455,7 +1456,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:28:52.425Z",
+                          "startTime": "2025-11-27T18:31:47.943Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1484,7 +1485,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 10194,
+                          "duration": 9522,
                           "errors": [],
                           "stdout": [
                             {
@@ -1493,7 +1494,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:01.328Z",
+                          "startTime": "2025-11-27T18:31:56.591Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1522,7 +1523,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7627,
+                          "duration": 7299,
                           "errors": [],
                           "stdout": [
                             {
@@ -1531,7 +1532,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:11.567Z",
+                          "startTime": "2025-11-27T18:32:06.126Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1560,7 +1561,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8156,
+                          "duration": 7546,
                           "errors": [],
                           "stdout": [
                             {
@@ -1572,7 +1573,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:19.215Z",
+                          "startTime": "2025-11-27T18:32:13.436Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1601,19 +1602,16 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7954,
+                          "duration": 7826,
                           "errors": [],
                           "stdout": [
                             {
                               "text": "Botão Preview de etiquetas encontrado\n"
-                            },
-                            {
-                              "text": "Contador de Repositórios Disponíveis: 0\n"
                             }
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:27.394Z",
+                          "startTime": "2025-11-27T18:32:20.991Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1642,7 +1640,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 7850,
+                          "duration": 7630,
                           "errors": [],
                           "stdout": [
                             {
@@ -1657,7 +1655,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:35.361Z",
+                          "startTime": "2025-11-27T18:32:28.829Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1695,7 +1693,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 7452,
+                          "duration": 7282,
                           "errors": [],
                           "stdout": [
                             {
@@ -1704,7 +1702,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:43.225Z",
+                          "startTime": "2025-11-27T18:32:36.470Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1742,7 +1740,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 10227,
+                          "duration": 10101,
                           "errors": [],
                           "stdout": [
                             {
@@ -1751,7 +1749,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:29:50.697Z",
+                          "startTime": "2025-11-27T18:32:43.763Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1789,7 +1787,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 9824,
+                          "duration": 9165,
                           "errors": [],
                           "stdout": [
                             {
@@ -1798,7 +1796,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:00.941Z",
+                          "startTime": "2025-11-27T18:32:53.876Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1845,7 +1843,7 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 11132,
+                          "duration": 9615,
                           "errors": [],
                           "stdout": [
                             {
@@ -1854,7 +1852,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:10.778Z",
+                          "startTime": "2025-11-27T18:33:03.049Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1900,12 +1898,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 12179,
+                          "duration": 6271,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:21.977Z",
+                          "startTime": "2025-11-27T18:33:12.675Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1943,12 +1941,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 6286,
+                          "duration": 5621,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:34.219Z",
+                          "startTime": "2025-11-27T18:33:18.957Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -1995,12 +1993,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 5923,
+                          "duration": 5284,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:40.546Z",
+                          "startTime": "2025-11-27T18:33:24.591Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -2047,12 +2045,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 6689,
+                          "duration": 5569,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:46.503Z",
+                          "startTime": "2025-11-27T18:33:29.889Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -2099,12 +2097,12 @@
                           "workerIndex": 1,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 8480,
+                          "duration": 6193,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:30:53.212Z",
+                          "startTime": "2025-11-27T18:33:35.487Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -2136,7 +2134,7 @@
               "specs": [
                 {
                   "title": "Exportar metadados para Excel",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2149,22 +2147,53 @@
                         {
                           "workerIndex": 1,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 16322,
-                          "errors": [],
-                          "stdout": [
+                          "status": "failed",
+                          "duration": 242,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 14
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m     test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m         \u001b[90m// Login antes de cada teste\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mTEST_DATA\u001b[39m\u001b[33m.\u001b[39m\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
                             {
-                              "text": "Botão de exportar não encontrado\n"
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 14
+                              },
+                              "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n\n  12 |     test.beforeEach(async ({ page }) => {\n  13 |         // Login antes de cada teste\n> 14 |         await page.goto('/');\n     |                    ^\n  15 |         await page.waitForLoadState('networkidle');\n  16 |\n  17 |         await page.locator('input[name=\"username\"]').fill(TEST_DATA.VALID_USER.username);\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20"
                             }
                           ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:31:01.729Z",
+                          "startTime": "2025-11-27T18:33:41.701Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-69663-portar-metadados-para-Excel-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-69663-portar-metadados-para-Excel-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 14
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
                   "id": "22def64daa777ab366b3-092e237171e99c14ea1f",
@@ -2174,167 +2203,7 @@
                 },
                 {
                   "title": "Verificar disponibilidade de exportação para Word",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [
-                        {
-                          "type": "skip",
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                            "line": 918,
-                            "column": 22
-                          }
-                        }
-                      ],
-                      "expectedStatus": "skipped",
-                      "projectId": "chromium",
-                      "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "skipped",
-                          "duration": 9851,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2025-11-24T12:31:18.145Z",
-                          "annotations": [
-                            {
-                              "type": "skip",
-                              "location": {
-                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                                "line": 918,
-                                "column": 22
-                              }
-                            }
-                          ],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "skipped"
-                    }
-                  ],
-                  "id": "22def64daa777ab366b3-ebc5d82b9b8dd1adaf85",
-                  "file": "gestao-documental.spec.ts",
-                  "line": 893,
-                  "column": 13
-                },
-                {
-                  "title": "Verificar disponibilidade de exportação para AutoCAD",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [
-                        {
-                          "type": "skip",
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                            "line": 947,
-                            "column": 22
-                          }
-                        }
-                      ],
-                      "expectedStatus": "skipped",
-                      "projectId": "chromium",
-                      "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "skipped",
-                          "duration": 12557,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2025-11-24T12:31:28.130Z",
-                          "annotations": [
-                            {
-                              "type": "skip",
-                              "location": {
-                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                                "line": 947,
-                                "column": 22
-                              }
-                            }
-                          ],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "skipped"
-                    }
-                  ],
-                  "id": "22def64daa777ab366b3-449cfffc91dc793f5e35",
-                  "file": "gestao-documental.spec.ts",
-                  "line": 922,
-                  "column": 13
-                },
-                {
-                  "title": "Exportar metadados de múltiplos documentos",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [
-                        {
-                          "type": "skip",
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                            "line": 983,
-                            "column": 22
-                          }
-                        }
-                      ],
-                      "expectedStatus": "skipped",
-                      "projectId": "chromium",
-                      "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "skipped",
-                          "duration": 10138,
-                          "errors": [],
-                          "stdout": [
-                            {
-                              "text": "Funcionalidade de seleção múltipla não encontrada\n"
-                            }
-                          ],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2025-11-24T12:31:40.782Z",
-                          "annotations": [
-                            {
-                              "type": "skip",
-                              "location": {
-                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                                "line": 983,
-                                "column": 22
-                              }
-                            }
-                          ],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "skipped"
-                    }
-                  ],
-                  "id": "22def64daa777ab366b3-90e2b601a143463c480e",
-                  "file": "gestao-documental.spec.ts",
-                  "line": 951,
-                  "column": 13
-                },
-                {
-                  "title": "Validar formato do arquivo Excel exportado",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2345,45 +2214,262 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 2,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 10298,
-                          "errors": [],
-                          "stdout": [
-                            {
-                              "text": "Arquivo Excel exportado deve conter:\n"
+                          "status": "failed",
+                          "duration": 297,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 14
                             },
+                            "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m     test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m         \u001b[90m// Login antes de cada teste\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mTEST_DATA\u001b[39m\u001b[33m.\u001b[39m\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
                             {
-                              "text": "- Nome do documento\n"
-                            },
-                            {
-                              "text": "- Tipo\n"
-                            },
-                            {
-                              "text": "- Data de criação\n"
-                            },
-                            {
-                              "text": "- Autor\n"
-                            },
-                            {
-                              "text": "- Categoria\n"
-                            },
-                            {
-                              "text": "- Status\n"
-                            },
-                            {
-                              "text": "- Metadados específicos do tipo\n"
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 14
+                              },
+                              "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n\n  12 |     test.beforeEach(async ({ page }) => {\n  13 |         // Login antes de cada teste\n> 14 |         await page.goto('/');\n     |                    ^\n  15 |         await page.waitForLoadState('networkidle');\n  16 |\n  17 |         await page.locator('input[name=\"username\"]').fill(TEST_DATA.VALID_USER.username);\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20"
                             }
                           ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:31:51.026Z",
+                          "startTime": "2025-11-27T18:33:42.812Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-6bf9e-ade-de-exportação-para-Word-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-6bf9e-ade-de-exportação-para-Word-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 14
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-ebc5d82b9b8dd1adaf85",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 893,
+                  "column": 13
+                },
+                {
+                  "title": "Verificar disponibilidade de exportação para AutoCAD",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 312,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 14
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m     test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m         \u001b[90m// Login antes de cada teste\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mTEST_DATA\u001b[39m\u001b[33m.\u001b[39m\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 14
+                              },
+                              "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n\n  12 |     test.beforeEach(async ({ page }) => {\n  13 |         // Login antes de cada teste\n> 14 |         await page.goto('/');\n     |                    ^\n  15 |         await page.waitForLoadState('networkidle');\n  16 |\n  17 |         await page.locator('input[name=\"username\"]').fill(TEST_DATA.VALID_USER.username);\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-27T18:33:44.005Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-679a5--de-exportação-para-AutoCAD-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-679a5--de-exportação-para-AutoCAD-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 14
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-449cfffc91dc793f5e35",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 922,
+                  "column": 13
+                },
+                {
+                  "title": "Exportar metadados de múltiplos documentos",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 288,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 14
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m     test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m         \u001b[90m// Login antes de cada teste\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mTEST_DATA\u001b[39m\u001b[33m.\u001b[39m\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 14
+                              },
+                              "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n\n  12 |     test.beforeEach(async ({ page }) => {\n  13 |         // Login antes de cada teste\n> 14 |         await page.goto('/');\n     |                    ^\n  15 |         await page.waitForLoadState('networkidle');\n  16 |\n  17 |         await page.locator('input[name=\"username\"]').fill(TEST_DATA.VALID_USER.username);\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-27T18:33:45.276Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-86cdf-dos-de-múltiplos-documentos-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-86cdf-dos-de-múltiplos-documentos-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 14
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-90e2b601a143463c480e",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 951,
+                  "column": 13
+                },
+                {
+                  "title": "Validar formato do arquivo Excel exportado",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 397,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 14
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m     test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m         \u001b[90m// Login antes de cada teste\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mTEST_DATA\u001b[39m\u001b[33m.\u001b[39m\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 14
+                              },
+                              "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"load\"\u001b[22m\n\n\n  12 |     test.beforeEach(async ({ page }) => {\n  13 |         // Login antes de cada teste\n> 14 |         await page.goto('/');\n     |                    ^\n  15 |         await page.waitForLoadState('networkidle');\n  16 |\n  17 |         await page.locator('input[name=\"username\"]').fill(TEST_DATA.VALID_USER.username);\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:14:20"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-27T18:33:46.504Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-4251c--do-arquivo-Excel-exportado-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-4251c--do-arquivo-Excel-exportado-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 14
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
                     }
                   ],
                   "id": "22def64daa777ab366b3-da3cee2c78aa2e7d81b3",
@@ -2401,59 +2487,7 @@
               "specs": [
                 {
                   "title": "Upload de documento Office converte para PDF",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [
-                        {
-                          "type": "skip",
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                            "line": 1037,
-                            "column": 22
-                          }
-                        }
-                      ],
-                      "expectedStatus": "skipped",
-                      "projectId": "chromium",
-                      "projectName": "chromium",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "skipped",
-                          "duration": 6398,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2025-11-24T12:32:01.393Z",
-                          "annotations": [
-                            {
-                              "type": "skip",
-                              "location": {
-                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
-                                "line": 1037,
-                                "column": 22
-                              }
-                            }
-                          ],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "skipped"
-                    }
-                  ],
-                  "id": "22def64daa777ab366b3-2364c09ea13395b99bf5",
-                  "file": "gestao-documental.spec.ts",
-                  "line": 1018,
-                  "column": 13
-                },
-                {
-                  "title": "Preview de PDF após conversão",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2464,24 +2498,134 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 6,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 9316,
-                          "errors": [],
-                          "stdout": [
+                          "status": "failed",
+                          "duration": 14128,
+                          "error": {
+                            "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================",
+                            "stack": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 21
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForURL(\u001b[32m'**/dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// ============================================================================\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
                             {
-                              "text": "Preview de PDF disponível: \u001b[33mfalse\u001b[39m\n"
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 21
+                              },
+                              "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  19 |         await page.locator('button[type=\"submit\"]').click();\n  20 |\n> 21 |         await page.waitForURL('**/dashboard', { timeout: 10000 });\n     |                    ^\n  22 |     });\n  23 |\n  24 |     // ============================================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20"
                             }
                           ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:32:07.858Z",
+                          "startTime": "2025-11-27T18:33:48.036Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-bbe61-to-Office-converte-para-PDF-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-bbe61-to-Office-converte-para-PDF-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-bbe61-to-Office-converte-para-PDF-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 21
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "22def64daa777ab366b3-2364c09ea13395b99bf5",
+                  "file": "gestao-documental.spec.ts",
+                  "line": 1018,
+                  "column": 13
+                },
+                {
+                  "title": "Preview de PDF após conversão",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 11998,
+                          "error": {
+                            "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================",
+                            "stack": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 21
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForURL(\u001b[32m'**/dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// ============================================================================\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 21
+                              },
+                              "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  19 |         await page.locator('button[type=\"submit\"]').click();\n  20 |\n> 21 |         await page.waitForURL('**/dashboard', { timeout: 10000 });\n     |                    ^\n  22 |     });\n  23 |\n  24 |     // ============================================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-11-27T18:34:02.868Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-c5a62-eview-de-PDF-após-conversão-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-c5a62-eview-de-PDF-após-conversão-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-c5a62-eview-de-PDF-após-conversão-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 21
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
                     }
                   ],
                   "id": "22def64daa777ab366b3-fa8f1611684ff300bded",
@@ -2499,7 +2643,7 @@
               "specs": [
                 {
                   "title": "Preview de PDF sem necessidade de download",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2510,24 +2654,60 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 8,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 9754,
-                          "errors": [],
-                          "stdout": [
+                          "status": "failed",
+                          "duration": 12288,
+                          "error": {
+                            "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================",
+                            "stack": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 21
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForURL(\u001b[32m'**/dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// ============================================================================\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
                             {
-                              "text": "Preview deve abrir em modal/iframe sem necessidade de plugin externo\n"
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 21
+                              },
+                              "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  19 |         await page.locator('button[type=\"submit\"]').click();\n  20 |\n> 21 |         await page.waitForURL('**/dashboard', { timeout: 10000 });\n     |                    ^\n  22 |     });\n  23 |\n  24 |     // ============================================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20"
                             }
                           ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:32:17.209Z",
+                          "startTime": "2025-11-27T18:34:15.627Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-fcc15-sem-necessidade-de-download-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-fcc15-sem-necessidade-de-download-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-fcc15-sem-necessidade-de-download-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 21
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
                   "id": "22def64daa777ab366b3-3a783417259d58808783",
@@ -2537,7 +2717,7 @@
                 },
                 {
                   "title": "Preview de imagens (JPG, PNG)",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2548,20 +2728,60 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 9,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 6329,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 12035,
+                          "error": {
+                            "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================",
+                            "stack": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                              "column": 20,
+                              "line": 21
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForURL(\u001b[32m'**/dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// ============================================================================\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                                "column": 20,
+                                "line": 21
+                              },
+                              "message": "TimeoutError: page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  19 |         await page.locator('button[type=\"submit\"]').click();\n  20 |\n> 21 |         await page.waitForURL('**/dashboard', { timeout: 10000 });\n     |                    ^\n  22 |     });\n  23 |\n  24 |     // ============================================================================\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts:21:20"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:32:27.003Z",
+                          "startTime": "2025-11-27T18:34:28.666Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-8642c-Preview-de-imagens-JPG-PNG--chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-8642c-Preview-de-imagens-JPG-PNG--chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/gestao-documental-Gestão-D-8642c-Preview-de-imagens-JPG-PNG--chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/gestao-documental.spec.ts",
+                            "column": 20,
+                            "line": 21
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
                   "id": "22def64daa777ab366b3-cf47ea1a24fb90302d4c",
@@ -2590,7 +2810,7 @@
           "specs": [
             {
               "title": "Pesquisar repositórios",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2601,27 +2821,64 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 10664,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 6289,
+                      "error": {
+                        "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard css-jezl59\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message css-1xsto0d\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n",
+                        "stack": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard css-jezl59\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message css-1xsto0d\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts:20:46",
+                        "location": {
+                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                          "column": 40,
+                          "line": 43
+                        },
+                        "snippet": "   at ../pages/LoginPage.ts:43\n\n\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36masync\u001b[39m getErrorMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMessage\u001b[33m.\u001b[39mtextContent() \u001b[33m||\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m     }\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[36masync\u001b[39m isLoginFormVisible()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mboolean\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                            "column": 40,
+                            "line": 43
+                          },
+                          "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard css-jezl59\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message css-1xsto0d\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n\n   at ../pages/LoginPage.ts:43\n\n  41 |\n  42 |     async getErrorMessage(): Promise<string> {\n> 43 |         return await this.errorMessage.textContent() || '';\n     |                                        ^\n  44 |     }\n  45 |\n  46 |     async isLoginFormVisible(): Promise<boolean> {\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts:20:46"
+                        }
+                      ],
                       "stdout": [
                         {
-                          "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
-                        },
-                        {
-                          "text": "Nenhum repositório encontrado - empty state exibido corretamente\n"
+                          "text": "Login realizado? \u001b[33mfalse\u001b[39m\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-24T12:32:33.382Z",
+                      "startTime": "2025-11-27T18:34:41.400Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/physical-archive-Arquivo-Físico-Pesquisar-repositórios-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/physical-archive-Arquivo-Físico-Pesquisar-repositórios-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/physical-archive-Arquivo-Físico-Pesquisar-repositórios-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                        "column": 40,
+                        "line": 43
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "60cd2987e9be0b69f4b2-6e6248d41e782d72416d",
@@ -2642,10 +2899,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8158,
+                      "duration": 8538,
                       "errors": [],
                       "stdout": [
                         {
@@ -2657,7 +2914,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-24T12:32:44.076Z",
+                      "startTime": "2025-11-27T18:34:48.438Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2691,10 +2948,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 11,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8195,
+                          "duration": 9185,
                           "errors": [],
                           "stdout": [
                             {
@@ -2709,7 +2966,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:32:52.258Z",
+                          "startTime": "2025-11-27T18:34:57.096Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2724,7 +2981,7 @@
                 },
                 {
                   "title": "Visualizar preview de etiquetas",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
@@ -2735,30 +2992,55 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 11,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 10756,
-                          "errors": [],
-                          "stdout": [
-                            {
-                              "text": "Login realizado? \u001b[33mtrue\u001b[39m\n"
+                          "status": "failed",
+                          "duration": 295,
+                          "error": {
+                            "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+                            "stack": "Error: page.goto: net::ERR_NETWORK_CHANGED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at LoginPage.navigate (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:21:25)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts:15:25",
+                            "location": {
+                              "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                              "column": 25,
+                              "line": 21
                             },
+                            "snippet": "   at ../pages/LoginPage.ts:21\n\n\u001b[0m \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     \u001b[36masync\u001b[39m navigate() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m             waitUntil\u001b[33m:\u001b[39m \u001b[32m'domcontentloaded'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 23 |\u001b[39m             timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m\n \u001b[90m 24 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
                             {
-                              "text": "Botão Preview de etiquetas encontrado\n"
-                            },
-                            {
-                              "text": "Contador de Repositórios Disponíveis: 0\n"
+                              "location": {
+                                "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                                "column": 25,
+                                "line": 21
+                              },
+                              "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at http://34.95.244.199:3005/\nCall log:\n\u001b[2m  - navigating to \"http://34.95.244.199:3005/\", waiting until \"domcontentloaded\"\u001b[22m\n\n\n   at ../pages/LoginPage.ts:21\n\n  19 |\n  20 |     async navigate() {\n> 21 |         await this.page.goto('/', {\n     |                         ^\n  22 |             waitUntil: 'domcontentloaded',\n  23 |             timeout: 60000\n  24 |         });\n    at LoginPage.navigate (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:21:25)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/physical-archive.spec.ts:15:25"
                             }
                           ],
+                          "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:00.489Z",
+                          "startTime": "2025-11-27T18:35:06.296Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/physical-archive-Arquivo-F-257e1-alizar-preview-de-etiquetas-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/physical-archive-Arquivo-F-257e1-alizar-preview-de-etiquetas-chromium/video.webm"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                            "column": 25,
+                            "line": 21
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
                   "id": "60cd2987e9be0b69f4b2-83158989d3980df3e373",
@@ -2779,10 +3061,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 12,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8294,
+                          "duration": 7772,
                           "errors": [],
                           "stdout": [
                             {
@@ -2800,7 +3082,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:11.273Z",
+                          "startTime": "2025-11-27T18:35:07.216Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2843,10 +3125,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 12,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 7495,
+                          "duration": 4681,
                           "errors": [],
                           "stdout": [
                             {
@@ -2855,7 +3137,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:19.661Z",
+                          "startTime": "2025-11-27T18:35:15.072Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -2907,10 +3189,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 12,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 7199,
+                          "duration": 7174,
                           "errors": [],
                           "stdout": [
                             {
@@ -2919,7 +3201,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:27.217Z",
+                          "startTime": "2025-11-27T18:35:19.769Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -2971,10 +3253,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 12,
                           "parallelIndex": 0,
                           "status": "skipped",
-                          "duration": 7357,
+                          "duration": 5968,
                           "errors": [],
                           "stdout": [
                             {
@@ -2983,7 +3265,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:34.437Z",
+                          "startTime": "2025-11-27T18:35:26.957Z",
                           "annotations": [
                             {
                               "type": "skip",
@@ -3026,10 +3308,10 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 1,
+                          "workerIndex": 12,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 8465,
+                          "duration": 7098,
                           "errors": [],
                           "stdout": [
                             {
@@ -3038,7 +3320,7 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-11-24T12:33:41.816Z",
+                          "startTime": "2025-11-27T18:35:32.940Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -3060,11 +3342,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-24T12:25:57.824Z",
-    "duration": 472724.416,
-    "expected": 34,
-    "skipped": 24,
-    "unexpected": 1,
+    "startTime": "2025-11-27T18:29:14.665Z",
+    "duration": 385433.204,
+    "expected": 27,
+    "skipped": 20,
+    "unexpected": 12,
     "flaky": 0
   }
 }
