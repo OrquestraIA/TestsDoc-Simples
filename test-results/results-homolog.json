@@ -1,0 +1,328 @@
+{
+  "config": {
+    "configFile": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/playwright.config.ts",
+    "rootDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+      },
+      "gitCommit": {
+        "shortHash": "d978b7e",
+        "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+        "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+        "author": {
+          "name": "Marcelo-OM30",
+          "email": "marcelo.salmeron@om30.com.br",
+          "time": 1764611794000
+        },
+        "committer": {
+          "name": "Marcelo-OM30",
+          "email": "marcelo.salmeron@om30.com.br",
+          "time": 1764611794000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report-homolog",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results-homolog.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Autenticação",
+          "file": "auth.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login com credenciais válidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2700,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-01T18:02:34.561Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-691269a1d2390fab8252",
+              "file": "auth.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais inválidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4493,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-01T18:02:37.573Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3426e0c32d57e8d7a7fa",
+              "file": "auth.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Logout do sistema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5029,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logout realizado com sucesso\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-01T18:02:42.093Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
+              "file": "auth.spec.ts",
+              "line": 65,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-01T18:02:33.583Z",
+    "duration": 13674.371000000001,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

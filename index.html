@@ -401,9 +401,9 @@
         <header class="header">
             <h1>📊 Dashboard de Testes E2E</h1>
             <p class="subtitle">Doc+Simples - Relatório Customizado</p>
-            <div class="status-badge error">
-                <span class="status-icon">❌</span>
-                <span>Alguns testes falharam</span>
+            <div class="status-badge success">
+                <span class="status-icon">✅</span>
+                <span>Todos os testes passaram!</span>
             </div>
         </header>
         
@@ -412,7 +412,7 @@
                 <div class="stat-icon">📝</div>
                 <div class="stat-content">
                     <h3>Total de Testes</h3>
-                    <p class="stat-value">59</p>
+                    <p class="stat-value">3</p>
                 </div>
             </div>
 
@@ -420,7 +420,7 @@
                 <div class="stat-icon">✅</div>
                 <div class="stat-content">
                     <h3>Passou</h3>
-                    <p class="stat-value">27</p>
+                    <p class="stat-value">3</p>
                 </div>
             </div>
 
@@ -428,7 +428,7 @@
                 <div class="stat-icon">❌</div>
                 <div class="stat-content">
                     <h3>Falhou</h3>
-                    <p class="stat-value">12</p>
+                    <p class="stat-value">0</p>
                 </div>
             </div>
 
@@ -436,7 +436,7 @@
                 <div class="stat-icon">⏭️</div>
                 <div class="stat-content">
                     <h3>Ignorado</h3>
-                    <p class="stat-value">20</p>
+                    <p class="stat-value">0</p>
                 </div>
             </div>
 
@@ -445,8 +445,8 @@
                 <div class="stat-content">
                     <h3>Taxa de Sucesso</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" style="width: 45.76271186440678%; background-color: #ef4444;">
-                            <span class="progress-text">45.76%</span>
+                        <div class="progress-bar" style="width: 100%; background-color: #10b981;">
+                            <span class="progress-text">100.00%</span>
                         </div>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
                 <div class="stat-icon">⏱️</div>
                 <div class="stat-content">
                     <h3>Tempo Total de Execução</h3>
-                    <p class="stat-value">370.83s</p>
+                    <p class="stat-value">12.22s</p>
                 </div>
             </div>
         </section>
@@ -474,7 +474,7 @@
                 </div>
                 <div class="info-item">
                     <strong>🌍 Ambiente:</strong>
-                    <span class="badge badge-dev">DEV</span>
+                    <span class="badge badge-homolog">HOMOLOG</span>
                 </div>
                 <div class="info-item">
                     <strong>🌐 Browsers:</strong>
@@ -482,23 +482,33 @@
                 </div>
                 <div class="info-item">
                     <strong>🕐 Início:</strong>
-                    <span>27/11/2025, 15:35:42</span>
+                    <span>01/12/2025, 15:02:50</span>
                 </div>
                 <div class="info-item">
                     <strong>🕐 Fim:</strong>
-                    <span>27/11/2025, 15:35:42</span>
+                    <span>01/12/2025, 15:02:50</span>
                 </div>
             </div>
         </section>
         
         <section class="docs-section">
             <h2>📚 Documentação dos Testes</h2>
-            <div class="all-docs-link" style="text-align: center; padding: 3rem 0;">
-                <p style="margin-bottom: 2rem; color: #6b7280; font-size: 1.1rem;">
-                    Todos os módulos foram testados! Veja a documentação completa consolidada:
-                </p>
-                <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-large" target="_blank">
-                    📋 Ver Documentação Completa (59 Casos de Teste)
+            <div class="docs-grid">
+                
+                    <div class="doc-card tested">
+                        <div class="doc-header">
+                            <span class="doc-icon">✅</span>
+                            <h3>Autenticação</h3>
+                        </div>
+                        <p class="doc-info">4 casos de teste documentados</p>
+                        <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_AUTENTICACAO.md" class="doc-link" target="_blank">
+                            📖 Ver Documentação
+                        </a>
+                    </div>
+            </div>
+            <div class="all-docs-link">
+                <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-primary" target="_blank">
+                    📋 Ver Documentação Completa de Todos os Testes
                 </a>
             </div>
         </section>
@@ -528,7 +538,7 @@
                                         </td>
                                         <td>Login com credenciais válidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>2.07s</td>
+                                        <td>2.70s</td>
                                     </tr>
                                     
                                 
@@ -540,893 +550,19 @@
                                         </td>
                                         <td>Login com credenciais inválidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>3.29s</td>
+                                        <td>4.49s</td>
                                     </tr>
                                     
                                 
-                                    <tr class="test-row failed">
+                                    <tr class="test-row passed">
                                         <td>
-                                            <span class="status-badge failed">
-                                                ❌
+                                            <span class="status-badge passed">
+                                                ✅
                                             </span>
                                         </td>
                                         <td>Logout do sistema</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>2.16s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: Botão do menu de usuário não encontrado</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 Documentos</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.83s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.00s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Download de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.80s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de metadados</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.66s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Busca unificada de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.22s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Listar tipos de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.53s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Criar novo tipo de documento</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.65s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Filtrar documentos por tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.32s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Excel</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.50s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Validar formato Excel exportado</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.81s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Word</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.82s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para AutoCAD</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.20s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF após conversão</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.78s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF sem download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.64s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Preview de imagens sem download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.68s</td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 gestao-documental</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.38s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.58s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Download de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.62s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de metadados do documento</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.41s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Busca unificada de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>3.48s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Cadastrar localização de arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.66s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Buscar localização física</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.59s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Filtrar localizações por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.60s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Cadastrar repositório físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.63s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Buscar repositório físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.52s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Filtrar repositórios por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.30s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Gerar etiquetas com código de barras</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.55s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualizar preview de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.83s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Verificar informações do sistema de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.63s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Vincular documento eletrônico a arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.28s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Buscar arquivo físico por localização</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.10s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Registrar empréstimo de arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.16s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar histórico de movimentação física</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.62s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Listar tipos de documentos existentes</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.27s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Filtrar documentos por tipo específico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.62s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar metadados específicos do tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.28s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Criar novo documento com tipo específico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.57s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Validar campos obrigatórios específicos do tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.19s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Excel</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>242ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "load"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Verificar disponibilidade de exportação para Word</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>297ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "load"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Verificar disponibilidade de exportação para AutoCAD</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>312ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "load"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados de múltiplos documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>288ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "load"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Validar formato do arquivo Excel exportado</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>397ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_CONNECTION_REFUSED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "load"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento Office converte para PDF</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>14.13s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>TimeoutError: page.waitForURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "**/dashboard" until "load"
-============================================================</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF após conversão</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>12.00s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>TimeoutError: page.waitForURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "**/dashboard" until "load"
-============================================================</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF sem necessidade de download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>12.29s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>TimeoutError: page.waitForURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "**/dashboard" until "load"
-============================================================</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Preview de imagens (JPG, PNG)</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>12.04s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>TimeoutError: page.waitForURL: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for navigation to "**/dashboard" until "load"
-============================================================</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 Arquivo Físico</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Pesquisar repositórios</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.29s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role="alert"]') resolved to 3 elements:
-    1) <div role="alert" class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard css-jezl59">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })
-    2) <div class="MuiAlert-message css-1xsto0d">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')
-    3) <p role="alert" aria-live="assertive" id="__next-route-announcer__">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')
-
-Call log:
-[2m  - waiting for locator('.MuiAlert-message, [role="alert"]')[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Filtrar repositórios por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.54s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Gerar etiquetas com código de barras</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.19s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Visualizar preview de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>295ms</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: page.goto: net::ERR_NETWORK_CHANGED at http://34.95.244.199:3005/
-Call log:
-[2m  - navigating to "http://34.95.244.199:3005/", waiting until "domcontentloaded"[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Verificar informações do sistema de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.77s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Vincular documento eletrônico a arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>4.68s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Registrar empréstimo de documento físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.17s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar histórico de movimentações</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>5.97s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Acessar aba e validar elementos principais</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.10s</td>
+                                        <td>5.03s</td>
                                     </tr>
                                     
                                 
@@ -1440,7 +576,7 @@ Call log:
         <section class="playwright-section">
             <h2>🎭 Relatório Completo do Playwright</h2>
             <p>Para ver o relatório interativo completo com traces, screenshots e vídeos:</p>
-            <a href="../playwright-report-dev/index.html" class="btn btn-large" target="_blank">
+            <a href="../playwright-report-homolog/index.html" class="btn btn-large" target="_blank">
                 🎭 Abrir Relatório Playwright
             </a>
         </section>
