@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
         "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832674728"
       },
       "gitCommit": {
         "shortHash": "d978b7e",
@@ -69,7 +69,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832674728"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -107,7 +107,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832674728"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -145,7 +145,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832520853"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/19832674728"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -214,7 +214,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2700,
+                      "duration": 3334,
                       "errors": [],
                       "stdout": [
                         {
@@ -226,7 +226,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T18:02:34.561Z",
+                      "startTime": "2025-12-01T18:08:03.677Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4493,
+                      "duration": 4110,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T18:02:37.573Z",
+                      "startTime": "2025-12-01T18:08:07.849Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -275,7 +275,7 @@
             },
             {
               "title": "Logout do sistema",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -288,22 +288,62 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5029,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 2598,
+                      "error": {
+                        "message": "Error: Botão do menu de usuário não encontrado",
+                        "stack": "Error: Botão do menu de usuário não encontrado\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19",
+                        "location": {
+                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                          "column": 19,
+                          "line": 78
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 76 |\u001b[39m         \u001b[36mif\u001b[39m (count \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 77 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m         }\n \u001b[90m 80 |\u001b[39m         \u001b[36mconst\u001b[39m userMenuButton \u001b[33m=\u001b[39m userMenuButtons\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 81 |\u001b[39m         \u001b[36mawait\u001b[39m userMenuButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                            "column": 19,
+                            "line": 78
+                          },
+                          "message": "Error: Botão do menu de usuário não encontrado\n\n  76 |         if (count === 0) {\n  77 |             console.log('Botão do menu de usuário não encontrado');\n> 78 |             throw new Error('Botão do menu de usuário não encontrado');\n     |                   ^\n  79 |         }\n  80 |         const userMenuButton = userMenuButtons.first();\n  81 |         await userMenuButton.click();\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19"
+                        }
+                      ],
                       "stdout": [
                         {
-                          "text": "Logout realizado com sucesso\n"
+                          "text": "Botão do menu de usuário não encontrado\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T18:02:42.093Z",
+                      "startTime": "2025-12-01T18:08:11.980Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                        "column": 19,
+                        "line": 78
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
@@ -318,11 +358,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-01T18:02:33.583Z",
-    "duration": 13674.371000000001,
-    "expected": 3,
+    "startTime": "2025-12-01T18:08:02.376Z",
+    "duration": 12357.736,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
