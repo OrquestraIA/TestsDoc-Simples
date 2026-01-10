@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
         "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20311561659"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20883739843"
       },
       "gitCommit": {
         "shortHash": "d978b7e",
@@ -40,7 +40,7 @@
       [
         "html",
         {
-          "outputFolder": "playwright-report-homolog",
+          "outputFolder": "playwright-report-dev",
           "open": "never"
         }
       ],
@@ -51,7 +51,7 @@
       [
         "json",
         {
-          "outputFile": "test-results/results-homolog.json"
+          "outputFile": "test-results/results-dev.json"
         }
       ]
     ],
@@ -69,7 +69,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20311561659"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20883739843"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -107,7 +107,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20311561659"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20883739843"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -145,7 +145,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
             "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20311561659"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20883739843"
           },
           "gitCommit": {
             "shortHash": "d978b7e",
@@ -200,7 +200,7 @@
           "specs": [
             {
               "title": "Login com credenciais válidas",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -213,25 +213,62 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4042,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 4461,
+                      "error": {
+                        "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n",
+                        "stack": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:30:42",
+                        "location": {
+                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                          "column": 40,
+                          "line": 43
+                        },
+                        "snippet": "   at ../pages/LoginPage.ts:43\n\n\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36masync\u001b[39m getErrorMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMessage\u001b[33m.\u001b[39mtextContent() \u001b[33m||\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m     }\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[36masync\u001b[39m isLoginFormVisible()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mboolean\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                            "column": 40,
+                            "line": 43
+                          },
+                          "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n\n   at ../pages/LoginPage.ts:43\n\n  41 |\n  42 |     async getErrorMessage(): Promise<string> {\n> 43 |         return await this.errorMessage.textContent() || '';\n     |                                        ^\n  44 |     }\n  45 |\n  46 |     async isLoginFormVisible(): Promise<boolean> {\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:30:42"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
-                        },
-                        {
-                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T17:29:13.450Z",
+                      "startTime": "2026-01-10T20:12:03.430Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                        "column": 40,
+                        "line": 43
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "d748ac400d08b85935ef-691269a1d2390fab8252",
@@ -252,15 +289,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3540,
+                      "duration": 20539,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T17:29:18.747Z",
+                      "startTime": "2026-01-10T20:12:09.524Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -286,38 +323,31 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 2276,
+                      "status": "timedOut",
+                      "duration": 31748,
                       "error": {
-                        "message": "Error: Botão do menu de usuário não encontrado",
-                        "stack": "Error: Botão do menu de usuário não encontrado\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19",
-                        "location": {
-                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                          "column": 19,
-                          "line": 78
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 76 |\u001b[39m         \u001b[36mif\u001b[39m (count \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 77 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m         }\n \u001b[90m 80 |\u001b[39m         \u001b[36mconst\u001b[39m userMenuButton \u001b[33m=\u001b[39m userMenuButtons\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 81 |\u001b[39m         \u001b[36mawait\u001b[39m userMenuButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                       },
                       "errors": [
                         {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
                           "location": {
                             "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                            "column": 19,
-                            "line": 78
+                            "column": 20,
+                            "line": 71
                           },
-                          "message": "Error: Botão do menu de usuário não encontrado\n\n  76 |         if (count === 0) {\n  77 |             console.log('Botão do menu de usuário não encontrado');\n> 78 |             throw new Error('Botão do menu de usuário não encontrado');\n     |                   ^\n  79 |         }\n  80 |         const userMenuButton = userMenuButtons.first();\n  81 |         await userMenuButton.click();\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19"
+                          "message": "Error: page.waitForURL: Test timeout of 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  69 |         await loginPage.navigate();\n  70 |         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);\n> 71 |         await page.waitForURL('**/dashboard', { timeout: 30000 });\n     |                    ^\n  72 |\n  73 |         // Clicar no primeiro <button> do menu de usuário com texto \"Administrator\"\n  74 |         const userMenuButtons = page.locator('button:has(.MuiAvatar-root):has(p:has-text(\"Administrator\"))');\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:71:20"
                         }
                       ],
-                      "stdout": [
-                        {
-                          "text": "Botão do menu de usuário não encontrado\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-17T17:29:22.304Z",
+                      "startTime": "2026-01-10T20:12:30.225Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -335,12 +365,7 @@
                           "contentType": "text/markdown",
                           "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/error-context.md"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                        "column": 19,
-                        "line": 78
-                      }
+                      ]
                     }
                   ],
                   "status": "unexpected"
@@ -358,11 +383,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-17T17:29:12.597Z",
-    "duration": 12092.38,
-    "expected": 2,
+    "startTime": "2026-01-10T20:12:01.534Z",
+    "duration": 60585.969000000005,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 2,
     "flaky": 0
   }
 }
