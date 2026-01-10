@@ -1,0 +1,888 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "0" [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]:
+            - img [ref=e8]
+            - generic: "0"
+        - button "0 alerta(s) não lido(s)" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]:
+            - img [ref=e12]
+            - generic: "0"
+        - button "A Administrator" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: A
+          - paragraph [ref=e17]: Administrator
+    - navigation [ref=e18]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img "Árvore Logo" [ref=e23]
+            - generic [ref=e24]: Doc+Simples
+          - text: Serviços Eletrônicos
+          - generic [ref=e25]: Doc+Simples v1.1.0
+        - list [ref=e27]:
+          - listitem [ref=e29]:
+            - button "Dashboard" [ref=e30] [cursor=pointer]:
+              - img [ref=e32]
+              - generic [ref=e35]: Dashboard
+          - generic [ref=e36]:
+            - listitem [ref=e37]:
+              - button "Documentos" [ref=e38] [cursor=pointer]:
+                - img [ref=e40]
+                - generic [ref=e43]: Documentos
+                - img [ref=e44]
+            - generic [ref=e49]:
+              - listitem [ref=e50]:
+                - button "Meus Documentos" [ref=e51] [cursor=pointer]:
+                  - img [ref=e53]
+                  - generic [ref=e56]: Meus Documentos
+              - listitem [ref=e57]:
+                - button "Tipos de Documento" [ref=e58] [cursor=pointer]:
+                  - img [ref=e60]
+                  - generic [ref=e65]: Tipos de Documento
+              - listitem [ref=e66]:
+                - button "Categorias" [ref=e67] [cursor=pointer]:
+                  - img [ref=e69]
+                  - generic [ref=e72]: Categorias
+          - generic [ref=e73]:
+            - listitem [ref=e74]:
+              - button "Arquivo Físico" [ref=e75] [cursor=pointer]:
+                - img [ref=e77]
+                - generic [ref=e80]: Arquivo Físico
+                - img [ref=e81]
+            - generic [ref=e86]:
+              - listitem [ref=e87]:
+                - button "Configuração" [ref=e88] [cursor=pointer]:
+                  - img [ref=e90]
+                  - generic [ref=e93]: Configuração
+              - listitem [ref=e94]:
+                - button "Operações" [ref=e95] [cursor=pointer]:
+                  - img [ref=e97]
+                  - generic [ref=e100]: Operações
+              - listitem [ref=e101]:
+                - button "Gestão" [ref=e102] [cursor=pointer]:
+                  - img [ref=e104]
+                  - generic [ref=e107]: Gestão
+          - listitem [ref=e109]:
+            - button "Permissões" [ref=e110] [cursor=pointer]:
+              - img [ref=e112]
+              - generic [ref=e115]: Permissões
+          - listitem [ref=e117]:
+            - button "Busca Avançada" [ref=e118] [cursor=pointer]:
+              - img [ref=e120]
+              - generic [ref=e123]: Busca Avançada
+          - listitem [ref=e125]:
+            - button "Auditoria Documental" [ref=e126] [cursor=pointer]:
+              - img [ref=e128]
+              - generic [ref=e131]: Auditoria Documental
+          - listitem [ref=e133]:
+            - button "Agentes de IA" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+              - generic [ref=e139]: Agentes de IA
+          - listitem [ref=e141]:
+            - button "MOB Logística" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+              - generic [ref=e147]: MOB Logística
+          - generic [ref=e148]:
+            - separator [ref=e149]
+            - generic [ref=e150]: "--- Módulos Beta ---"
+            - separator [ref=e151]
+          - listitem [ref=e153]:
+            - button "Workflows BETA" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - generic [ref=e159]: Workflows
+              - generic [ref=e161]: BETA
+          - listitem [ref=e163]:
+            - button "Sincronização Cloud BETA" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+              - generic [ref=e169]: Sincronização Cloud
+              - generic [ref=e171]: BETA
+          - listitem [ref=e173]:
+            - button "Notificações BETA" [ref=e174] [cursor=pointer]:
+              - generic [ref=e176]: Notificações
+              - generic [ref=e178]: BETA
+          - listitem [ref=e180]:
+            - button "Analytics BETA" [ref=e181] [cursor=pointer]:
+              - img [ref=e183]
+              - generic [ref=e186]: Analytics
+              - generic [ref=e188]: BETA
+          - listitem [ref=e190]:
+            - button "Auditoria Técnica BETA" [ref=e191] [cursor=pointer]:
+              - img [ref=e193]
+              - generic [ref=e196]: Auditoria Técnica
+              - generic [ref=e198]: BETA
+          - listitem [ref=e200]:
+            - button "Digitalização BETA" [ref=e201] [cursor=pointer]:
+              - img [ref=e203]
+              - generic [ref=e207]: Digitalização
+              - generic [ref=e209]: BETA
+          - listitem [ref=e211]:
+            - button "Segurança BETA" [ref=e212] [cursor=pointer]:
+              - img [ref=e214]
+              - generic [ref=e217]: Segurança
+              - generic [ref=e219]: BETA
+          - listitem [ref=e221]:
+            - button "Assinatura Digital BETA" [ref=e222] [cursor=pointer]:
+              - img [ref=e224]
+              - generic [ref=e227]: Assinatura Digital
+              - generic [ref=e229]: BETA
+          - listitem [ref=e231]:
+            - button "Configurações BETA" [ref=e232] [cursor=pointer]:
+              - img [ref=e234]
+              - generic [ref=e237]: Configurações
+              - generic [ref=e239]: BETA
+          - listitem [ref=e241]:
+            - button "Supervisão BETA" [ref=e242] [cursor=pointer]:
+              - generic [ref=e244]: Supervisão
+              - generic [ref=e246]: BETA
+          - listitem [ref=e248]:
+            - button "Monitoramento BETA" [ref=e249] [cursor=pointer]:
+              - generic [ref=e251]: Monitoramento
+              - generic [ref=e253]: BETA
+          - listitem [ref=e255]:
+            - button "Integrações BETA" [ref=e256] [cursor=pointer]:
+              - generic [ref=e258]: Integrações
+              - generic [ref=e260]: BETA
+        - separator [ref=e261]
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]: A
+            - generic [ref=e265]:
+              - paragraph [ref=e266]: Administrator
+              - text: devnull@nuxeo.com
+          - generic [ref=e269]: administrators
+    - main [ref=e270]:
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - heading "Documentos" [level=1] [ref=e276]
+            - paragraph [ref=e277]: Gerencie todos os seus documentos com IA
+          - link "Upload" [ref=e279] [cursor=pointer]:
+            - /url: /documents/upload
+            - img [ref=e281]
+            - text: Upload
+        - generic [ref=e283]:
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - heading "Navegar por Pastas" [level=6] [ref=e288]
+              - button "Atualizar" [ref=e290] [cursor=pointer]:
+                - img [ref=e291]
+            - generic [ref=e293]:
+              - generic [ref=e295] [cursor=pointer]:
+                - button [ref=e296]:
+                  - img [ref=e297]
+                - img [ref=e300]
+                - paragraph [ref=e302]: Teste
+              - generic [ref=e304] [cursor=pointer]:
+                - button [ref=e305]:
+                  - img [ref=e306]
+                - img [ref=e309]
+                - paragraph [ref=e311]: Secretaria de Saúde Municipal
+              - generic [ref=e313] [cursor=pointer]:
+                - button [ref=e314]:
+                  - img [ref=e315]
+                - img [ref=e318]
+                - paragraph [ref=e320]: PREFEITURA DE CAIERAS - Arquivo Municipal
+          - generic [ref=e321]:
+            - generic [ref=e323]:
+              - button "Ocultar" [ref=e325] [cursor=pointer]:
+                - img [ref=e327]
+                - text: Ocultar
+              - generic [ref=e331]:
+                - img [ref=e333]
+                - textbox "Pesquisar documentos..." [ref=e335]
+                - group
+              - generic [ref=e337]:
+                - generic [ref=e338]: Tipo de Documento
+                - generic [ref=e339]:
+                  - combobox [ref=e340] [cursor=pointer]: Todos os tipos
+                  - textbox: all
+                  - img
+                  - group:
+                    - generic: Tipo de Documento
+              - button "Atualizar" [ref=e342] [cursor=pointer]:
+                - img [ref=e344]
+                - text: Atualizar
+            - generic [ref=e346]:
+              - img [ref=e347]
+              - paragraph [ref=e349]: Todos os documentos
+              - generic [ref=e351]: 2248 documentos
+            - alert [ref=e352]:
+              - img [ref=e354]
+              - generic [ref=e356]:
+                - strong [ref=e357]: Exibindo 20 de 2.248 documentos.
+                - text: Use os filtros ou a busca para refinar os resultados.
+            - generic [ref=e358]:
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - img [ref=e364]
+                    - generic [ref=e366]:
+                      - heading "Processo 1643/2015 - LUANDA LAGUNA MARTINS" [level=6] [ref=e367]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e368]:
+                    - generic [ref=e369]:
+                      - img [ref=e370]
+                      - generic [ref=e372]: 10/01/2026 12:00
+                    - generic [ref=e373]:
+                      - img [ref=e374]
+                      - generic [ref=e376]: Administrator
+                    - generic [ref=e377]:
+                      - img [ref=e378]
+                      - generic [ref=e380]: 641.56 KB
+                - generic [ref=e381]:
+                  - generic [ref=e382]:
+                    - button "Visualizar" [ref=e383] [cursor=pointer]:
+                      - img [ref=e384]
+                    - button "Aplicar Marca d'Água" [ref=e386] [cursor=pointer]:
+                      - img [ref=e387]
+                    - button "Editar" [ref=e389] [cursor=pointer]:
+                      - img [ref=e390]
+                    - button "Configurar DRM" [ref=e392] [cursor=pointer]:
+                      - img [ref=e393]
+                    - button "Sincronizar com a nuvem" [ref=e395] [cursor=pointer]:
+                      - img [ref=e396]
+                    - button "Gerenciar Permissões" [ref=e398] [cursor=pointer]:
+                      - img [ref=e399]
+                  - button "Excluir" [ref=e401] [cursor=pointer]:
+                    - img [ref=e402]
+              - generic [ref=e405]:
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - img [ref=e409]
+                    - generic [ref=e411]:
+                      - heading "Processo 1344/2009 - PADARIA E CONFEITARIA NOSSO SONHO LTDA" [level=6] [ref=e412]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e413]:
+                    - generic [ref=e414]:
+                      - img [ref=e415]
+                      - generic [ref=e417]: 10/01/2026 11:59
+                    - generic [ref=e418]:
+                      - img [ref=e419]
+                      - generic [ref=e421]: Administrator
+                    - generic [ref=e422]:
+                      - img [ref=e423]
+                      - generic [ref=e425]: 126.68 KB
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - button "Visualizar" [ref=e428] [cursor=pointer]:
+                      - img [ref=e429]
+                    - button "Aplicar Marca d'Água" [ref=e431] [cursor=pointer]:
+                      - img [ref=e432]
+                    - button "Editar" [ref=e434] [cursor=pointer]:
+                      - img [ref=e435]
+                    - button "Configurar DRM" [ref=e437] [cursor=pointer]:
+                      - img [ref=e438]
+                    - button "Sincronizar com a nuvem" [ref=e440] [cursor=pointer]:
+                      - img [ref=e441]
+                    - button "Gerenciar Permissões" [ref=e443] [cursor=pointer]:
+                      - img [ref=e444]
+                  - button "Excluir" [ref=e446] [cursor=pointer]:
+                    - img [ref=e447]
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - img [ref=e454]
+                    - generic [ref=e456]:
+                      - heading "Processo 20833/2004 - OLIMPIA BARBOSA DANTAS" [level=6] [ref=e457]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e458]:
+                    - generic [ref=e459]:
+                      - img [ref=e460]
+                      - generic [ref=e462]: 10/01/2026 11:53
+                    - generic [ref=e463]:
+                      - img [ref=e464]
+                      - generic [ref=e466]: Administrator
+                    - generic [ref=e467]:
+                      - img [ref=e468]
+                      - generic [ref=e470]: 2.26 MB
+                - generic [ref=e471]:
+                  - generic [ref=e472]:
+                    - button "Visualizar" [ref=e473] [cursor=pointer]:
+                      - img [ref=e474]
+                    - button "Aplicar Marca d'Água" [ref=e476] [cursor=pointer]:
+                      - img [ref=e477]
+                    - button "Editar" [ref=e479] [cursor=pointer]:
+                      - img [ref=e480]
+                    - button "Configurar DRM" [ref=e482] [cursor=pointer]:
+                      - img [ref=e483]
+                    - button "Sincronizar com a nuvem" [ref=e485] [cursor=pointer]:
+                      - img [ref=e486]
+                    - button "Gerenciar Permissões" [ref=e488] [cursor=pointer]:
+                      - img [ref=e489]
+                  - button "Excluir" [ref=e491] [cursor=pointer]:
+                    - img [ref=e492]
+              - generic [ref=e495]:
+                - generic [ref=e496]:
+                  - generic [ref=e497]:
+                    - img [ref=e499]
+                    - generic [ref=e501]:
+                      - heading "07012026_criar novo tipo de documento" [level=6] [ref=e502]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e503]:
+                    - generic [ref=e504]:
+                      - img [ref=e505]
+                      - generic [ref=e507]: 08/01/2026 17:14
+                    - generic [ref=e508]:
+                      - img [ref=e509]
+                      - generic [ref=e511]: Administrator
+                    - generic [ref=e512]:
+                      - img [ref=e513]
+                      - generic [ref=e515]: 1.39 KB
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - button "Visualizar" [ref=e518] [cursor=pointer]:
+                      - img [ref=e519]
+                    - button "Aplicar Marca d'Água" [ref=e521] [cursor=pointer]:
+                      - img [ref=e522]
+                    - button "Editar" [ref=e524] [cursor=pointer]:
+                      - img [ref=e525]
+                    - button "Configurar DRM" [ref=e527] [cursor=pointer]:
+                      - img [ref=e528]
+                    - button "Sincronizar com a nuvem" [ref=e530] [cursor=pointer]:
+                      - img [ref=e531]
+                    - button "Gerenciar Permissões" [ref=e533] [cursor=pointer]:
+                      - img [ref=e534]
+                  - button "Excluir" [ref=e536] [cursor=pointer]:
+                    - img [ref=e537]
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - img [ref=e544]
+                    - generic [ref=e546]:
+                      - heading "PS Menino Jesus" [level=6] [ref=e547]
+                      - text: Workspace
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - img [ref=e550]
+                      - generic [ref=e552]: 08/01/2026 16:36
+                    - generic [ref=e553]:
+                      - img [ref=e554]
+                      - generic [ref=e556]: Administrator
+                    - text: "0"
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - button "Editar" [ref=e559] [cursor=pointer]:
+                      - img [ref=e560]
+                    - button "Configurar DRM" [ref=e562] [cursor=pointer]:
+                      - img [ref=e563]
+                    - button "Sincronizar com a nuvem" [ref=e565] [cursor=pointer]:
+                      - img [ref=e566]
+                    - button "Gerenciar Permissões" [ref=e568] [cursor=pointer]:
+                      - img [ref=e569]
+                  - button "Excluir" [ref=e571] [cursor=pointer]:
+                    - img [ref=e572]
+              - generic [ref=e575]:
+                - generic [ref=e576]:
+                  - generic [ref=e577]:
+                    - img [ref=e579]
+                    - generic [ref=e581]:
+                      - heading "Secretaria de Saúde Municipal" [level=6] [ref=e582]
+                      - text: Workspace
+                  - generic [ref=e583]:
+                    - generic [ref=e584]:
+                      - img [ref=e585]
+                      - generic [ref=e587]: 08/01/2026 16:32
+                    - generic [ref=e588]:
+                      - img [ref=e589]
+                      - generic [ref=e591]: Administrator
+                    - text: "0"
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - button "Editar" [ref=e594] [cursor=pointer]:
+                      - img [ref=e595]
+                    - button "Configurar DRM" [ref=e597] [cursor=pointer]:
+                      - img [ref=e598]
+                    - button "Sincronizar com a nuvem" [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                    - button "Gerenciar Permissões" [ref=e603] [cursor=pointer]:
+                      - img [ref=e604]
+                  - button "Excluir" [ref=e606] [cursor=pointer]:
+                    - img [ref=e607]
+              - generic [ref=e610]:
+                - generic [ref=e611]:
+                  - generic [ref=e612]:
+                    - img [ref=e614]
+                    - generic [ref=e616]:
+                      - heading "teste-filho" [level=6] [ref=e617]
+                      - text: Workspace
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - img [ref=e620]
+                      - generic [ref=e622]: 08/01/2026 14:52
+                    - generic [ref=e623]:
+                      - img [ref=e624]
+                      - generic [ref=e626]: Administrator
+                    - text: "0"
+                - generic [ref=e627]:
+                  - generic [ref=e628]:
+                    - button "Editar" [ref=e629] [cursor=pointer]:
+                      - img [ref=e630]
+                    - button "Configurar DRM" [ref=e632] [cursor=pointer]:
+                      - img [ref=e633]
+                    - button "Sincronizar com a nuvem" [ref=e635] [cursor=pointer]:
+                      - img [ref=e636]
+                    - button "Gerenciar Permissões" [ref=e638] [cursor=pointer]:
+                      - img [ref=e639]
+                  - button "Excluir" [ref=e641] [cursor=pointer]:
+                    - img [ref=e642]
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e647]:
+                    - img [ref=e649]
+                    - generic [ref=e651]:
+                      - heading "Teste" [level=6] [ref=e652]
+                      - text: Workspace
+                  - generic [ref=e653]:
+                    - generic [ref=e654]:
+                      - img [ref=e655]
+                      - generic [ref=e657]: 08/01/2026 14:51
+                    - generic [ref=e658]:
+                      - img [ref=e659]
+                      - generic [ref=e661]: Administrator
+                    - text: "0"
+                - generic [ref=e662]:
+                  - generic [ref=e663]:
+                    - button "Editar" [ref=e664] [cursor=pointer]:
+                      - img [ref=e665]
+                    - button "Configurar DRM" [ref=e667] [cursor=pointer]:
+                      - img [ref=e668]
+                    - button "Sincronizar com a nuvem" [ref=e670] [cursor=pointer]:
+                      - img [ref=e671]
+                    - button "Gerenciar Permissões" [ref=e673] [cursor=pointer]:
+                      - img [ref=e674]
+                  - button "Excluir" [ref=e676] [cursor=pointer]:
+                    - img [ref=e677]
+              - generic [ref=e680]:
+                - generic [ref=e681]:
+                  - generic [ref=e682]:
+                    - img [ref=e684]
+                    - generic [ref=e686]:
+                      - heading "Processo 387/1995 - BAR E MERCEARIA L W LTDA" [level=6] [ref=e687]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e688]:
+                    - generic [ref=e689]:
+                      - img [ref=e690]
+                      - generic [ref=e692]: 07/01/2026 13:51
+                    - generic [ref=e693]:
+                      - img [ref=e694]
+                      - generic [ref=e696]: Administrator
+                    - generic [ref=e697]:
+                      - img [ref=e698]
+                      - generic [ref=e700]: 2.47 MB
+                - generic [ref=e701]:
+                  - generic [ref=e702]:
+                    - button "Visualizar" [ref=e703] [cursor=pointer]:
+                      - img [ref=e704]
+                    - button "Aplicar Marca d'Água" [ref=e706] [cursor=pointer]:
+                      - img [ref=e707]
+                    - button "Editar" [ref=e709] [cursor=pointer]:
+                      - img [ref=e710]
+                    - button "Configurar DRM" [ref=e712] [cursor=pointer]:
+                      - img [ref=e713]
+                    - button "Sincronizar com a nuvem" [ref=e715] [cursor=pointer]:
+                      - img [ref=e716]
+                    - button "Gerenciar Permissões" [ref=e718] [cursor=pointer]:
+                      - img [ref=e719]
+                  - button "Excluir" [ref=e721] [cursor=pointer]:
+                    - img [ref=e722]
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]:
+                    - img [ref=e729]
+                    - generic [ref=e731]:
+                      - heading "Processo 11851/2003 - JOSE ALMIR PEREIRA DE SOUZA" [level=6] [ref=e732]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e733]:
+                    - generic [ref=e734]:
+                      - img [ref=e735]
+                      - generic [ref=e737]: 07/01/2026 13:50
+                    - generic [ref=e738]:
+                      - img [ref=e739]
+                      - generic [ref=e741]: Administrator
+                    - generic [ref=e742]:
+                      - img [ref=e743]
+                      - generic [ref=e745]: 73.34 KB
+                - generic [ref=e746]:
+                  - generic [ref=e747]:
+                    - button "Visualizar" [ref=e748] [cursor=pointer]:
+                      - img [ref=e749]
+                    - button "Aplicar Marca d'Água" [ref=e751] [cursor=pointer]:
+                      - img [ref=e752]
+                    - button "Editar" [ref=e754] [cursor=pointer]:
+                      - img [ref=e755]
+                    - button "Configurar DRM" [ref=e757] [cursor=pointer]:
+                      - img [ref=e758]
+                    - button "Sincronizar com a nuvem" [ref=e760] [cursor=pointer]:
+                      - img [ref=e761]
+                    - button "Gerenciar Permissões" [ref=e763] [cursor=pointer]:
+                      - img [ref=e764]
+                  - button "Excluir" [ref=e766] [cursor=pointer]:
+                    - img [ref=e767]
+              - generic [ref=e770]:
+                - generic [ref=e771]:
+                  - generic [ref=e772]:
+                    - img [ref=e774]
+                    - generic [ref=e776]:
+                      - heading "Processo DOC/000000 - PREFEITURA MUNICIPAL DE CAIEIRAS" [level=6] [ref=e777]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e778]:
+                    - generic [ref=e779]:
+                      - img [ref=e780]
+                      - generic [ref=e782]: 07/01/2026 12:41
+                    - generic [ref=e783]:
+                      - img [ref=e784]
+                      - generic [ref=e786]: Administrator
+                    - generic [ref=e787]:
+                      - img [ref=e788]
+                      - generic [ref=e790]: 39.49 MB
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - button "Visualizar" [ref=e793] [cursor=pointer]:
+                      - img [ref=e794]
+                    - button "Aplicar Marca d'Água" [ref=e796] [cursor=pointer]:
+                      - img [ref=e797]
+                    - button "Editar" [ref=e799] [cursor=pointer]:
+                      - img [ref=e800]
+                    - button "Configurar DRM" [ref=e802] [cursor=pointer]:
+                      - img [ref=e803]
+                    - button "Sincronizar com a nuvem" [ref=e805] [cursor=pointer]:
+                      - img [ref=e806]
+                    - button "Gerenciar Permissões" [ref=e808] [cursor=pointer]:
+                      - img [ref=e809]
+                  - button "Excluir" [ref=e811] [cursor=pointer]:
+                    - img [ref=e812]
+              - generic [ref=e815]:
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - img [ref=e819]
+                    - generic [ref=e821]:
+                      - heading "Processo 2831/2005 - PREFEITURA MUNICIPAL DE CAIEIRAS" [level=6] [ref=e822]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e823]:
+                    - generic [ref=e824]:
+                      - img [ref=e825]
+                      - generic [ref=e827]: 07/01/2026 12:34
+                    - generic [ref=e828]:
+                      - img [ref=e829]
+                      - generic [ref=e831]: Administrator
+                    - generic [ref=e832]:
+                      - img [ref=e833]
+                      - generic [ref=e835]: 837.55 KB
+                - generic [ref=e836]:
+                  - generic [ref=e837]:
+                    - button "Visualizar" [ref=e838] [cursor=pointer]:
+                      - img [ref=e839]
+                    - button "Aplicar Marca d'Água" [ref=e841] [cursor=pointer]:
+                      - img [ref=e842]
+                    - button "Editar" [ref=e844] [cursor=pointer]:
+                      - img [ref=e845]
+                    - button "Configurar DRM" [ref=e847] [cursor=pointer]:
+                      - img [ref=e848]
+                    - button "Sincronizar com a nuvem" [ref=e850] [cursor=pointer]:
+                      - img [ref=e851]
+                    - button "Gerenciar Permissões" [ref=e853] [cursor=pointer]:
+                      - img [ref=e854]
+                  - button "Excluir" [ref=e856] [cursor=pointer]:
+                    - img [ref=e857]
+              - generic [ref=e860]:
+                - generic [ref=e861]:
+                  - generic [ref=e862]:
+                    - img [ref=e864]
+                    - generic [ref=e866]:
+                      - heading "Alvará de despejo" [level=6] [ref=e867]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e868]:
+                    - generic [ref=e869]:
+                      - img [ref=e870]
+                      - generic [ref=e872]: 07/01/2026 10:00
+                    - generic [ref=e873]:
+                      - img [ref=e874]
+                      - generic [ref=e876]: Administrator
+                    - generic [ref=e877]:
+                      - img [ref=e878]
+                      - generic [ref=e880]: 4.81 MB
+                - generic [ref=e881]:
+                  - generic [ref=e882]:
+                    - button "Visualizar" [ref=e883] [cursor=pointer]:
+                      - img [ref=e884]
+                    - button "Aplicar Marca d'Água" [ref=e886] [cursor=pointer]:
+                      - img [ref=e887]
+                    - button "Editar" [ref=e889] [cursor=pointer]:
+                      - img [ref=e890]
+                    - button "Configurar DRM" [ref=e892] [cursor=pointer]:
+                      - img [ref=e893]
+                    - button "Sincronizar com a nuvem" [ref=e895] [cursor=pointer]:
+                      - img [ref=e896]
+                    - button "Gerenciar Permissões" [ref=e898] [cursor=pointer]:
+                      - img [ref=e899]
+                  - button "Excluir" [ref=e901] [cursor=pointer]:
+                    - img [ref=e902]
+              - generic [ref=e905]:
+                - generic [ref=e906]:
+                  - generic [ref=e907]:
+                    - img [ref=e909]
+                    - generic [ref=e911]:
+                      - heading "etiquetas_lote (9)" [level=6] [ref=e912]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e913]:
+                    - generic [ref=e914]:
+                      - img [ref=e915]
+                      - generic [ref=e917]: 07/01/2026 08:57
+                    - generic [ref=e918]:
+                      - img [ref=e919]
+                      - generic [ref=e921]: Administrator
+                    - generic [ref=e922]:
+                      - img [ref=e923]
+                      - generic [ref=e925]: 145.45 KB
+                - generic [ref=e926]:
+                  - generic [ref=e927]:
+                    - button "Visualizar" [ref=e928] [cursor=pointer]:
+                      - img [ref=e929]
+                    - button "Aplicar Marca d'Água" [ref=e931] [cursor=pointer]:
+                      - img [ref=e932]
+                    - button "Editar" [ref=e934] [cursor=pointer]:
+                      - img [ref=e935]
+                    - button "Configurar DRM" [ref=e937] [cursor=pointer]:
+                      - img [ref=e938]
+                    - button "Sincronizar com a nuvem" [ref=e940] [cursor=pointer]:
+                      - img [ref=e941]
+                    - button "Gerenciar Permissões" [ref=e943] [cursor=pointer]:
+                      - img [ref=e944]
+                  - button "Excluir" [ref=e946] [cursor=pointer]:
+                    - img [ref=e947]
+              - generic [ref=e950]:
+                - generic [ref=e951]:
+                  - generic [ref=e952]:
+                    - img [ref=e954]
+                    - generic [ref=e956]:
+                      - heading "watermarked_documento_b12f0aab-92f0-45f4-8b83-7c25018d8a5e (8)" [level=6] [ref=e957]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e958]:
+                    - generic [ref=e959]:
+                      - img [ref=e960]
+                      - generic [ref=e962]: 07/01/2026 08:04
+                    - generic [ref=e963]:
+                      - img [ref=e964]
+                      - generic [ref=e966]: Administrator
+                    - generic [ref=e967]:
+                      - img [ref=e968]
+                      - generic [ref=e970]: 869.54 KB
+                - generic [ref=e971]:
+                  - generic [ref=e972]:
+                    - button "Visualizar" [ref=e973] [cursor=pointer]:
+                      - img [ref=e974]
+                    - button "Aplicar Marca d'Água" [ref=e976] [cursor=pointer]:
+                      - img [ref=e977]
+                    - button "Editar" [ref=e979] [cursor=pointer]:
+                      - img [ref=e980]
+                    - button "Configurar DRM" [ref=e982] [cursor=pointer]:
+                      - img [ref=e983]
+                    - button "Sincronizar com a nuvem" [ref=e985] [cursor=pointer]:
+                      - img [ref=e986]
+                    - button "Gerenciar Permissões" [ref=e988] [cursor=pointer]:
+                      - img [ref=e989]
+                  - button "Excluir" [ref=e991] [cursor=pointer]:
+                    - img [ref=e992]
+              - generic [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e997]:
+                    - img [ref=e999]
+                    - generic [ref=e1001]:
+                      - heading "teste-visualizar-documento-eletrônico (4)" [level=6] [ref=e1002]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]:
+                      - img [ref=e1005]
+                      - generic [ref=e1007]: 07/01/2026 08:04
+                    - generic [ref=e1008]:
+                      - img [ref=e1009]
+                      - generic [ref=e1011]: Administrator
+                    - generic [ref=e1012]:
+                      - img [ref=e1013]
+                      - generic [ref=e1015]: 3.78 MB
+                - generic [ref=e1016]:
+                  - generic [ref=e1017]:
+                    - button "Visualizar" [ref=e1018] [cursor=pointer]:
+                      - img [ref=e1019]
+                    - button "Aplicar Marca d'Água" [ref=e1021] [cursor=pointer]:
+                      - img [ref=e1022]
+                    - button "Editar" [ref=e1024] [cursor=pointer]:
+                      - img [ref=e1025]
+                    - button "Configurar DRM" [ref=e1027] [cursor=pointer]:
+                      - img [ref=e1028]
+                    - button "Sincronizar com a nuvem" [ref=e1030] [cursor=pointer]:
+                      - img [ref=e1031]
+                    - button "Gerenciar Permissões" [ref=e1033] [cursor=pointer]:
+                      - img [ref=e1034]
+                  - button "Excluir" [ref=e1036] [cursor=pointer]:
+                    - img [ref=e1037]
+              - generic [ref=e1040]:
+                - generic [ref=e1041]:
+                  - generic [ref=e1042]:
+                    - img [ref=e1044]
+                    - generic [ref=e1046]:
+                      - heading "Processo de licitação" [level=6] [ref=e1047]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e1048]:
+                    - generic [ref=e1049]:
+                      - img [ref=e1050]
+                      - generic [ref=e1052]: 07/01/2026 08:00
+                    - generic [ref=e1053]:
+                      - img [ref=e1054]
+                      - generic [ref=e1056]: Administrator
+                    - generic [ref=e1057]:
+                      - img [ref=e1058]
+                      - generic [ref=e1060]: 145.45 KB
+                - generic [ref=e1061]:
+                  - generic [ref=e1062]:
+                    - button "Visualizar" [ref=e1063] [cursor=pointer]:
+                      - img [ref=e1064]
+                    - button "Aplicar Marca d'Água" [ref=e1066] [cursor=pointer]:
+                      - img [ref=e1067]
+                    - button "Editar" [ref=e1069] [cursor=pointer]:
+                      - img [ref=e1070]
+                    - button "Configurar DRM" [ref=e1072] [cursor=pointer]:
+                      - img [ref=e1073]
+                    - button "Sincronizar com a nuvem" [ref=e1075] [cursor=pointer]:
+                      - img [ref=e1076]
+                    - button "Gerenciar Permissões" [ref=e1078] [cursor=pointer]:
+                      - img [ref=e1079]
+                  - button "Excluir" [ref=e1081] [cursor=pointer]:
+                    - img [ref=e1082]
+              - generic [ref=e1085]:
+                - generic [ref=e1086]:
+                  - generic [ref=e1087]:
+                    - img [ref=e1089]
+                    - generic [ref=e1091]:
+                      - heading "watermarked_documento_b12f0aab-92f0-45f4-8b83-7c25018d8a5e (7)" [level=6] [ref=e1092]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]:
+                      - img [ref=e1095]
+                      - generic [ref=e1097]: 07/01/2026 07:58
+                    - generic [ref=e1098]:
+                      - img [ref=e1099]
+                      - generic [ref=e1101]: Administrator
+                    - generic [ref=e1102]:
+                      - img [ref=e1103]
+                      - generic [ref=e1105]: 845.55 KB
+                - generic [ref=e1106]:
+                  - generic [ref=e1107]:
+                    - button "Visualizar" [ref=e1108] [cursor=pointer]:
+                      - img [ref=e1109]
+                    - button "Aplicar Marca d'Água" [ref=e1111] [cursor=pointer]:
+                      - img [ref=e1112]
+                    - button "Editar" [ref=e1114] [cursor=pointer]:
+                      - img [ref=e1115]
+                    - button "Configurar DRM" [ref=e1117] [cursor=pointer]:
+                      - img [ref=e1118]
+                    - button "Sincronizar com a nuvem" [ref=e1120] [cursor=pointer]:
+                      - img [ref=e1121]
+                    - button "Gerenciar Permissões" [ref=e1123] [cursor=pointer]:
+                      - img [ref=e1124]
+                  - button "Excluir" [ref=e1126] [cursor=pointer]:
+                    - img [ref=e1127]
+              - generic [ref=e1130]:
+                - generic [ref=e1131]:
+                  - generic [ref=e1132]:
+                    - img [ref=e1134]
+                    - generic [ref=e1136]:
+                      - heading "etiquetas_lote (9)" [level=6] [ref=e1137]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e1138]:
+                    - generic [ref=e1139]:
+                      - img [ref=e1140]
+                      - generic [ref=e1142]: 07/01/2026 07:58
+                    - generic [ref=e1143]:
+                      - img [ref=e1144]
+                      - generic [ref=e1146]: Administrator
+                    - generic [ref=e1147]:
+                      - img [ref=e1148]
+                      - generic [ref=e1150]: 145.45 KB
+                - generic [ref=e1151]:
+                  - generic [ref=e1152]:
+                    - button "Visualizar" [ref=e1153] [cursor=pointer]:
+                      - img [ref=e1154]
+                    - button "Aplicar Marca d'Água" [ref=e1156] [cursor=pointer]:
+                      - img [ref=e1157]
+                    - button "Editar" [ref=e1159] [cursor=pointer]:
+                      - img [ref=e1160]
+                    - button "Configurar DRM" [ref=e1162] [cursor=pointer]:
+                      - img [ref=e1163]
+                    - button "Sincronizar com a nuvem" [ref=e1165] [cursor=pointer]:
+                      - img [ref=e1166]
+                    - button "Gerenciar Permissões" [ref=e1168] [cursor=pointer]:
+                      - img [ref=e1169]
+                  - button "Excluir" [ref=e1171] [cursor=pointer]:
+                    - img [ref=e1172]
+              - generic [ref=e1175]:
+                - generic [ref=e1176]:
+                  - generic [ref=e1177]:
+                    - img [ref=e1179]
+                    - generic [ref=e1181]:
+                      - heading "Alvará" [level=6] [ref=e1182]
+                      - text: ProcessoMunicipal
+                  - generic [ref=e1183]:
+                    - generic [ref=e1184]:
+                      - img [ref=e1185]
+                      - generic [ref=e1187]: 06/01/2026 23:45
+                    - generic [ref=e1188]:
+                      - img [ref=e1189]
+                      - generic [ref=e1191]: Administrator
+                    - generic [ref=e1192]:
+                      - img [ref=e1193]
+                      - generic [ref=e1195]: 2.13 KB
+                - generic [ref=e1196]:
+                  - generic [ref=e1197]:
+                    - button "Visualizar" [ref=e1198] [cursor=pointer]:
+                      - img [ref=e1199]
+                    - button "Aplicar Marca d'Água" [ref=e1201] [cursor=pointer]:
+                      - img [ref=e1202]
+                    - button "Editar" [ref=e1204] [cursor=pointer]:
+                      - img [ref=e1205]
+                    - button "Configurar DRM" [ref=e1207] [cursor=pointer]:
+                      - img [ref=e1208]
+                    - button "Sincronizar com a nuvem" [ref=e1210] [cursor=pointer]:
+                      - img [ref=e1211]
+                    - button "Gerenciar Permissões" [ref=e1213] [cursor=pointer]:
+                      - img [ref=e1214]
+                  - button "Excluir" [ref=e1216] [cursor=pointer]:
+                    - img [ref=e1217]
+            - navigation "pagination navigation" [ref=e1220]:
+              - list [ref=e1221]:
+                - listitem [ref=e1222]:
+                  - button "Go to first page" [disabled]:
+                    - img
+                - listitem [ref=e1223]:
+                  - button "Go to previous page" [disabled]:
+                    - img
+                - listitem [ref=e1224]:
+                  - button "page 1" [ref=e1225] [cursor=pointer]: "1"
+                - listitem [ref=e1226]:
+                  - button "Go to page 2" [ref=e1227] [cursor=pointer]: "2"
+                - listitem [ref=e1228]:
+                  - button "Go to page 3" [ref=e1229] [cursor=pointer]: "3"
+                - listitem [ref=e1230]:
+                  - button "Go to page 4" [ref=e1231] [cursor=pointer]: "4"
+                - listitem [ref=e1232]:
+                  - button "Go to page 5" [ref=e1233] [cursor=pointer]: "5"
+                - listitem [ref=e1234]:
+                  - generic [ref=e1235]: …
+                - listitem [ref=e1236]:
+                  - button "Go to page 113" [ref=e1237] [cursor=pointer]: "113"
+                - listitem [ref=e1238]:
+                  - button "Go to next page" [ref=e1239] [cursor=pointer]:
+                    - img [ref=e1240]
+                - listitem [ref=e1242]:
+                  - button "Go to last page" [ref=e1243] [cursor=pointer]:
+                    - img [ref=e1244]
+        - link "upload" [ref=e1246] [cursor=pointer]:
+          - /url: /documents/upload
+          - img [ref=e1247]
+  - alert [ref=e1249]
+```
