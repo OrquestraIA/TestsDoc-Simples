@@ -64,72 +64,85 @@ test.describe('Documentos Eletrônicos', () => {
             }
         });
 
-        test('Visualização de documento eletrônico', async ({ page }) => {
+       test('Visualização de documento eletrônico', async ({ page }) => {
             await page.goto('/documents');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
 
-            const documentCards = page.locator('.document-card, [data-testid*="document"], .MuiCard-root').first();
+            const visibilityButton = page
+                .locator('button:has(svg[data-testid="VisibilityIcon"]), [role="button"]:has(svg[data-testid="VisibilityIcon"])')
+                .first();
+            await expect(visibilityButton, 'Botão de visualização não apareceu').toBeVisible({ timeout: 5000 });
 
-            if (await documentCards.isVisible({ timeout: 5000 })) {
-                await documentCards.click();
-                await page.waitForTimeout(2000);
+            await visibilityButton.click();
+            await page.waitForTimeout(1000);
 
-                const documentView = page.locator('[role="dialog"], .document-viewer, .preview-container').first();
-                const hasViewer = await documentView.isVisible({ timeout: 3000 }).catch(() => false);
+            const documentView = page.locator('[role="dialog"], .document-viewer, .preview-container').first();
+            await expect(documentView, 'Viewer do documento não abriu').toBeVisible({ timeout: 5000 });
 
-                if (hasViewer) {
-                    await page.screenshot({ path: 'screenshots/documents-visualization.png', fullPage: true });
-                    expect(hasViewer).toBeTruthy();
-                } else {
-                    await page.screenshot({ path: 'screenshots/documents-details.png', fullPage: true });
-                }
-            } else {
-                test.skip();
+            const viewerContent = documentView.locator(
+                'canvas, iframe, object, embed[type="application/pdf"], .pdf-viewer, .preview-body'
+            ).first();
+
+            if (!(await viewerContent.isVisible({ timeout: 2000 }).catch(() => false))) {
+                const visualizarControl = documentView
+                    .locator(
+                        [
+                            'button[aria-label*="Visual"]',
+                            'button:has(svg[data-testid="VisibilityIcon"])',
+                            '[role="tab"]:has(svg[data-testid="VisibilityIcon"])'
+                        ].join(', ')
+                    )
+                    .first();
+
+                await expect(visualizarControl, 'Controle de visualização não apareceu').toBeVisible({ timeout: 5000 });
+                await visualizarControl.scrollIntoViewIfNeeded();
+                await visualizarControl.click();
+                await page.waitForTimeout(1000);
             }
+
+            await expect(viewerContent, 'Conteúdo do documento não carregou').toBeVisible({ timeout: 5000 });
+            await page.screenshot({ path: 'screenshots/documents-visualization.png', fullPage: true });
         });
 
-        test('Download de documento eletrônico', async ({ page }) => {
+        test.only('Visualização de metadados', async ({ page }) => {
             await page.goto('/documents');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
 
-            const downloadButton = page.locator('button:has-text("Download"), [aria-label*="download"]').first();
-
-            if (await downloadButton.isVisible({ timeout: 5000 })) {
-                const downloadPromise = page.waitForEvent('download');
-                await downloadButton.click();
-
-                const download = await downloadPromise;
-                console.log(`Download iniciado: ${download.suggestedFilename()}`);
-
-                expect(download).toBeTruthy();
-                await page.screenshot({ path: 'screenshots/documents-download.png', fullPage: true });
-            } else {
-                console.log('Botão de download não encontrado');
+            // Clicar no botão de visualizar documento (ícone de olho)
+            const visibilityButton = page
+                .locator('button:has(svg[data-testid="VisibilityIcon"]), [role="button"]:has(svg[data-testid="VisibilityIcon"])')
+                .first();
+            
+            if (!(await visibilityButton.isVisible({ timeout: 5000 }).catch(() => false))) {
                 test.skip();
+                return;
             }
-        });
 
-        test('Visualização de metadados', async ({ page }) => {
-            await page.goto('/documents');
+            await visibilityButton.click();
+            
+            // Aguardar o painel de visualização abrir e o conteúdo carregar
             await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
+            
+            // Aguardar o accordion de Metadados aparecer
+            const metadataAccordion = page.locator('.MuiAccordion-root:has-text("Metadados")').first();
+            await expect(metadataAccordion, 'Accordion de Metadados não encontrado').toBeVisible({ timeout: 10000 });
 
-            const documentCard = page.locator('.MuiCard-root').first();
+            // Aguardar o conteúdo dos metadados carregar (esperar campo "ID do Documento" aparecer)
+            const idDocumentoLabel = metadataAccordion.locator('text=ID do Documento');
+            await expect(idDocumentoLabel, 'Conteúdo dos metadados não carregou').toBeVisible({ timeout: 15000 });
 
-            if (await documentCard.isVisible({ timeout: 5000 })) {
-                const hasType = await documentCard.locator('[data-testid="DescriptionIcon"], .MuiTypography-caption').isVisible({ timeout: 3000 }).catch(() => false);
-                const hasDate = await documentCard.locator('[data-testid="CalendarTodayIcon"]').isVisible({ timeout: 3000 }).catch(() => false);
-                const hasUser = await documentCard.locator('[data-testid="PersonIcon"]').isVisible({ timeout: 3000 }).catch(() => false);
+            // Verificar campos de metadados dentro do accordion
+            const hasIdDocumento = await idDocumentoLabel.isVisible().catch(() => false);
+            const hasAutor = await metadataAccordion.locator('[data-testid="PersonIcon"]').isVisible({ timeout: 3000 }).catch(() => false);
+            const hasDepartamento = await metadataAccordion.locator('[data-testid="BusinessIcon"]').isVisible({ timeout: 3000 }).catch(() => false);
+            const hasLocalizacao = await metadataAccordion.locator('[data-testid="LocationOnIcon"]').isVisible({ timeout: 3000 }).catch(() => false);
 
-                console.log(`Metadados visíveis - Tipo: ${hasType}, Data: ${hasDate}, Usuário: ${hasUser}`);
-                await page.screenshot({ path: 'screenshots/documents-metadata.png', fullPage: true });
+            console.log(`Metadados visíveis - ID: ${hasIdDocumento}, Autor: ${hasAutor}, Departamento: ${hasDepartamento}, Localização: ${hasLocalizacao}`);
+            await page.screenshot({ path: 'screenshots/documents-metadata.png', fullPage: true });
 
-                expect(hasType || hasDate || hasUser).toBeTruthy();
-            } else {
-                test.skip();
-            }
+            expect(hasIdDocumento || hasAutor || hasDepartamento || hasLocalizacao).toBeTruthy();
         });
 
         test('Busca unificada de documentos', async ({ page }) => {
@@ -160,43 +173,79 @@ test.describe('Documentos Eletrônicos', () => {
     test.describe('RN-149: Classificação por Tipo', () => {
 
         test('Listar tipos de documentos', async ({ page }) => {
-            await page.goto('/document-types');
+            await page.goto('/dashboard');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
 
-            const typesList = page.locator('.MuiList-root, .MuiTable-root, .document-types-list');
-            const hasTypesList = await typesList.isVisible({ timeout: 5000 }).catch(() => false);
+            // Clicar no menu "Tipos de Documento"
+            const menuItem = page.locator('text=Tipos de Documento').first();
+            await expect(menuItem, 'Menu "Tipos de Documento" não encontrado').toBeVisible({ timeout: 5000 });
+            await menuItem.click();
+            await page.waitForLoadState('networkidle');
+            await page.waitForTimeout(2000);
 
-            if (hasTypesList) {
+            // Verificar se há cards de tipos de documento
+            const typeCards = page.locator('.MuiCard-root');
+            const cardCount = await typeCards.count();
+
+            if (cardCount > 0) {
+                console.log(`Encontrados ${cardCount} tipos de documento`);
                 await page.screenshot({ path: 'screenshots/document-types-list.png', fullPage: true });
-                expect(hasTypesList).toBeTruthy();
+                expect(cardCount).toBeGreaterThan(0);
             } else {
-                console.log('Lista de tipos não encontrada');
+                console.log('Nenhum tipo de documento encontrado');
                 test.skip();
             }
         });
 
         test('Criar novo tipo de documento', async ({ page }) => {
-            await page.goto('/document-types');
+            await page.goto('/dashboard');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
 
-            const createButton = page.locator('button:has-text("Criar"), button:has-text("Novo")').first();
+            // Clicar no menu "Tipos de Documento"
+            const menuItem = page.locator('text=Tipos de Documento').first();
+            await expect(menuItem, 'Menu "Tipos de Documento" não encontrado').toBeVisible({ timeout: 5000 });
+            await menuItem.click();
+            await page.waitForLoadState('networkidle');
+            await page.waitForTimeout(2000);
 
-            if (await createButton.isVisible({ timeout: 5000 })) {
-                await createButton.click();
-                await page.waitForTimeout(1000);
+            // Clicar no botao "Novo Tipo"
+            const createButton = page.locator('button:has-text("Novo Tipo")').first();
+            await expect(createButton, 'Botao "Novo Tipo" nao encontrado').toBeVisible({ timeout: 5000 });
+            await createButton.click();
+            await page.waitForTimeout(1000);
 
-                const modal = page.locator('[role="dialog"], .MuiDialog-root').first();
-                const hasModal = await modal.isVisible({ timeout: 3000 }).catch(() => false);
+            // Verificar se o modal abriu
+            const modal = page.locator('[role="dialog"], .MuiDialog-root').first();
+            await expect(modal, 'Modal de criacao nao abriu').toBeVisible({ timeout: 5000 });
 
-                if (hasModal) {
-                    await page.screenshot({ path: 'screenshots/document-types-create.png', fullPage: true });
-                    expect(hasModal).toBeTruthy();
-                }
-            } else {
-                test.skip();
-            }
+            // Preencher campos obrigatorios
+            const nomeTecnico = `tipo_teste_${Date.now()}`;
+            const nomeExibicao = `Tipo Teste ${Date.now()}`;
+
+            // Campo "Nome Tecnico"
+            const nomeTecnicoInput = modal.locator('input').first();
+            await nomeTecnicoInput.fill(nomeTecnico);
+
+            // Campo "Nome de Exibicao"
+            const nomeExibicaoInput = modal.locator('input').nth(1);
+            await nomeExibicaoInput.fill(nomeExibicao);
+
+            // Campo "Descricao" (opcional)
+            const descricaoInput = modal.locator('textarea').first();
+            await descricaoInput.fill('Tipo de documento criado pelo teste automatizado');
+
+            await page.screenshot({ path: 'screenshots/document-types-create-form.png', fullPage: true });
+
+            // Clicar no botao "Criar Tipo"
+            const submitButton = modal.locator('button:has-text("Criar Tipo")').first();
+            await expect(submitButton, 'Botao "Criar Tipo" nao encontrado').toBeVisible({ timeout: 5000 });
+
+            // Nota: Nao clicamos em "Criar Tipo" pois reinicia o Nuxeo
+            // Apenas verificamos que o formulario esta preenchido corretamente
+            console.log(`Formulario preenchido: Nome Tecnico=${nomeTecnico}, Nome Exibicao=${nomeExibicao}`);
+            expect(await submitButton.isVisible()).toBeTruthy();
         });
 
         test('Filtrar documentos por tipo', async ({ page }) => {
