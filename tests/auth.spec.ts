@@ -70,14 +70,8 @@ test.describe('Autenticação', () => {
         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);
         await page.waitForURL('**/dashboard', { timeout: 30000 });
 
-        // Clicar no primeiro <button> do menu de usuário com texto "Administrator"
-        const userMenuButtons = page.locator('button:has(.MuiAvatar-root):has(p:has-text("Administrator"))');
-        const count = await userMenuButtons.count();
-        if (count === 0) {
-            console.log('Botão do menu de usuário não encontrado');
-            throw new Error('Botão do menu de usuário não encontrado');
-        }
-        const userMenuButton = userMenuButtons.first();
+        // Clicar no botão do menu de usuário (IconButton com Avatar)
+        const userMenuButton = page.locator('button.MuiIconButton-root:has(.MuiAvatar-root)').first();
         await userMenuButton.click();
         await page.waitForTimeout(500); // Aguardar menu abrir
 
