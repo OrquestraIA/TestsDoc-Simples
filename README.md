@@ -155,7 +155,7 @@ Cada ambiente possui seu próprio arquivo de configuração:
 #### .env.dev (Desenvolvimento)
 ```bash
 ENVIRONMENT=dev
-DEV_BASE_URL=ttp://34.95.244.199:3005
+DEV_BASE_URL=http://192.168.93.130:3005
 DEV_USERNAME=<seu_username>
 DEV_PASSWORD=<seu_password>
 ```
