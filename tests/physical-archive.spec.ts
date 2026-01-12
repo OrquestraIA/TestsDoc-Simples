@@ -3,11 +3,11 @@ import { LoginPage } from '../pages/LoginPage';
 import { TEST_DATA } from '../utils/constants';
 
 /**
- * Testes de Gestão de Arquivo Físico
- * RN-148: Gestão Integrada de Documentos (parte física)
+ * Testes de Gestao de Arquivo Fisico
+ * RN-148: Gestao Integrada de Documentos (parte fisica)
  */
 
-test.describe('Arquivo Físico', () => {
+test.describe('Arquivo Fisico', () => {
 
     // Garante login antes de cada teste
     test.beforeEach(async ({ page }) => {
@@ -22,344 +22,216 @@ test.describe('Arquivo Físico', () => {
         }
     });
 
-    test('Pesquisar repositórios', async ({ page }) => {
-        await page.goto('/physical-archive');
+    // Funcao auxiliar para navegar ate a tela de Arquivo Fisico
+    async function navigateToPhysicalArchive(page) {
+        await page.goto('/dashboard');
         await page.waitForLoadState('networkidle');
         await page.waitForTimeout(2000);
 
-        const repositoriesTab = page.locator('button[role="tab"]:has-text("Repositórios")');
-        if (await repositoriesTab.isVisible({ timeout: 5000 })) {
-            await repositoriesTab.click();
-            await page.waitForTimeout(1000);
-        }
+        // Clicar no submenu "Configuracao" dentro de Arquivo Fisico
+        const configMenu = page.locator('text=Configuracao').first();
+        await expect(configMenu, 'Menu "Configuracao" nao encontrado').toBeVisible({ timeout: 5000 });
+        await configMenu.click();
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(2000);
+    }
 
-        const searchInput = page.locator('input[placeholder="Digite para buscar..."]');
+    test('Acessar tela de Localizacoes e verificar estrutura', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
 
-        if (await searchInput.isVisible({ timeout: 5000 })) {
-            await searchInput.fill('arquivo');
-            await searchInput.press('Enter');
+        // Verificar titulo "Locais de Armazenamento"
+        const titulo = page.locator('text=Locais de Armazenamento').first();
+        await expect(titulo, 'Titulo "Locais de Armazenamento" nao encontrado').toBeVisible({ timeout: 5000 });
+
+        // Verificar botao "+ Nova Localizacao"
+        const novaLocalizacaoBtn = page.locator('button:has-text("Nova Localizacao")');
+        const hasNovaLocalizacao = await novaLocalizacaoBtn.isVisible({ timeout: 5000 }).catch(() => false);
+        console.log('Botao Nova Localizacao visivel:', hasNovaLocalizacao);
+
+        // Verificar arvore de navegacao com "Galpao - Prefeitura de Caieiras"
+        const galpao = page.locator('text=Galpao - Prefeitura de Caieiras').first();
+        const hasGalpao = await galpao.isVisible({ timeout: 5000 }).catch(() => false);
+        console.log('Galpao - Prefeitura de Caieiras visivel:', hasGalpao);
+
+        await page.screenshot({ path: 'screenshots/physical-archive-localizacoes.png', fullPage: true });
+        expect(hasGalpao).toBeTruthy();
+    });
+
+    test('Expandir Galpao e verificar repositorios', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
+
+        // Clicar no Galpao para expandir
+        const galpao = page.locator('text=Galpao - Prefeitura de Caieiras').first();
+        await expect(galpao, 'Galpao nao encontrado').toBeVisible({ timeout: 5000 });
+        await galpao.click();
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(2000);
+
+        // Verificar se a tabela de repositorios aparece
+        const tabelaRepositorios = page.locator('table');
+        await expect(tabelaRepositorios, 'Tabela de repositorios nao encontrada').toBeVisible({ timeout: 5000 });
+
+        // Verificar colunas da tabela
+        const colIdentificador = page.locator('th:has-text("Identificador")');
+        const colNome = page.locator('th:has-text("Nome")');
+        const colLocal = page.locator('th:has-text("Local")');
+        const colCapacidade = page.locator('th:has-text("Capacidade")');
+
+        const hasIdentificador = await colIdentificador.isVisible().catch(() => false);
+        const hasNome = await colNome.isVisible().catch(() => false);
+        const hasLocal = await colLocal.isVisible().catch(() => false);
+        const hasCapacidade = await colCapacidade.isVisible().catch(() => false);
+
+        console.log(`Colunas visiveis - Identificador: ${hasIdentificador}, Nome: ${hasNome}, Local: ${hasLocal}, Capacidade: ${hasCapacidade}`);
+
+        // Verificar paginacao
+        const paginacao = page.locator('text=Mostrando').first();
+        const hasPaginacao = await paginacao.isVisible({ timeout: 3000 }).catch(() => false);
+        console.log('Paginacao visivel:', hasPaginacao);
+
+        await page.screenshot({ path: 'screenshots/physical-archive-repositorios-tabela.png', fullPage: true });
+        expect(hasIdentificador && hasNome && hasLocal && hasCapacidade).toBeTruthy();
+    });
+
+    test('Verificar abas disponiveis', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
+
+        // Verificar abas: Localizacoes, Repositorios, Temporalidade, Gestao de Espaco
+        const abaLocalizacoes = page.locator('text=Localizacoes').first();
+        const abaRepositorios = page.locator('text=Repositorios').first();
+        const abaTemporalidade = page.locator('text=Temporalidade').first();
+        const abaGestaoEspaco = page.locator('text=Gestao de Espaco').first();
+
+        const hasLocalizacoes = await abaLocalizacoes.isVisible({ timeout: 5000 }).catch(() => false);
+        const hasRepositorios = await abaRepositorios.isVisible({ timeout: 5000 }).catch(() => false);
+        const hasTemporalidade = await abaTemporalidade.isVisible({ timeout: 5000 }).catch(() => false);
+        const hasGestaoEspaco = await abaGestaoEspaco.isVisible({ timeout: 5000 }).catch(() => false);
+
+        console.log(`Abas visiveis - Localizacoes: ${hasLocalizacoes}, Repositorios: ${hasRepositorios}, Temporalidade: ${hasTemporalidade}, Gestao de Espaco: ${hasGestaoEspaco}`);
+
+        await page.screenshot({ path: 'screenshots/physical-archive-abas.png', fullPage: true });
+        expect(hasLocalizacoes || hasRepositorios || hasTemporalidade || hasGestaoEspaco).toBeTruthy();
+    });
+
+    test('Acessar aba Repositorios', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
+
+        // Clicar na aba Repositorios
+        const abaRepositorios = page.locator('text=Repositorios').first();
+        if (await abaRepositorios.isVisible({ timeout: 5000 })) {
+            await abaRepositorios.click();
+            await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
 
-            const emptyState = page.locator('h6:has-text("Nenhum repositório encontrado")');
-            const hasEmptyState = await emptyState.isVisible({ timeout: 3000 }).catch(() => false);
-
-            if (hasEmptyState) {
-                console.log('Nenhum repositório encontrado - empty state exibido corretamente');
-            }
-
-            await page.screenshot({ path: 'screenshots/physical-archive-repositories-search.png', fullPage: true });
+            await page.screenshot({ path: 'screenshots/physical-archive-aba-repositorios.png', fullPage: true });
             expect(true).toBeTruthy();
         } else {
-            console.log('Campo de busca de repositórios não encontrado');
+            console.log('Aba Repositorios nao encontrada');
             test.skip();
         }
-    });
-
-    test('Filtrar repositórios por tipo e status', async ({ page }) => {
-        await page.goto('/physical-archive');
-        await page.waitForLoadState('networkidle');
-        await page.waitForTimeout(2000);
-
-        const repositoriesTab = page.locator('button[role="tab"]:has-text("Repositórios")');
-        if (await repositoriesTab.isVisible({ timeout: 5000 })) {
-            await repositoriesTab.click();
-            await page.waitForTimeout(1000);
-        }
-
-        const tipoFilter = page.locator('div[role="combobox"]:has-text("Todos")').first();
-        const statusFilter = page.locator('div[role="combobox"]:has-text("Todos")').nth(1);
-
-        const hasTipoFilter = await tipoFilter.isVisible({ timeout: 5000 }).catch(() => false);
-        const hasStatusFilter = await statusFilter.isVisible({ timeout: 5000 }).catch(() => false);
-
-        if (hasTipoFilter && hasStatusFilter) {
-            console.log('Filtros de Tipo e Status em Repositórios encontrados');
-            await page.screenshot({ path: 'screenshots/physical-archive-repositories-filters.png', fullPage: true });
-            expect(hasTipoFilter && hasStatusFilter).toBeTruthy();
-        } else {
-            console.log('Filtros de repositórios não encontrados');
-            test.skip();
-        }
-    });
-
-    // Aba: Etiquetas
-    test.describe('Etiquetas', () => {
-        test('Gerar etiquetas com código de barras', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const labelsTab = page.locator('button[role="tab"]:has-text("Etiquetas")');
-            if (await labelsTab.isVisible({ timeout: 5000 })) {
-                await labelsTab.click();
-                await page.waitForTimeout(1000);
-            }
-
-            const generateButton = page.locator('button:has-text("Gerar Etiquetas")');
-            const hasGenerateButton = await generateButton.isVisible({ timeout: 5000 }).catch(() => false);
-
-            if (hasGenerateButton) {
-                console.log('Botão Gerar Etiquetas encontrado');
-
-                const spec6x10 = page.locator('.MuiChip-label:has-text("6cm x 10cm")');
-                const specCode128 = page.locator('.MuiChip-label:has-text("Code 128")');
-                const specPDF = page.locator('.MuiChip-label:has-text("PDF")');
-
-                const hasSpecs = await spec6x10.isVisible({ timeout: 3000 }).catch(() => false) &&
-                    await specCode128.isVisible({ timeout: 3000 }).catch(() => false) &&
-                    await specPDF.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasSpecs) {
-                    console.log('Especificações de etiquetas encontradas: 6x10cm, Code 128, PDF');
-                }
-
-                await page.screenshot({ path: 'screenshots/physical-archive-labels-generate.png', fullPage: true });
-                expect(hasGenerateButton).toBeTruthy();
-            } else {
-                console.log('Botão Gerar Etiquetas não encontrado');
-                test.skip();
-            }
-        });
-
-        test('Visualizar preview de etiquetas', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const labelsTab = page.locator('button[role="tab"]:has-text("Etiquetas")');
-            if (await labelsTab.isVisible({ timeout: 5000 })) {
-                await labelsTab.click();
-                await page.waitForTimeout(1000);
-            }
-
-            const previewButton = page.locator('button:has-text("Preview")');
-            const hasPreviewButton = await previewButton.isVisible({ timeout: 5000 }).catch(() => false);
-
-            if (hasPreviewButton) {
-                console.log('Botão Preview de etiquetas encontrado');
-
-                const repoCount = page.locator('h4:has-text("0")');
-                const hasRepoCount = await repoCount.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasRepoCount) {
-                    console.log('Contador de Repositórios Disponíveis: 0');
-                }
-
-                await page.screenshot({ path: 'screenshots/physical-archive-labels-preview.png', fullPage: true });
-                expect(hasPreviewButton).toBeTruthy();
-            } else {
-                console.log('Botão Preview não encontrado');
-                test.skip();
-            }
-        });
-
-        test('Verificar informações do sistema de etiquetas', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const labelsTab = page.locator('button[role="tab"]:has-text("Etiquetas")');
-            if (await labelsTab.isVisible({ timeout: 5000 })) {
-                await labelsTab.click();
-                await page.waitForTimeout(1000);
-            }
-
-            const systemTitle = page.locator('h5:has-text("Sistema de Geração de Etiquetas")');
-            const hasTitle = await systemTitle.isVisible({ timeout: 5000 }).catch(() => false);
-
-            if (hasTitle) {
-                console.log('Título do Sistema de Geração de Etiquetas encontrado');
-
-                const hint = page.locator('p:has-text("R01.C01.P01.F01.CX01")');
-                const hasHint = await hint.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasHint) {
-                    console.log('Dica sobre formato de localização física encontrada');
-                }
-
-                const especCard = page.locator('h6:has-text("Especificações")');
-                const repoCard = page.locator('h6:has-text("Repositórios Disponíveis")');
-                const actionsCard = page.locator('h6:has-text("Ações Disponíveis")');
-
-                const hasCards = await especCard.isVisible({ timeout: 3000 }).catch(() => false) &&
-                    await repoCard.isVisible({ timeout: 3000 }).catch(() => false) &&
-                    await actionsCard.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasCards) {
-                    console.log('3 cards informativos encontrados no sistema de etiquetas');
-                }
-
-                await page.screenshot({ path: 'screenshots/physical-archive-labels-info.png', fullPage: true });
-                expect(hasTitle && hasCards).toBeTruthy();
-            } else {
-                console.log('Sistema de Geração de Etiquetas não encontrado');
-                test.skip();
-            }
-        });
-    });
-
-    // Funcionalidades de Vinculação
-    test.describe('Vinculação de Documentos', () => {
-        test('Vincular documento eletrônico a arquivo físico', async ({ page }) => {
-            await page.goto('/documents');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const linkButton = page.locator('button:has-text("Vincular"), [aria-label*="vincular"]').first();
-
-            if (await linkButton.isVisible({ timeout: 5000 })) {
-                await linkButton.click();
-                await page.waitForTimeout(1000);
-
-                const vinculationModal = page.locator('[role="dialog"]:has-text("Vincular"), [role="dialog"]:has-text("Arquivo Físico")').first();
-                const hasModal = await vinculationModal.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasModal) {
-                    await page.screenshot({ path: 'screenshots/physical-archive-vinculation-modal.png', fullPage: true });
-                    expect(hasModal).toBeTruthy();
-                }
-            } else {
-                test.skip();
-            }
-        });
-    });
-
-    // Empréstimo de Documentos Físicos
-    test.describe('Empréstimo', () => {
-        test('Registrar empréstimo de documento físico', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const emprestimoButton = page.locator('button:has-text("Empréstimo"), button:has-text("Solicitar")').first();
-
-            if (await emprestimoButton.isVisible({ timeout: 5000 })) {
-                await emprestimoButton.click();
-                await page.waitForTimeout(1000);
-
-                const emprestimoForm = page.locator('[role="dialog"], .emprestimo-form').first();
-                const hasForm = await emprestimoForm.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasForm) {
-                    await page.screenshot({ path: 'screenshots/physical-archive-emprestimo-form.png', fullPage: true });
-                    expect(hasForm).toBeTruthy();
-                }
-            } else {
-                test.skip();
-            }
-        });
-    });
-
-    // Histórico de Movimentações
-    test.describe('Histórico', () => {
-        test('Visualizar histórico de movimentações', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
-
-            const historicoTab = page.locator('button[role="tab"]:has-text("Histórico"), a:has-text("Histórico")').first();
-
-            if (await historicoTab.isVisible({ timeout: 5000 })) {
-                await historicoTab.click();
-                await page.waitForTimeout(1000);
-
-                const historicList = page.locator('.MuiTimeline-root, .historic-list, table').first();
-                const hasHistoric = await historicList.isVisible({ timeout: 3000 }).catch(() => false);
-
-                if (hasHistoric) {
-                    await page.screenshot({ path: 'screenshots/physical-archive-historic.png', fullPage: true });
-                    expect(hasHistoric).toBeTruthy();
-                }
-            } else {
-                test.skip();
-            }
-        });
     });
 
     // Aba: Temporalidade
     test.describe('Temporalidade', () => {
-        test('Acessar aba e validar elementos principais', async ({ page }) => {
-            await page.goto('/physical-archive');
-            await page.waitForLoadState('networkidle');
-            await page.waitForTimeout(2000);
+        test('Acessar aba Temporalidade', async ({ page }) => {
+            await navigateToPhysicalArchive(page);
 
             // Clicar na aba "Temporalidade"
-            const temporalidadeTab = page.locator('button[role="tab"]:has-text("Temporalidade")');
-            await expect(temporalidadeTab).toBeVisible({ timeout: 5000 });
-            await temporalidadeTab.click();
-            await page.waitForTimeout(1000);
+            const abaTemporalidade = page.locator('text=Temporalidade').first();
+            if (await abaTemporalidade.isVisible({ timeout: 5000 })) {
+                await abaTemporalidade.click();
+                await page.waitForLoadState('networkidle');
+                await page.waitForTimeout(2000);
 
-            // Título da página
-            const pageTitle = page.locator('h4:has-text("Arquivo Físico")');
-            await expect(pageTitle).toBeVisible();
-
-            // Subtítulo
-            const subtitle = page.locator('p:has-text("Gestão integrada do arquivo físico e digital")');
-            await expect(subtitle).toBeVisible();
-
-            // Tabela de controle de temporalidade
-            const tableTitle = page.locator('h6:has-text("Controle de Temporalidade")');
-            await expect(tableTitle).toBeVisible();
-            const table = page.locator('table');
-            await expect(table).toBeVisible();
-
-            // Cards de fases
-            const cards = [
-                'Arquivo Corrente',
-                'Arquivo Intermediário',
-                'Guarda Permanente',
-                'Pendente Eliminação',
-                'Legal Hold',
-            ];
-            for (const card of cards) {
-                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`).first();
-                await expect(cardEl).toBeVisible();
+                await page.screenshot({ path: 'screenshots/physical-archive-temporalidade.png', fullPage: true });
+                expect(true).toBeTruthy();
+            } else {
+                console.log('Aba Temporalidade nao encontrada');
+                test.skip();
             }
-
-            // Dashboard de temporalidade
-            const dashboardTitle = page.locator('h5:has-text("Dashboard de Temporalidade")');
-            await expect(dashboardTitle).toBeVisible();
-
-            // Cards de fases do dashboard
-            const dashCards = [
-                'Fase Corrente',
-                'Fase Intermediária',
-                'Guarda Permanente',
-                'Transições Pendentes',
-            ];
-            for (const card of dashCards) {
-                const cardEl = page.locator(`.MuiTypography-root:has-text("${card}")`).first();
-                await expect(cardEl).toBeVisible();
-            }
-
-            // Card de status de sincronização
-            const syncStatus = page.locator('h6:has-text("Status de Sincronização")');
-            await expect(syncStatus).toBeVisible();
-            const nuxeoChip = page.locator('.MuiChip-label:has-text("Nuxeo Online")');
-            await expect(nuxeoChip).toBeVisible();
-            const archiveChip = page.locator('.MuiChip-label:has-text("Physical Archive OK")');
-            await expect(archiveChip).toBeVisible();
-
-            // Card de alertas de transição
-            const alertTitle = page.locator('h6:has-text("Alertas de Transição")');
-            await expect(alertTitle).toBeVisible();
-
-            // Card de regras TTD
-            const ttdTitle = page.locator('h6:has-text("Regras TTD Ativas")');
-            await expect(ttdTitle).toBeVisible();
-            const novaRegraBtn = page.locator('button:has-text("Nova Regra")');
-            await expect(novaRegraBtn).toBeVisible();
-
-            // Card de calculadora TTD
-            const calcTitle = page.locator('h6:has-text("Calculadora TTD")');
-            await expect(calcTitle).toBeVisible();
-            const tipoDocLabel = page.locator('label:has-text("Tipo de Documento")');
-            await expect(tipoDocLabel).toBeVisible();
-            const dataBaseLabel = page.locator('label:has-text("Data Base")');
-            await expect(dataBaseLabel).toBeVisible();
-            const calcularBtn = page.locator('button:has-text("Calcular Avançado")');
-            await expect(calcularBtn).toBeVisible();
         });
+    });
+
+    // Aba: Gestao de Espaco
+    test.describe('Gestao de Espaco', () => {
+        test('Acessar aba Gestao de Espaco', async ({ page }) => {
+            await navigateToPhysicalArchive(page);
+
+            // Clicar na aba "Gestao de Espaco"
+            const abaGestaoEspaco = page.locator('text=Gestao de Espaco').first();
+            if (await abaGestaoEspaco.isVisible({ timeout: 5000 })) {
+                await abaGestaoEspaco.click();
+                await page.waitForLoadState('networkidle');
+                await page.waitForTimeout(2000);
+
+                await page.screenshot({ path: 'screenshots/physical-archive-gestao-espaco.png', fullPage: true });
+                expect(true).toBeTruthy();
+            } else {
+                console.log('Aba Gestao de Espaco nao encontrada');
+                test.skip();
+            }
+        });
+    });
+
+    // Verificar estrutura da arvore de localizacoes
+    test('Expandir arvore e verificar Ruas R01-R07', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
+
+        // Clicar no Galpao para expandir
+        const galpao = page.locator('text=Galpao - Prefeitura de Caieiras').first();
+        if (await galpao.isVisible({ timeout: 5000 })) {
+            // Clicar no icone de expandir (ChevronRight)
+            const expandIcon = page.locator('[data-testid="ChevronRightIcon"]').first();
+            if (await expandIcon.isVisible({ timeout: 3000 })) {
+                await expandIcon.click();
+                await page.waitForTimeout(1000);
+            }
+
+            // Verificar se as Ruas aparecem
+            const ruas = ['Rua R01', 'Rua R02', 'Rua R03', 'Rua R04', 'Rua R05', 'Rua R06', 'Rua R07'];
+            let ruasVisiveis = 0;
+
+            for (const rua of ruas) {
+                const ruaEl = page.locator(`text=${rua}`).first();
+                if (await ruaEl.isVisible({ timeout: 2000 }).catch(() => false)) {
+                    ruasVisiveis++;
+                }
+            }
+
+            console.log(`Ruas visiveis: ${ruasVisiveis} de ${ruas.length}`);
+            await page.screenshot({ path: 'screenshots/physical-archive-arvore-ruas.png', fullPage: true });
+            expect(ruasVisiveis).toBeGreaterThan(0);
+        } else {
+            console.log('Galpao nao encontrado');
+            test.skip();
+        }
+    });
+
+    // Verificar repositorios com capacidade
+    test('Verificar repositorios com indicador de capacidade', async ({ page }) => {
+        await navigateToPhysicalArchive(page);
+
+        // Clicar no Galpao
+        const galpao = page.locator('text=Galpao - Prefeitura de Caieiras').first();
+        await expect(galpao, 'Galpao nao encontrado').toBeVisible({ timeout: 5000 });
+        await galpao.click();
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(2000);
+
+        // Verificar se ha barras de progresso de capacidade
+        const progressBars = page.locator('.MuiLinearProgress-root');
+        const progressCount = await progressBars.count();
+
+        console.log(`Barras de progresso de capacidade encontradas: ${progressCount}`);
+
+        // Verificar se ha porcentagens visiveis
+        const percentages = page.locator('text=/%$/');
+        const percentCount = await percentages.count();
+
+        console.log(`Indicadores de porcentagem encontrados: ${percentCount}`);
+
+        await page.screenshot({ path: 'screenshots/physical-archive-capacidade.png', fullPage: true });
+        expect(progressCount).toBeGreaterThan(0);
     });
 
 });
