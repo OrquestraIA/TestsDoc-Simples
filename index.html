@@ -412,7 +412,7 @@
                 <div class="stat-icon">📝</div>
                 <div class="stat-content">
                     <h3>Total de Testes</h3>
-                    <p class="stat-value">59</p>
+                    <p class="stat-value">3</p>
                 </div>
             </div>
 
@@ -420,7 +420,7 @@
                 <div class="stat-icon">✅</div>
                 <div class="stat-content">
                     <h3>Passou</h3>
-                    <p class="stat-value">17</p>
+                    <p class="stat-value">1</p>
                 </div>
             </div>
 
@@ -428,7 +428,7 @@
                 <div class="stat-icon">❌</div>
                 <div class="stat-content">
                     <h3>Falhou</h3>
-                    <p class="stat-value">4</p>
+                    <p class="stat-value">1</p>
                 </div>
             </div>
 
@@ -436,7 +436,7 @@
                 <div class="stat-icon">⏭️</div>
                 <div class="stat-content">
                     <h3>Ignorado</h3>
-                    <p class="stat-value">38</p>
+                    <p class="stat-value">1</p>
                 </div>
             </div>
 
@@ -445,8 +445,8 @@
                 <div class="stat-content">
                     <h3>Taxa de Sucesso</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" style="width: 28.8135593220339%; background-color: #ef4444;">
-                            <span class="progress-text">28.81%</span>
+                        <div class="progress-bar" style="width: 33.33333333333333%; background-color: #ef4444;">
+                            <span class="progress-text">33.33%</span>
                         </div>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
                 <div class="stat-icon">⏱️</div>
                 <div class="stat-content">
                     <h3>Tempo Total de Execução</h3>
-                    <p class="stat-value">534.41s</p>
+                    <p class="stat-value">39.74s</p>
                 </div>
             </div>
         </section>
@@ -474,7 +474,7 @@
                 </div>
                 <div class="info-item">
                     <strong>🌍 Ambiente:</strong>
-                    <span class="badge badge-homolog">HOMOLOG</span>
+                    <span class="badge badge-dev">DEV</span>
                 </div>
                 <div class="info-item">
                     <strong>🌐 Browsers:</strong>
@@ -482,23 +482,33 @@
                 </div>
                 <div class="info-item">
                     <strong>🕐 Início:</strong>
-                    <span>10/01/2026, 17:29:01</span>
+                    <span>12/01/2026, 13:59:20</span>
                 </div>
                 <div class="info-item">
                     <strong>🕐 Fim:</strong>
-                    <span>10/01/2026, 17:29:01</span>
+                    <span>12/01/2026, 13:59:20</span>
                 </div>
             </div>
         </section>
         
         <section class="docs-section">
             <h2>📚 Documentação dos Testes</h2>
-            <div class="all-docs-link" style="text-align: center; padding: 3rem 0;">
-                <p style="margin-bottom: 2rem; color: #6b7280; font-size: 1.1rem;">
-                    Todos os módulos foram testados! Veja a documentação completa consolidada:
-                </p>
-                <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-large" target="_blank">
-                    📋 Ver Documentação Completa (59 Casos de Teste)
+            <div class="docs-grid">
+                
+                    <div class="doc-card tested">
+                        <div class="doc-header">
+                            <span class="doc-icon">✅</span>
+                            <h3>Autenticação</h3>
+                        </div>
+                        <p class="doc-info">4 casos de teste documentados</p>
+                        <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_AUTENTICACAO.md" class="doc-link" target="_blank">
+                            📖 Ver Documentação
+                        </a>
+                    </div>
+            </div>
+            <div class="all-docs-link">
+                <a href="https://github.com/OrquestraIA/TestsDoc-Simples/blob/main/docs/CASOS_DE_TESTE_COMPLETO.md" class="btn btn-primary" target="_blank">
+                    📋 Ver Documentação Completa de Todos os Testes
                 </a>
             </div>
         </section>
@@ -520,15 +530,31 @@
                             </thead>
                             <tbody>
                                 
-                                    <tr class="test-row passed">
+                                    <tr class="test-row failed">
                                         <td>
-                                            <span class="status-badge passed">
-                                                ✅
+                                            <span class="status-badge failed">
+                                                ❌
                                             </span>
                                         </td>
                                         <td>Login com credenciais válidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>4.61s</td>
+                                        <td>3.01s</td>
+                                    </tr>
+                                    
+                                    <tr class="error-row">
+                                        <td colspan="4">
+                                            <div class="error-message">
+                                                <strong>❌ Erro:</strong>
+                                                <pre>Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role="alert"]') resolved to 3 elements:
+    1) <div role="alert" class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })
+    2) <div class="MuiAlert-message mui-style-1pxa9xg-MuiAlert-message">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')
+    3) <p role="alert" aria-live="assertive" id="__next-route-announcer__">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')
+
+Call log:
+[2m  - waiting for locator('.MuiAlert-message, [role="alert"]')[22m
+</pre>
+                                            </div>
+                                        </td>
                                     </tr>
                                     
                                 
@@ -540,813 +566,26 @@
                                         </td>
                                         <td>Login com credenciais inválidas</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>4.70s</td>
+                                        <td>4.77s</td>
                                     </tr>
                                     
                                 
-                                    <tr class="test-row failed">
+                                    <tr class="test-row skipped">
                                         <td>
-                                            <span class="status-badge failed">
-                                                ❌
+                                            <span class="status-badge skipped">
+                                                ⏭️
                                             </span>
                                         </td>
                                         <td>Logout do sistema</td>
                                         <td><span class="badge">chromium</span></td>
-                                        <td>4.78s</td>
+                                        <td>31.97s</td>
                                     </tr>
                                     
                                     <tr class="error-row">
                                         <td colspan="4">
                                             <div class="error-message">
                                                 <strong>❌ Erro:</strong>
-                                                <pre>Error: Botão do menu de usuário não encontrado</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 Documentos</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>20.43s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.47s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Download de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.90s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Visualização de metadados</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.47s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
-
-Received: [31mfalse[39m</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Busca unificada de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.61s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Listar tipos de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.18s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Criar novo tipo de documento</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.01s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Filtrar documentos por tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.87s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Excel</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.49s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Validar formato Excel exportado</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.33s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Word</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.31s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para AutoCAD</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.76s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF após conversão</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.83s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF sem download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>12.00s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Preview de imagens sem download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.44s</td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 gestao-documental</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>11.03s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>11.13s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Download de documento eletrônico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.00s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Visualização de metadados do documento</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.82s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Busca unificada de documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.39s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Cadastrar localização de arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>13.55s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('h4:has-text("Arquivo Físico")')
-Expected: visible
-Timeout: 5000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect "toBeVisible" with timeout 5000ms[22m
-[2m  - waiting for locator('h4:has-text("Arquivo Físico")')[22m
-</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Buscar localização física</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.44s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Filtrar localizações por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.96s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Cadastrar repositório físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.08s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Buscar repositório físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.37s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Filtrar repositórios por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>6.97s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Gerar etiquetas com código de barras</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.52s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar preview de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.41s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Verificar informações do sistema de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.21s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Vincular documento eletrônico a arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>11.52s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Buscar arquivo físico por localização</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.32s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Registrar empréstimo de arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.84s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar histórico de movimentação física</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.53s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Listar tipos de documentos existentes</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.19s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Filtrar documentos por tipo específico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.29s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar metadados específicos do tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>9.37s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Criar novo documento com tipo específico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.12s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Validar campos obrigatórios específicos do tipo</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.24s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados para Excel</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.33s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Verificar disponibilidade de exportação para Word</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.65s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Verificar disponibilidade de exportação para AutoCAD</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.91s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Exportar metadados de múltiplos documentos</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.24s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Validar formato do arquivo Excel exportado</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.51s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Upload de documento Office converte para PDF</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.49s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF após conversão</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.39s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Preview de PDF sem necessidade de download</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>10.52s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row passed">
-                                        <td>
-                                            <span class="status-badge passed">
-                                                ✅
-                                            </span>
-                                        </td>
-                                        <td>Preview de imagens (JPG, PNG)</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.57s</td>
-                                    </tr>
-                                    
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            
-                <div class="test-file-group">
-                    <h3 class="file-name">📄 Arquivo Físico</h3>
-                    <div class="tests-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Status</th>
-                                    <th>Nome do Teste</th>
-                                    <th>Browser</th>
-                                    <th>Duração</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Pesquisar repositórios</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.59s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Filtrar repositórios por tipo e status</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.83s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Gerar etiquetas com código de barras</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.82s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar preview de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.78s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Verificar informações do sistema de etiquetas</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.63s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Vincular documento eletrônico a arquivo físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>31.93s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>[31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m</pre>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Registrar empréstimo de documento físico</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>7.76s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row skipped">
-                                        <td>
-                                            <span class="status-badge skipped">
-                                                ⏭️
-                                            </span>
-                                        </td>
-                                        <td>Visualizar histórico de movimentações</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>8.24s</td>
-                                    </tr>
-                                    
-                                
-                                    <tr class="test-row failed">
-                                        <td>
-                                            <span class="status-badge failed">
-                                                ❌
-                                            </span>
-                                        </td>
-                                        <td>Acessar aba e validar elementos principais</td>
-                                        <td><span class="badge">chromium</span></td>
-                                        <td>12.72s</td>
-                                    </tr>
-                                    
-                                    <tr class="error-row">
-                                        <td colspan="4">
-                                            <div class="error-message">
-                                                <strong>❌ Erro:</strong>
-                                                <pre>Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: locator('button[role="tab"]:has-text("Temporalidade")')
-Expected: visible
-Timeout: 5000ms
-Error: element(s) not found
-
-Call log:
-[2m  - Expect "toBeVisible" with timeout 5000ms[22m
-[2m  - waiting for locator('button[role="tab"]:has-text("Temporalidade")')[22m
-</pre>
+                                                <pre>[31mTest timeout of 30000ms exceeded.[39m</pre>
                                             </div>
                                         </td>
                                     </tr>
@@ -1362,7 +601,7 @@ Call log:
         <section class="playwright-section">
             <h2>🎭 Relatório Completo do Playwright</h2>
             <p>Para ver o relatório interativo completo com traces, screenshots e vídeos:</p>
-            <a href="../playwright-report-homolog/index.html" class="btn btn-large" target="_blank">
+            <a href="../playwright-report-dev/index.html" class="btn btn-large" target="_blank">
                 🎭 Abrir Relatório Playwright
             </a>
         </section>

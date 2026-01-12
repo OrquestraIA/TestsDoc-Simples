@@ -1,0 +1,393 @@
+{
+  "config": {
+    "configFile": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/playwright.config.ts",
+    "rootDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20927828309"
+      },
+      "gitCommit": {
+        "shortHash": "d978b7e",
+        "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+        "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+        "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+        "author": {
+          "name": "Marcelo-OM30",
+          "email": "marcelo.salmeron@om30.com.br",
+          "time": 1764611794000
+        },
+        "committer": {
+          "name": "Marcelo-OM30",
+          "email": "marcelo.salmeron@om30.com.br",
+          "time": 1764611794000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report-dev",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results-dev.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20927828309"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20927828309"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "commitHash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20927828309"
+          },
+          "gitCommit": {
+            "shortHash": "d978b7e",
+            "hash": "d978b7ead1f8d343bdf87b22441edd2b947cde35",
+            "subject": "fix: adicionar exportação de credenciais para homolog e prod",
+            "body": "fix: adicionar exportação de credenciais para homolog e prod\n",
+            "author": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "committer": {
+              "name": "Marcelo-OM30",
+              "email": "marcelo.salmeron@om30.com.br",
+              "time": 1764611794000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Autenticação",
+          "file": "auth.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login com credenciais válidas",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3010,
+                      "error": {
+                        "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n",
+                        "stack": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:30:42",
+                        "location": {
+                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                          "column": 40,
+                          "line": 43
+                        },
+                        "snippet": "   at ../pages/LoginPage.ts:43\n\n\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36masync\u001b[39m getErrorMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMessage\u001b[33m.\u001b[39mtextContent() \u001b[33m||\u001b[39m \u001b[32m''\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m     }\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[36masync\u001b[39m isLoginFormVisible()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[33mboolean\u001b[39m\u001b[33m>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                            "column": 40,
+                            "line": 43
+                          },
+                          "message": "Error: locator.textContent: Error: strict mode violation: locator('.MuiAlert-message, [role=\"alert\"]') resolved to 3 elements:\n    1) <div role=\"alert\" class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorError MuiAlert-standardError MuiAlert-standard mui-style-1f0ht00-MuiPaper-root-MuiAlert-root\">…</div> aka getByRole('alert').filter({ hasText: 'Erro de conexão - verifique' })\n    2) <div class=\"MuiAlert-message mui-style-1pxa9xg-MuiAlert-message\">Erro de conexão - verifique sua internet</div> aka getByText('Erro de conexão - verifique')\n    3) <p role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Login - Doc+Simples</p> aka getByText('Login - Doc+Simples')\n\nCall log:\n\u001b[2m  - waiting for locator('.MuiAlert-message, [role=\"alert\"]')\u001b[22m\n\n\n   at ../pages/LoginPage.ts:43\n\n  41 |\n  42 |     async getErrorMessage(): Promise<string> {\n> 43 |         return await this.errorMessage.textContent() || '';\n     |                                        ^\n  44 |     }\n  45 |\n  46 |     async isLoginFormVisible(): Promise<boolean> {\n    at LoginPage.getErrorMessage (/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts:43:40)\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:30:42"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-12T16:58:35.562Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Login-com-credenciais-válidas-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/pages/LoginPage.ts",
+                        "column": 40,
+                        "line": 43
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-691269a1d2390fab8252",
+              "file": "auth.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais inválidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-12T16:58:40.219Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3426e0c32d57e8d7a7fa",
+              "file": "auth.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Logout do sistema",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 31967,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
+                            "column": 20,
+                            "line": 71
+                          },
+                          "message": "Error: page.waitForURL: Test timeout of 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard\" until \"load\"\n============================================================\n\n  69 |         await loginPage.navigate();\n  70 |         await loginPage.login(TEST_DATA.VALID_USER.username, TEST_DATA.VALID_USER.password);\n> 71 |         await page.waitForURL('**/dashboard', { timeout: 30000 });\n     |                    ^\n  72 |\n  73 |         // Clicar no primeiro <button> do menu de usuário com texto \"Administrator\"\n  74 |         const userMenuButtons = page.locator('button:has(.MuiAvatar-root):has(p:has-text(\"Administrator\"))');\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:71:20"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-12T16:58:45.104Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
+              "file": "auth.spec.ts",
+              "line": 65,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-12T16:58:34.241Z",
+    "duration": 42959.026999999995,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
