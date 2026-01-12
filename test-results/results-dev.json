@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-        "commitHash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928298687"
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+        "commitHash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928585713"
       },
       "gitCommit": {
-        "shortHash": "14d55c7",
-        "hash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-        "subject": "fix: atualizar URL de dev para 192.168.93.130",
-        "body": "fix: atualizar URL de dev para 192.168.93.130\n",
+        "shortHash": "72e6cb7",
+        "hash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+        "subject": "fix: corrigir seletor do botão de logout",
+        "body": "fix: corrigir seletor do botão de logout\n",
         "author": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1768237863000
+          "time": 1768238479000
         },
         "committer": {
           "name": "Marcelo-OM30",
           "email": "marcelo.salmeron@om30.com.br",
-          "time": 1768237863000
+          "time": 1768238479000
         },
         "branch": "main"
       },
@@ -67,24 +67,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "commitHash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928298687"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "commitHash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928585713"
           },
           "gitCommit": {
-            "shortHash": "14d55c7",
-            "hash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "subject": "fix: atualizar URL de dev para 192.168.93.130",
-            "body": "fix: atualizar URL de dev para 192.168.93.130\n",
+            "shortHash": "72e6cb7",
+            "hash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "subject": "fix: corrigir seletor do botão de logout",
+            "body": "fix: corrigir seletor do botão de logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "branch": "main"
           },
@@ -105,24 +105,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "commitHash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928298687"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "commitHash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928585713"
           },
           "gitCommit": {
-            "shortHash": "14d55c7",
-            "hash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "subject": "fix: atualizar URL de dev para 192.168.93.130",
-            "body": "fix: atualizar URL de dev para 192.168.93.130\n",
+            "shortHash": "72e6cb7",
+            "hash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "subject": "fix: corrigir seletor do botão de logout",
+            "body": "fix: corrigir seletor do botão de logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "branch": "main"
           },
@@ -143,24 +143,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "commitHash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928298687"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "commitHash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/20928585713"
           },
           "gitCommit": {
-            "shortHash": "14d55c7",
-            "hash": "14d55c721f1b9eb73a8985e622716a21fe9c6d59",
-            "subject": "fix: atualizar URL de dev para 192.168.93.130",
-            "body": "fix: atualizar URL de dev para 192.168.93.130\n",
+            "shortHash": "72e6cb7",
+            "hash": "72e6cb73e8b0d8fb85532236c288dfb555d63a1c",
+            "subject": "fix: corrigir seletor do botão de logout",
+            "body": "fix: corrigir seletor do botão de logout\n",
             "author": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "committer": {
               "name": "Marcelo-OM30",
               "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768237863000
+              "time": 1768238479000
             },
             "branch": "main"
           },
@@ -214,7 +214,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8537,
+                      "duration": 8457,
                       "errors": [],
                       "stdout": [
                         {
@@ -226,7 +226,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-12T17:12:59.668Z",
+                      "startTime": "2026-01-12T17:23:06.489Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4615,
+                      "duration": 4985,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-12T17:13:08.349Z",
+                      "startTime": "2026-01-12T17:23:16.759Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -275,7 +275,7 @@
             },
             {
               "title": "Logout do sistema",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -288,62 +288,22 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4610,
-                      "error": {
-                        "message": "Error: Botão do menu de usuário não encontrado",
-                        "stack": "Error: Botão do menu de usuário não encontrado\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19",
-                        "location": {
-                          "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                          "column": 19,
-                          "line": 78
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 76 |\u001b[39m         \u001b[36mif\u001b[39m (count \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 77 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Botão do menu de usuário não encontrado'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m         }\n \u001b[90m 80 |\u001b[39m         \u001b[36mconst\u001b[39m userMenuButton \u001b[33m=\u001b[39m userMenuButtons\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 81 |\u001b[39m         \u001b[36mawait\u001b[39m userMenuButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                            "column": 19,
-                            "line": 78
-                          },
-                          "message": "Error: Botão do menu de usuário não encontrado\n\n  76 |         if (count === 0) {\n  77 |             console.log('Botão do menu de usuário não encontrado');\n> 78 |             throw new Error('Botão do menu de usuário não encontrado');\n     |                   ^\n  79 |         }\n  80 |         const userMenuButton = userMenuButtons.first();\n  81 |         await userMenuButton.click();\n    at /home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts:78:19"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 11759,
+                      "errors": [],
                       "stdout": [
                         {
-                          "text": "Botão do menu de usuário não encontrado\n"
+                          "text": "Logout realizado com sucesso\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-12T17:13:12.988Z",
+                      "startTime": "2026-01-12T17:23:21.778Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/test-results/auth-Autenticação-Logout-do-sistema-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/auth.spec.ts",
-                        "column": 19,
-                        "line": 78
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
@@ -358,11 +318,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-12T17:12:58.710Z",
-    "duration": 19101.104,
-    "expected": 2,
+    "startTime": "2026-01-12T17:22:56.458Z",
+    "duration": 37151.566,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
