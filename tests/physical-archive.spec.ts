@@ -23,7 +23,7 @@ test.describe('Arquivo Fisico', () => {
     });
 
     // Funcao auxiliar para navegar ate a tela de Arquivo Fisico
-    async function navigateToPhysicalArchive(page) {
+    async function navigateToPhysicalArchive(page: import('@playwright/test').Page) {
         await page.goto('/dashboard');
         await page.waitForLoadState('networkidle');
         await page.waitForTimeout(2000);
