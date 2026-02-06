@@ -105,7 +105,7 @@ test.describe('Documentos Eletrônicos', () => {
             await page.screenshot({ path: 'screenshots/documents-visualization.png', fullPage: true });
         });
 
-        test.only('Visualização de metadados', async ({ page }) => {
+        test('Visualização de metadados', async ({ page }) => {
             await page.goto('/documents');
             await page.waitForLoadState('networkidle');
             await page.waitForTimeout(2000);
