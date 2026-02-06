@@ -12,27 +12,28 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
-        "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
+        "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+        "commitHash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761858683"
       },
       "gitCommit": {
-        "shortHash": "82679c6",
-        "hash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-        "subject": "fix: adicionar tipagem ao parametro page na funcao auxiliar",
-        "body": "fix: adicionar tipagem ao parametro page na funcao auxiliar\n",
+        "shortHash": "ef0dd0a",
+        "hash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+        "subject": "fix: remove test.only() to allow CI execution",
+        "body": "fix: remove test.only() to allow CI execution\n",
         "author": {
-          "name": "Marcelo-OM30",
-          "email": "marcelo.salmeron@om30.com.br",
-          "time": 1768250729000
+          "name": "Marcelo Salmeron",
+          "email": "Marcelo Salmeron@NBOM30-12018.",
+          "time": 1770402103000
         },
         "committer": {
-          "name": "Marcelo-OM30",
-          "email": "marcelo.salmeron@om30.com.br",
-          "time": 1768250729000
+          "name": "Marcelo Salmeron",
+          "email": "Marcelo Salmeron@NBOM30-12018.",
+          "time": 1770402103000
         },
         "branch": "main"
-      }
+      },
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -42,27 +43,28 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "commitHash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761858683"
           },
           "gitCommit": {
-            "shortHash": "82679c6",
-            "hash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "subject": "fix: adicionar tipagem ao parametro page na funcao auxiliar",
-            "body": "fix: adicionar tipagem ao parametro page na funcao auxiliar\n",
+            "shortHash": "ef0dd0a",
+            "hash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "subject": "fix: remove test.only() to allow CI execution",
+            "body": "fix: remove test.only() to allow CI execution\n",
             "author": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "committer": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "branch": "main"
-          }
+          },
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -79,27 +81,28 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "commitHash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761858683"
           },
           "gitCommit": {
-            "shortHash": "82679c6",
-            "hash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "subject": "fix: adicionar tipagem ao parametro page na funcao auxiliar",
-            "body": "fix: adicionar tipagem ao parametro page na funcao auxiliar\n",
+            "shortHash": "ef0dd0a",
+            "hash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "subject": "fix: remove test.only() to allow CI execution",
+            "body": "fix: remove test.only() to allow CI execution\n",
             "author": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "committer": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "branch": "main"
-          }
+          },
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -116,27 +119,28 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
+            "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "commitHash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761858683"
           },
           "gitCommit": {
-            "shortHash": "82679c6",
-            "hash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "subject": "fix: adicionar tipagem ao parametro page na funcao auxiliar",
-            "body": "fix: adicionar tipagem ao parametro page na funcao auxiliar\n",
+            "shortHash": "ef0dd0a",
+            "hash": "ef0dd0a962d5f52748c8f931a70eb8b87f4c05ae",
+            "subject": "fix: remove test.only() to allow CI execution",
+            "body": "fix: remove test.only() to allow CI execution\n",
             "author": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "committer": {
-              "name": "Marcelo-OM30",
-              "email": "marcelo.salmeron@om30.com.br",
-              "time": 1768250729000
+              "name": "Marcelo Salmeron",
+              "email": "Marcelo Salmeron@NBOM30-12018.",
+              "time": 1770402103000
             },
             "branch": "main"
-          }
+          },
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -181,40 +185,369 @@
     "workers": 1,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "Error: item focused with '.only' is not allowed due to the 'forbidOnly' option in '../playwright.config.ts': \"documents.spec.ts Documentos Eletrônicos RN-148: Upload e Visualização Visualização de metadados\"",
-      "location": {
-        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
-        "line": 108,
-        "column": 14
-      },
-      "snippet": "   at documents.spec.ts:108\n\n\u001b[0m \u001b[90m 106 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 108 |\u001b[39m         test\u001b[33m.\u001b[39monly(\u001b[32m'Visualização de metadados'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 109 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/documents'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 110 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 111 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
-    },
-    {
-      "message": "Error: item focused with '.only' is not allowed due to the 'forbidOnly' option in '../playwright.config.ts': \"documents.spec.ts Documentos Eletrônicos RN-148: Upload e Visualização Visualização de metadados\"",
-      "location": {
-        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
-        "line": 108,
-        "column": 14
-      },
-      "snippet": "   at documents.spec.ts:108\n\n\u001b[0m \u001b[90m 106 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 108 |\u001b[39m         test\u001b[33m.\u001b[39monly(\u001b[32m'Visualização de metadados'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 109 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/documents'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 110 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 111 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
-    },
-    {
-      "message": "Error: item focused with '.only' is not allowed due to the 'forbidOnly' option in '../playwright.config.ts': \"documents.spec.ts Documentos Eletrônicos RN-148: Upload e Visualização Visualização de metadados\"",
-      "location": {
-        "file": "/home/marcelo_om30/actions-runner/_work/TestsDoc-Simples/TestsDoc-Simples/tests/documents.spec.ts",
-        "line": 108,
-        "column": 14
-      },
-      "snippet": "   at documents.spec.ts:108\n\n\u001b[0m \u001b[90m 106 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 108 |\u001b[39m         test\u001b[33m.\u001b[39monly(\u001b[32m'Visualização de metadados'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 109 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/documents'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 110 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 111 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Autenticação",
+          "file": "auth.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login com credenciais válidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6936,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:43:53.359Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-691269a1d2390fab8252",
+              "file": "auth.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais inválidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4888,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:00.603Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3426e0c32d57e8d7a7fa",
+              "file": "auth.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Logout do sistema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9140,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logout realizado com sucesso\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:05.510Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-a9e549e7a9a0a4407aad",
+              "file": "auth.spec.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais válidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7789,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:16.129Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-ea9d1deb211ec2b41ecc",
+              "file": "auth.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais inválidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4720,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:24.823Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-ab762baac069fbf7c6c3",
+              "file": "auth.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Logout do sistema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13449,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logout realizado com sucesso\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:29.567Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-d0421981379405a13054",
+              "file": "auth.spec.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais válidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26553,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Tentando login com: { username: \u001b[32m'Administrator'\u001b[39m, password: \u001b[32m'Administrator'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "Mensagem de erro após login: Login - Doc+Simples\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:44:46.094Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-695a534b7f0e3644319f",
+              "file": "auth.spec.ts",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Login com credenciais inválidas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13363,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:45:13.667Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-932bae6a1e3465a8e0f1",
+              "file": "auth.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Logout do sistema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19910,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logout realizado com sucesso\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T18:45:27.068Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3b3dcdf80a9ecf2fde54",
+              "file": "auth.spec.ts",
+              "line": 65,
+              "column": 9
+            }
+          ]
+        }
+      ]
     }
   ],
+  "errors": [],
   "stats": {
-    "startTime": "2026-02-06T18:20:05.843Z",
-    "duration": 209.75900000000001,
-    "expected": 0,
+    "startTime": "2026-02-06T18:43:49.843Z",
+    "duration": 117363.917,
+    "expected": 9,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
