@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
         "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21760907497"
+        "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
       },
       "gitCommit": {
         "shortHash": "82679c6",
@@ -44,7 +44,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
             "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21760907497"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
           },
           "gitCommit": {
             "shortHash": "82679c6",
@@ -81,7 +81,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
             "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21760907497"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
           },
           "gitCommit": {
             "shortHash": "82679c6",
@@ -118,7 +118,7 @@
           "ci": {
             "commitHref": "https://github.com/OrquestraIA/TestsDoc-Simples/commit/82679c6729f4773f1a6bb56562529aeea615f5e4",
             "commitHash": "82679c6729f4773f1a6bb56562529aeea615f5e4",
-            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21760907497"
+            "buildHref": "https://github.com/OrquestraIA/TestsDoc-Simples/actions/runs/21761187745"
           },
           "gitCommit": {
             "shortHash": "82679c6",
@@ -212,8 +212,8 @@
     }
   ],
   "stats": {
-    "startTime": "2026-02-06T18:12:41.850Z",
-    "duration": 595.826,
+    "startTime": "2026-02-06T18:20:05.843Z",
+    "duration": 209.75900000000001,
     "expected": 0,
     "skipped": 0,
     "unexpected": 0,
